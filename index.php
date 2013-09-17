@@ -21,7 +21,6 @@
 	<script type="text/javascript" src="greybox/greybox.js"></script>
     <script type="text/javascript">       
 	var GB_ANIMATION = true;
-	// Greybox function for testimonials
       $(document).ready(function(){
         $("a.greybox").click(function(){
           var t = this.title || $(this).text() || this.href;
