@@ -77,8 +77,8 @@
   <td colspan="3" valign="top" class="smallText"><label>
     <input type="checkbox" name="car[]" value="Beauford" id="Beauford" />
     &nbsp;Vintage Style Tourer(s) <br /></label><label>
-    <input type="checkbox"name="car[]" value="Rolls" id="Rolls" />
-    &nbsp;Rolls Royce<br /></label><label>
+    <input type="checkbox"name="car[]" value="Seven_Seater_Mercedes" id="Seven_Seater_Mercedes" />
+    &nbsp;Mercedes Benz Seven Passenger Limousine<br /></label><label>
     <input type="checkbox" name="car[]" value="Mercedes" id="Mercedes" />
     &nbsp;Mercedes Benz    <br />
   </label></td>
