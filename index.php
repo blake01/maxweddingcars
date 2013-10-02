@@ -49,9 +49,9 @@
     (Click <a href="testimonials.html" title="Testimonials" class="greybox">here</a> to view our testimonials). Our cars are, however, available to hire for any occasion, including proms, birthdays, anniversaries or any other special occasion.</p>
 	<h3 id="mainhead">Vintage Style Wedding Cars, Impeccable Service</h3>
 	<p>We can take care of all your  transport requirements by adopting a flexible approach &amp; tailoring  an affordable package to meet your specific needs.
-    Whilst our rates are  highly competitive, we never compromise on the quality of our service or our  cars, all of which are superb. Call us on the number above or fill in our enquiry form to obtain a bespoke quote.</p>
-	<h3 id="mainhead">Rolls Royce &amp; Mercedes with Attention to Detail</h3>
-  <p>All our wedding cars are, of course, tastefully trimmed and may be co-ordinated to match your personal Wedding theme. Our cars are available for inspection by appointment.</p>
+        All our wedding cars are, of course, tastefully trimmed and may be co-ordinated to match your personal Wedding theme. Our cars are available for inspection by appointment.</p>
+        <p>Whilst our rates are  highly competitive, we never compromise on the quality of our service or our  cars, all of which are superb.</p>
+        <p>Call us on the number above or fill in our enquiry form to obtain a bespoke quote.</p>
 </div>
     
 <?php include 'common.html'; // Includes the common components: header, footer and sidebar ?> 
