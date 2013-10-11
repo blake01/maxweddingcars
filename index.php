@@ -19,7 +19,7 @@
 <link href="oneColFixCtr.css" rel="stylesheet" type="text/css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="greybox/greybox.js"></script>
-    <script type="text/javascript">       
+    <script type="text/javascript">
 	var GB_ANIMATION = true;
       $(document).ready(function(){
         $("a.greybox").click(function(){
@@ -42,7 +42,7 @@
 <div id="container">
     <div class="text">
       <h1 id="mainhead">Wedding Car Hire in West Yorkshire</h1>
-      <p>At Max Hemingway Chauffeur Services, we have built a formidable reputation based on reliability and superior levels of service. 
+      <p>At Max Hemingway Chauffeur Services, we have built a formidable reputation based on reliability and superior levels of service.
         We supply only the very best wedding cars including our Vintage style Tourers, Rolls Royce &amp; Mercedes Benz. </p>
       <h2 id="mainhead">Based in Wakefield, nr. Leeds</h2>
 	<p>Established in 1983, we are now  recognised as the Chauffeur Company of choice specialising in Weddings and Civil Partnerships in and around the Yorkshire area
@@ -52,9 +52,12 @@
     Whilst our rates are  highly competitive, we never compromise on the quality of our service or our  cars, all of which are superb. Call us on the number above or fill in our enquiry form to obtain a bespoke quote.</p>
 	<h3 id="mainhead">Rolls Royce &amp; Mercedes with Attention to Detail</h3>
   <p>All our wedding cars are, of course, tastefully trimmed and may be co-ordinated to match your personal Wedding theme. Our cars are available for inspection by appointment.</p>
+  <p class="burgundy"><b>You can also see us at the following Wedding Exhibitions:-<br/>
+Nostell Priory near Wakefield on 13 October 2013<br/>
+Woolley Hall near Wakefield on 27 October 2013</b></p>
 </div>
-    
-<?php include 'common.html'; // Includes the common components: header, footer and sidebar ?> 
+
+<?php include 'common.html'; // Includes the common components: header, footer and sidebar ?>
 
 <!-- end #container --></div>
 
