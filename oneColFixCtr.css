@@ -88,7 +88,7 @@ box-shadow: 10px 10px 5px #888;
 	font-style:normal;
 	font:"Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
 }
-h2, h3, #bighead { 
+h2, h3, #bighead {
 	font-family:"Times New Roman", Times, serif;
 	font-size: 14pt;
 	color:#770024;
@@ -113,10 +113,11 @@ h4 {
 .sidebar  A:link {color:#FFF}
 .sidebar  A:visited {color:#FFF}
 .sidebar  A:hover {color:#FFF}
+.burgundy{color:#770024}
 
 /*GREYBOX*/
 #GB_overlay {
-  background-image: url(greybox/overlay.png); 
+  background-image: url(greybox/overlay.png);
   position: absolute;
   margin: auto;
   top: 0;
