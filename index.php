@@ -53,8 +53,6 @@
         <p>Whilst our rates are  highly competitive, we never compromise on the quality of our service or our  cars, all of which are superb.</p>
         <p>Call us on the number above or fill in our enquiry form to obtain a bespoke quote.</p>
 
-    <p class="burgundy"><b>You can also see us at the following Wedding Exhibitions:-<br/>
-Woolley Hall near Wakefield on 27 October 2013</b></p>
 </div>
 
 <?php include 'common.html'; // Includes the common components: header, footer and sidebar ?>
