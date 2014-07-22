@@ -6,42 +6,14 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
     <script src="galleria.js" type="text/javascript"></script>
     <link href="oneColFixCtr.css" rel="stylesheet" type="text/css" />
-        <style type="text/css">
-            html,body{background:#FFF}
-            .content{color:#eee;font:14px/1.4 "helvetica neue", arial,sans-serif;width:620px;margin:0px auto; position:absolute}
-            h1{line-height:1.1;letter-spacing:-1px;}
-            a {color:#fff;}
-            #galleria{height:570px}
-			.sidebar {top:230px; text-align:left; width: 200px}
-			.sidebar  A:link {color:#770024}
-			.sidebar  A:visited {color:#770024}
-			.sidebar  A:hover {color:#770024}
-        </style>
-	<script type="text/javascript" src="greybox/greybox.js"></script>
-    <script type="text/javascript">
-      var GB_ANIMATION = true;
-      $(document).ready(function(){
-        $("a.greybox").click(function(){
-          var t = this.title || $(this).text() || this.href;
-          GB_show(t,this.href,470,600);
-          return false;
-        });
-      });
-    </script>
     </head>
-<body class="oneColFixCtr">
-<div id="container">
-<!--The Header-->
-<div id="header">
-<img src="Header.jpg" width="860" height="133" alt="Max Hemingway Wedding Car Hire" />
-<div id="headerhome"><a href="index.php">Home</a></div>
-<div id="headerenq"><a href="contact.php">Enquire</a></div>
-<div id="headerrev"><a href="testimonials.html" class="greybox">Testimonials</a></div>
-<div id="headerloc"><a href="locations.php">Locations</a></div>
-</div>
-<!--End Header-->    
+<body class="oneColFixCtr car">
+<div class="centerer" id="container">
+    <?php include 'scripts.html'; ?>
+    <?php include 'header.html'; ?>  
+    <?php include 'sidebar.html'; ?>
 <h2><br /> Vintage Style Tourers </h2>
-    <div class="content">
+    <div class="text">
         <div id="galleria">
             <img alt="Two Wedding Cars" src="BeaufordPictures/beaufordpair.jpg" />
             <img alt="Fully Convertible Wedding Car at Newmillerdam, Wakefield" src="BeaufordPictures/beaufordnewmillerdam.jpg" />
@@ -52,21 +24,24 @@
             <img alt="Part-Hardtop Wedding Car 2" src="BeaufordPictures/beaufordfront.jpg" />
             <img alt="Part-Hardtop Wedding Car 3" src="BeaufordPictures/beaufordrear.jpg" />
         </div>
-    </div>
     <script type="text/javascript">
     // Load the classic theme
     Galleria.loadTheme('galleria.classic.js');
     // Initialize Galleria
     $('#galleria').galleria();
     </script>
-    <div class="sidebar"><p>Our Vintage Style Tourers represent the ultimate in Wedding transport. Finished in old English white with cream leather interiors, these cars will provide a superb
+    <div><p>Our Vintage Style Tourers represent the ultimate in Wedding transport. Finished in old English white with cream leather interiors, these cars will provide a superb
     backdrop to your Wedding photographs. Enjoy the experience of travelling in style in these elegant vehicles. Should the weather be unkind, these cars have soft top hoods (see pictures) to 
     protect you from the elements at any time of year. </p>
 	<p>Our Tourers are four door ‘long bodied’ versions of the marque, affording greater rear space for your comfort.</p>
     <p>See our Mercedes Benz Limousine if you require additional transport for several Bridesmaids.</p>
-	<p><a href="index.php">Click Here</a> to return to the homepage; click on the thumbnail images to see more pictures of this car.</p>
+	<p>Click on the thumbnail images to see more pictures of this car.</p>
     </div>
-    <!-- end #container -->
-</div>
+    </div>
+    <div class="clearfix"></div>
+
+<!-- end #container --></div>
+
+<?php include 'footer.html'; ?>
     </body>
 </html>

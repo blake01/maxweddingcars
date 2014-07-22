@@ -15,28 +15,16 @@
 <meta name="ICBM" content="53.801279, -1.548567" />
 
 <link href="oneColFixCtr.css" rel="stylesheet" type="text/css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
-	<script type="text/javascript" src="greybox/greybox.js"></script>
-    <script type="text/javascript">       
-	var GB_ANIMATION = true;
-      $(document).ready(function(){
-        $("a.greybox").click(function(){
-          var t = this.title || $(this).text() || this.href;
-          GB_show(t,this.href,470,600);
-          return false;
-        });
-      });
-	  </script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="validate.js"></script>
 
-<style type="text/css">
-.footer {top: 1000px;} /* Overrides the footer positioning*/
-.footer1 {top:700px}
-</style>
 </head>
 
 <body class="oneColFixCtr">
-<div id="container">
+<div class="centerer" id="container">
+    <?php include 'scripts.html'; ?>
+    <?php include 'header.html'; ?>
+    <?php include 'sidebar.html'; ?>
 
     <div class="text">
  	<h2>Enquire / Get A Quote</h2>
@@ -46,7 +34,7 @@
       respond within 24 hours.<br /><br />
 </p>
       <form action="send_form_email.php" method="post" name="contactform" onsubmit="return validate(this)">
-  <table style="line-height:25px" width="605" cellpadding="4">
+  <table id="contact_form">
 <tr>
   <td width="206" valign="top">
     <label for="name">Full Name *</label>
@@ -178,9 +166,9 @@
 </form>
 </div>
     
-<?php include 'common.html'; // Includes the common components: header, footer and sidebar ?>
-    
 <!-- end #container --></div>
+
+<?php include 'footer.html'; ?>
 
 </body>
 </html>
