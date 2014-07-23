@@ -29,7 +29,6 @@
 	<p>Click on the thumbnail images to see more pictures of this car.</p>
     </div>
     </div>
-    <div class="clearfix"></div>
 
 <!-- end #container --></div>
 

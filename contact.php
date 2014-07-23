@@ -159,6 +159,7 @@
 </tr>
 <tr>
  <td colspan="4" style="text-align:center">
+ <br />
   <input type="submit" value=" Submit Enquiry ">&nbsp;&nbsp; <input type="reset" value=" Reset Form " />
   </td>
 </tr>
