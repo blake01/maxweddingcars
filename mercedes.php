@@ -12,7 +12,7 @@
     <?php include 'scripts.html'; ?>
     <?php include 'header.html'; ?>  
     <?php include 'sidebar.html'; ?>
-<h2><br />Mercedes Benz</h2>
+<h1 id="bighead"><br />Mercedes Benz</h1>
     <div class="text">
         <div id="galleria">
             <img src="MercPictures/Merc-Large.gif" alt="Mercedes Benz Exterior" />

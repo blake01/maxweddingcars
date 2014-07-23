@@ -12,7 +12,7 @@
     <?php include 'scripts.html'; ?>
     <?php include 'header.html'; ?>  
     <?php include 'sidebar.html'; ?>
-<h2><br /> Vintage Style Tourers </h2>
+<h1 id="bighead"><br /> Vintage Style Tourers </h1>
     <div class="text">
         <div id="galleria">
             <img alt="Two Wedding Cars" src="BeaufordPictures/beaufordpair.jpg" />

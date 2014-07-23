@@ -12,7 +12,7 @@
     <?php include 'scripts.html'; ?>
     <?php include 'header.html'; ?>  
     <?php include 'sidebar.html'; ?>
-<h2><br />Mercedes Benz Seven Passenger Limousine</h2>
+<h1 id="bighead"><br />Mercedes Benz Seven Passenger Limousine</h1>
     <div class="text">
         <div id="galleria">
             <img src="StretchMercPictures/side.jpg" alt="Mercedes Benz Exterior" />
