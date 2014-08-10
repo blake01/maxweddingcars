@@ -1,23 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-<title>Wedding Car Hire Leeds | Max Wedding Cars | Ring 01924 370485 For Vintage Car Hire Leeds</title>
-<meta name="keywords" content="Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds" />
-<meta name="description" content="Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds" />
-<!-- Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds -->
-<meta name="robots" content="index,follow" />
-<meta name="revisit-after" content="7 days" />
-<meta name="geo.region" content="GB-LDS" />
-<meta name="geo.placename" content="Leeds" />
-<meta name="geo.position" content="53.801279;-1.548567" />
-<meta name="ICBM" content="53.801279, -1.548567" />
-
-<link href="oneColFixCtr.css" rel="stylesheet" type="text/css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="validate.js"></script>
-
+	<meta content="text/html; charset="utf-8">
+    <title>Wedding Car Hire Leeds | Max Wedding Cars | Ring 01924 370485 For Vintage Car Hire Leeds</title>
+    <meta name="keywords" content="Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds">
+    <meta name="description" content="Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds">
+    <!-- Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds -->
+    <meta name="robots" content="index,follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="geo.region" content="GB-LDS">
+    <meta name="geo.placename" content="Leeds">
+    <meta name="geo.position" content="53.801279;-1.548567">
+    <meta name="ICBM" content="53.801279, -1.548567">
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
 </head>
 
 <body class="oneColFixCtr">
@@ -48,7 +47,7 @@
     <label for="email">Email Address *</label>
     </td>
   <td colspan="3" valign="top">
-    <input  type="text" name="email" maxlength="80" size="28">
+    <input  type="email" name="email" maxlength="80" size="28">
     </td>
   
 </tr>
@@ -63,11 +62,11 @@
 <tr>
   <td valign="top">Car(s) Required *</td>
   <td colspan="3" valign="top" class="smallText"><label>
-    <input type="checkbox" name="car[]" value="Beauford" id="Beauford" />
+    <input type="checkbox" name="car[]" value="Beauford" id="Beauford">
     &nbsp;Vintage Style Tourer(s) <br /></label><label>
-    <input type="checkbox"name="car[]" value="Seven_Seater_Mercedes" id="Seven_Seater_Mercedes" />
+    <input type="checkbox"name="car[]" value="Seven_Seater_Mercedes" id="Seven_Seater_Mercedes">
     &nbsp;Mercedes Benz Seven Passenger Limousine<br /></label><label>
-    <input type="checkbox" name="car[]" value="Mercedes" id="Mercedes" />
+    <input type="checkbox" name="car[]" value="Mercedes" id="Mercedes">
     &nbsp;Mercedes Benz    <br />
   </label></td>
 </tr>
@@ -160,7 +159,7 @@
 <tr>
  <td colspan="4" style="text-align:center">
  <br />
-  <input type="submit" value=" Submit Enquiry ">&nbsp;&nbsp; <input type="reset" value=" Reset Form " />
+  <input type="submit" value=" Submit Enquiry ">&nbsp;&nbsp; <input type="reset" value=" Reset Form ">
   </td>
 </tr>
 </table>
@@ -170,6 +169,7 @@
 <!-- end #container --></div>
 
 <?php include 'footer.html'; ?>
+<script type="text/javascript" src="assets/validate.js"></script>
 
 </body>
 </html>

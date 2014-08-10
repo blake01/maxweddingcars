@@ -443,13 +443,14 @@ body {
 }
     
 #header {
-overflow: hidden;
-text-align:center;
-width:860px;
--moz-box-shadow: 10px 10px 5px #888;
--webkit-box-shadow: 10px 10px 5px #888;
-box-shadow: 10px 10px 5px #888;
-margin-bottom: 10px;
+    overflow: hidden;
+    text-align:center;
+    width:860px;
+    height: 133px;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+    margin-bottom: 10px;
 }
 #headerhome, #headerenq, #headerrev, #headerloc {
 	position:absolute;
