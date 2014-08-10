@@ -1,13 +1,10 @@
-
+{% block php %}{% endblock %}
 <html lang="en">
 <head>
     <meta content="text/html; charset="utf-8">
-    <title>Wedding Cars for Hire || Mercedes Benz Seven Passenger Limousine</title>
-    <meta content="" name="keywords">
-    <meta content="
-<p>This superb vehicle, only recently added to our fleet, can carry seven passengers plus the Chauffeur in total comfort. Whilst it is an ideal and particularly spacious Bridal car able to accommodate the largest of bridal gowns, it represents a highly cost effective and efficient solution should you wish to transport several Bridesmaids/Parents/Guests. Please enquire for further details.</p>
-<p>Click on the thumbnail images to see more pictures of this car.</p>
-" name="description">
+    <title>{% block title %}{% endblock %}</title>
+    <meta content="{% block keywords %}{% endblock %}" name="keywords">
+    <meta content="{% block description %}{% endblock %}" name="description">
     <!-- Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds -->
     <meta content="index,follow" name="robots">
     <meta content="7 days" name="revisit-after">
@@ -20,7 +17,7 @@
     <![endif]-->
     <link href="assets/style.css" rel="stylesheet" type="text/css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
-    <script src="galleria.js" type="text/javascript"></script>
+    {% block head %}{% endblock %}
 </head>
 
 <body class="oneColFixCtr">
@@ -73,27 +70,7 @@
         </div>
 
         <div class="text">
-            
-<div id="galleria">
-
-<img src="StretchMercPictures/side.jpg" alt="Mercedes Benz Exterior" />
-<img src="StretchMercPictures/doors_open.jpg" alt="Mercedes Benz Doors Open" />
-<img src="StretchMercPictures/doors_open_2.jpg" alt="Mercedes Benz Interior" />
-
-</div>
-<div>
-
-<p>This superb vehicle, only recently added to our fleet, can carry seven passengers plus the Chauffeur in total comfort. Whilst it is an ideal and particularly spacious Bridal car able to accommodate the largest of bridal gowns, it represents a highly cost effective and efficient solution should you wish to transport several Bridesmaids/Parents/Guests. Please enquire for further details.</p>
-<p>Click on the thumbnail images to see more pictures of this car.</p>
-
-</div>
-<script type="text/javascript">
-// Load the classic theme
-Galleria.loadTheme('galleria.classic.js');
-// Initialize Galleria
-$('#galleria').galleria();
-</script>
-
+            {% block main %}{% endblock %}
         </div><!-- end #container -->
     </div>
 

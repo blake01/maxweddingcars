@@ -1,4 +1,4 @@
-
+{% block php %}
 <?php
 if(isset($_POST['email'])) {
      
@@ -100,11 +100,12 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers); 
 ?>
-
+{% endblock %}
  
-Wedding Cars for Hire || Enquire
+{% block title %}Wedding Cars for Hire || Enquire{% endblock %}
 
-
+{% block main %}
 <h2>Thank You for your Enquiry</h2>
 <p>Your enquiry has been successfully submitted. We will endeavour to respond  within 24 hours. </p>
 <p>Meanwhile, please feel free to continue browsing our site.</p>
+{% endblock %}
