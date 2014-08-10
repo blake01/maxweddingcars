@@ -1,3 +1,5 @@
+{% extends "base.html" %}
+
 {% block php %}
 <?php
 if(isset($_POST['email'])) {
