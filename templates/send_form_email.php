@@ -111,3 +111,9 @@ $headers = 'From: '.$email_from."\r\n".
 <p>Your enquiry has been successfully submitted. We will endeavour to respond  within 24 hours. </p>
 <p>Meanwhile, please feel free to continue browsing our site.</p>
 {% endblock %}
+
+{% block closing_php %}
+<?php
+}
+?>
+{% endblock %}

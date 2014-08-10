@@ -220,3 +220,6 @@ $headers = 'From: '.$email_from."\r\n".
     </noscript> <!-- End of StatCounter Code -->
 </body>
 </html>
+<?php
+}
+?>
