@@ -1,0 +1,22 @@
+RewriteEngine on
+RewriteBase /
+# Ensure www.
+RewriteCond %{HTTPS} !=on
+RewriteCond %{REMOTE_ADDR} !=127.0.0.1
+RewriteCond %{HTTP_HOST} !^www\..+$ [NC]
+RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+# Drop file extensions
+RewriteRule ^index*$ / [NC,R=301,L]
+RewriteCond %{THE_REQUEST} ^GET\ /(([^/?]*/)*[^/?]+)\.php
+RewriteRule ^.+\.php$ /%1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+# Removes index.php from ExpressionEngine URLs
+RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+RewriteCond %{REQUEST_URI} !/system/.* [NC]
+# Moved URLS
+Redirect 301 /beauford.html /vintage
+Redirect 301 /merc.html /mercedes
+Redirect 301 /seven_seat_mercedes.html /seven_seat_mercedes
+Redirect 301 /locations.html /locations
