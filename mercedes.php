@@ -21,7 +21,7 @@ solution for transporting your bridesmaids/ guests when a second car is required
     <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link href="assets/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/style.css?v=240814" rel="stylesheet" type="text/css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
     <script src="galleria.js" type="text/javascript"></script>
 </head>

@@ -18,7 +18,7 @@ All our wedding cars are, of course, tastefully trimmed and may be co-ordinated 
 <p>Whilst our rates are  highly competitive, we never compromise on the quality of our service or our  cars, all of which are superb.</p>
 <p>Call us on the number above or fill in our <a href="contact.php">enquiry form</a> to obtain a bespoke quote.</p>
 <h3 class="mainhead">Recent Reviews</h3>
-<p>Here is just one of the many unsolicited reviews we have received. See more on our <a href="https://www.facebook.com/pages/Maxweddingcars/259756950891843" target="_blank">Facebook page</a>.</p>
+<p>Here is just one of the many unsolicited reviews we have received.</p>
 <?php
 
 $r = rand(1, 3);
@@ -34,4 +34,5 @@ Thank you Max so much we will definitely be recommending you and will definitely
 $rand_key = array_rand($reviews);
 echo "<p class='review'>&ldquo;" . $reviews[$rand_key] . "&rdquo;</p>";
 ?>
+<p>See more on our <a href="https://www.facebook.com/pages/Maxweddingcars/259756950891843" target="_blank">Facebook page</a>.</p>
 {% endblock %}

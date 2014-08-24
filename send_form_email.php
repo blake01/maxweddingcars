@@ -31,11 +31,7 @@ if(isset($_POST['email'])) {
     $email_from = $_POST['email']; // required
     $telephone = $_POST['telephone']; // required
 	$date1 = $_POST['date1']; $date2 = $_POST['date2']; $date3 = $_POST['date3'];
-	if (isset($_POST['car'])) {
-        $cars = $_POST['car']; // required
-    } else {
-        $cars = array();
-    }
+	$cars =  $_POST['car']; //required
     $addressLine1 = $_POST['addressLine1']; // required
 	$addressLine2 = $_POST['addressLine2']; 
 	$addressLine3 = $_POST['addressLine3']; 
@@ -85,9 +81,7 @@ if(isset($_POST['email'])) {
     $email_message .= "Name: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
-    if ($cars) {
-	    foreach ($cars as $car) $email_message .= $car." Required\n";
-	}
+	foreach ($cars as $car) $email_message .= $car." Required\n";
 	$email_message .= "Day: ".clean_string($date1)."\n";
 	$email_message .= "Month: ".clean_string($date2)."\n";
 	$email_message .= "Year: ".clean_string($date3)."\n";
@@ -123,7 +117,7 @@ $headers = 'From: '.$email_from."\r\n".
     <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link href="assets/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/style.css?v=240814" rel="stylesheet" type="text/css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
     
 </head>
