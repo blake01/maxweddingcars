@@ -31,7 +31,11 @@ if(isset($_POST['email'])) {
     $email_from = $_POST['email']; // required
     $telephone = $_POST['telephone']; // required
 	$date1 = $_POST['date1']; $date2 = $_POST['date2']; $date3 = $_POST['date3'];
-	$cars =  $_POST['car']; //required
+	if (isset($_POST['car'])) {
+        $cars = $_POST['car']; // required
+    } else {
+        $cars = array();
+    }
     $addressLine1 = $_POST['addressLine1']; // required
 	$addressLine2 = $_POST['addressLine2']; 
 	$addressLine3 = $_POST['addressLine3']; 
@@ -81,7 +85,9 @@ if(isset($_POST['email'])) {
     $email_message .= "Name: ".clean_string($name)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
     $email_message .= "Telephone: ".clean_string($telephone)."\n";
-	foreach ($cars as $car) $email_message .= $car." Required\n";
+    if ($cars) {
+	    foreach ($cars as $car) $email_message .= $car." Required\n";
+	}
 	$email_message .= "Day: ".clean_string($date1)."\n";
 	$email_message .= "Month: ".clean_string($date2)."\n";
 	$email_message .= "Year: ".clean_string($date3)."\n";
