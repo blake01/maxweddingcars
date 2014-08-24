@@ -23,11 +23,15 @@ All our wedding cars are, of course, tastefully trimmed and may be co-ordinated 
 
 $r = rand(1, 3);
 $reviews = array(
-'<div class="fb-post" data-href="https://www.facebook.com/adele.moon.9/posts/10152570316518838:0" data-width="580"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/adele.moon.9/posts/10152570316518838:0">Post</a> by <a href="https://www.facebook.com/adele.moon.9">Adele Moon</a>.</div></div>',
-'<div class="fb-post" data-href="https://www.facebook.com/lucia.granelli.1/posts/10154429563880096:0" data-width="580"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lucia.granelli.1/posts/10154429563880096:0">Post</a> by <a href="https://www.facebook.com/lucia.granelli.1">Lucia Kershaw</a>.</div></div>',
-'<div class="fb-post" data-href="https://www.facebook.com/chris.baldry1/posts/10152163322963204:0" data-width="580"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/chris.baldry1/posts/10152163322963204:0">Post</a> by <a href="https://www.facebook.com/chris.baldry1">Chris Baldry</a>.</div></div>');
+"Absolutely Fantastic! 
+
+Friendly service, accommodated all our needs and the cars are magnificent. Max offered to take me and my wife on a 10 minute journey after the wedding by ourselves just to catch up together on the hectic day away from it all which was great and the cars stayed with us to provide us with some great photo opportunities. 
+
+Thank you Max so much we will definitely be recommending you and will definitely use you again in the future should we need your services for any other events!",
+"I couldn't recommend max wedding cars more. 5 star service. So friendly and professional. Everyone loved the cars!!!!! Fab fab fab x",
+"Max is great, friendly and we absolutely loved the cars, I have never seen so much effort put into keeping them so lovely. I can't wait for our big day in sept :-)");
 
 $rand_key = array_rand($reviews);
-echo $reviews[$rand_key];
+echo "<p class='review'>&ldquo;" . $reviews[$rand_key] . "&rdquo;</p>";
 ?>
 {% endblock %}

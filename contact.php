@@ -202,6 +202,7 @@
         </tr>
     </table>
 </form>
+<script src="assets/validate.js"></script>
 
         </div><!-- end #container -->
     </div>

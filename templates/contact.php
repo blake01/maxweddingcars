@@ -138,4 +138,5 @@
         </tr>
     </table>
 </form>
+<script src="assets/validate.js"></script>
 {% endblock %}
