@@ -428,6 +428,10 @@ th {
 /**
 Custom CSS 
 */
+
+/* Boosting hack */
+html * {max-height:99999px;}
+
 body {
 	color: #222;
     font-family: 'Lusitana', serif;
