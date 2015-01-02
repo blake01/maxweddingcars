@@ -113,7 +113,7 @@
         <tr>
             <td valign="top"><label for="telephone">Telephone Number</label> *</td>
 
-            <td class="smallText" colspan="3" valign="top"><input maxlength="28" name="telephone" size="28" type="text"> &nbsp;Including Area Code</td>
+            <td class="smallText" colspan="3" valign="top"><input maxlength="28" name="telephone" size="28" type="text" placeholder="Including Area Code"></td>
         </tr>
 
         <tr>
@@ -170,22 +170,19 @@
         <tr>
             <td valign="top">Pickup Address *</td>
 
-            <td class="smallText" colspan="3" valign="top"><label><input id="addressLine1" name="addressLine1" size="28" type="text"> &nbsp;Address Line
-            1</label></td>
+            <td class="smallText" colspan="3" valign="top"><label><input id="addressLine1" name="addressLine1" size="28" type="text" placeholder="Address Line 1"></label></td>
         </tr>
 
         <tr>
             <td valign="top">&nbsp;</td>
 
-            <td class="smallText" colspan="3" valign="top"><label><input id="addressLine2" name="addressLine2" size="28" type="text"> &nbsp;Address Line
-            2</label></td>
+            <td class="smallText" colspan="3" valign="top"><label><input id="addressLine2" name="addressLine2" size="28" type="text" placeholder="Address Line 2"></label></td>
         </tr>
 
         <tr>
             <td valign="top">&nbsp;</td>
 
-            <td class="smallText" colspan="3" valign="top"><label><input id="addressLine3" name="addressLine3" size="28" type="text">
-            &nbsp;Town/City</label></td>
+            <td class="smallText" colspan="3" valign="top"><label><input id="addressLine3" name="addressLine3" size="28" type="text" placeholder="Town/City"></label></td>
         </tr>
 
         <tr>
@@ -210,7 +207,7 @@
             <td valign="top"><label for="comments">Addtional Comments (optional)</label></td>
 
             <td colspan="3" valign="top">
-            <textarea cols="40" name="comments" rows="4">
+            <textarea cols="28" name="comments" rows="4">
 </textarea></td>
         </tr>
 

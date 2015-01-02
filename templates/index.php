@@ -1,15 +1,15 @@
 {% extends "base.html" %}
 
-{% block title %}Wedding Cars Leeds | Max Wedding Cars | Ring 01924 370485 For Classic Car Hire Leeds{% endblock %}
+{% block title %}Wedding Cars Leeds | Maxweddingcars | Ring 01924 370485 For Classic Car Hire Leeds{% endblock %}
 
 {% block keywords %}Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
 
-{% block description %}Wedding Cars Leeds with Max Wedding Cars. We have built a formidable reputation based on reliability and superior levels of service. We supply only the very best wedding cars including our Vintage style Tourers, Rolls Royce and Mercedes Benz. Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
+{% block description %}Wedding Cars Leeds with Maxweddingcars. We have built a formidable reputation based on reliability and superior levels of service. We supply only the very best wedding cars including our Vintage style Tourers, Rolls Royce and Mercedes Benz. Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
 
 {% block main %}
 <h1 class="mainhead">Wedding Car Hire in West Yorkshire</h1>
-<p>At Max Wedding Cars, we have built a formidable reputation based on reliability and superior levels of service.
-We supply only the very best wedding cars including our Vintage style Tourers, Rolls Royce &amp; Mercedes Benz. </p>
+<p>At Maxweddingcars, we have built a formidable reputation based on reliability and superior levels of service.
+We supply only the very best wedding cars including our Vintage style Tourers, Mercedes Benz and Mercedes Benz Limousine.</p>
 <hr>
 <h2 class="mainhead">Based in Wakefield, nr. Leeds</h2>
 <p>Established in 1983, we are now  recognised as the Chauffeur Company of choice specialising in Weddings and Civil Partnerships in and around the Yorkshire area. Our cars are, however, available to hire for any occasion, including proms, birthdays, anniversaries or any other special occasion.</p>
@@ -37,6 +37,6 @@ $reviews = array(
 $rand_key = array_rand($reviews);
 echo "<p class='review'>&ldquo;" . $reviews[$rand_key] . "&rdquo;</p>";
 ?>
-<p>See more on our <a href="https://www.facebook.com/pages/Maxweddingcars/259756950891843" target="_blank">Facebook page</a>.</p>
+<p>See more on our <a href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=reviews" target="_blank">Facebook page</a>.</p>
 <hr>
 {% endblock %}
