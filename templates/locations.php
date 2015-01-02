@@ -12,7 +12,7 @@ Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeu
 <h1 id="bighead">Wedding Car Hire in Yorkshire</h1>
 <p>We are based in <strong>Wakefield</strong> and believe that we offer the finest <strong>Wedding Car Hire service in Yorkshire</strong>.We serve all towns and cities therein, including, but not limited to:</p>
 <h2 class="mainhead">Wedding Car Hire Leeds</h2>
-<p>Max Hemingway Chauffeur Services have been providing <strong>Wedding Car Hire in Leeds</strong> since 1983, and can offer both modern vehicles such as our Mercedes Benz, or vintage style cars such as our 1930s style tourers, to ensure that you arrive in style on your special day in <strong>Leeds</strong> and surrounding towns/cities including <strong>Bradford, Morley, Keighley, Ilkley, Otley and Skipton.</strong></p>
+<p>Max Wedding Cars have been providing <strong>Wedding Car Hire in Leeds</strong> since 1983, and can offer both modern vehicles such as our Mercedes Benz, or vintage style cars such as our 1930s style tourers, to ensure that you arrive in style on your special day in <strong>Leeds</strong> and surrounding towns/cities including <strong>Bradford, Morley, Keighley, Ilkley, Otley and Skipton.</strong></p>
 <h2 class="mainhead">Wedding Car Hire Wakefield</h2>
 <p>Over the last 28 years, we have built up a formidable reputation for reliablity and levels of service in our home city of <strong>Wakefield</strong>. We regularly chauffeur brides, grooms and civil partners to their ceremonies in <strong>Wakefield </strong>and the Five Towns of <strong>Pontefract, Castleford, Knottingley, Featherstone and Normanton</strong>, and also further east to <strong>Goole and Selby</strong>.</p>
 <h2 class="mainhead">Wedding Car Hire Huddersfield </h2>
