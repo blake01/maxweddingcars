@@ -17,10 +17,12 @@ We supply only the very best wedding cars including our Vintage style Tourers, M
 <h3 class="mainhead">Vintage Style Wedding Cars, Impeccable Service</h3>
 <p>We can take care of all your  transport requirements by adopting a flexible approach &amp; tailoring  an affordable package to meet your specific needs.
 All our wedding cars are, of course, tastefully trimmed and may be co-ordinated to match your personal Wedding theme. Our cars are available for inspection by appointment.</p>
+<hr>
 <h3 class="mainhead">Pricing/Reduced Rates</h3>
 <p>Whilst our rates are highly competitive, we never compromise on the quality of our service or our cars, all of which are superb.</p>
 <p>We will match any genuine 'like for like' quotation for Weddings in the Wakefield area.</p>
 <p>We  also offer reduced rates for mid week Weddings and/or when more than one car is required.</p>
+<hr>
 <h3 class="mainhead">2015 Weddings</h3>
 <p>Subject to availability, we can offer a special reduced rate on 2015 Weddings.</p>
 <p>Call us on the number above or fill in our <a href="contact.php">enquiry form</a> to obtain a bespoke quote.</p>
