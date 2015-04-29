@@ -124,12 +124,6 @@ Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeu
                 Leeds ~ Vintage Wedding Cars Leeds ~ Chauffeur Driven Car Hire Leeds ~ Chauffeur Driven Wedding Cars Leeds ~ Vintage Car Hire Leeds ~ Classic
                 Car Hire Leeds<br>
                 Wedding Limos Leeds ~ Wedding Limo Hire Leeds</h1>
-
-                <p style="text-align: center; font-size: 9px; font-family: Arial, Helvetica, sans-serif;"><a href="http://www.uniteldirect.co.uk/" style=
-                "font-size: 9px; color:#666;" target="_blank" title="SEO By Unitel Direct">SEO By Unitel Direct</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href=
-                "http://www.businessinternetfinder.com/" style="font-size: 9px; color:#666;" target="_blank" title="Business Internet Finder">Business Internet
-                Finder</a><a href="http://www.thetradefinder.co.uk/" style="font-size: 9px; color:#666;" target="_blank" title="Trade Finder">&nbsp;And Trade
-                Finder</a></p>
             </div>
         </footer>
     </div><!-- Start of StatCounter Code -->
