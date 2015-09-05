@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "_base.html" %}
 
 {% block title %}Wedding Cars Leeds | Maxweddingcars | Ring 01924 370485 For Classic Car Hire Leeds{% endblock %}
 

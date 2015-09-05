@@ -1,4 +1,4 @@
-{% extends "car.html" %}
+{% extends "_car.html" %}
 
 {% block title %}Wedding Cars for Hire || Mercedes Benz Seven Passenger Limousine{% endblock %}
 
