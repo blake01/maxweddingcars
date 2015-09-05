@@ -3,9 +3,9 @@
 {% block title %}Wedding Cars for Hire || Mercedes Benz Seven Passenger Limousine{% endblock %}
 
 {% block img_tags %}
-<img src="StretchMercPictures/side.jpg" alt="Mercedes Benz Exterior" />
-<img src="StretchMercPictures/doors_open.jpg" alt="Mercedes Benz Doors Open" />
-<img src="StretchMercPictures/doors_open_2.jpg" alt="Mercedes Benz Interior" />
+<img src="/img/stretch-merc/side.jpg" alt="Mercedes Benz Exterior" />
+<img src="/img/stretch-merc/doors_open.jpg" alt="Mercedes Benz Doors Open" />
+<img src="/img/stretch-merc/doors_open_2.jpg" alt="Mercedes Benz Interior" />
 {% endblock %}
 
 {% block description %}

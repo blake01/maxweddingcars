@@ -15,7 +15,7 @@
     <meta content="Leeds" name="geo.placename">
     <meta content="53.801279;-1.548567" name="geo.position">
     <meta content="53.801279, -1.548567" name="ICBM">
-    <script src="assets/modernizr.custom.62869.js"></script>
+    <script src="/js/modernizr.custom.62869.js"></script>
     <meta id="vp" name="viewport" content="width=device-width">
     <script>
         checkVp = function() {
@@ -31,11 +31,11 @@
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <link href="assets/style.css?v=020115" rel="stylesheet" type="text/css">
+    <link href="/css/style.css?v=020115" rel="stylesheet" type="text/css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
-    <script src="galleria.js" type="text/javascript"></script>
+    <script src="/galleria/galleria-1.4.2.min.js" type="text/javascript"></script>
 </head>
 
 <body class="oneColFixCtr">
@@ -52,7 +52,7 @@
 
     <div class="centerer" id="container">
         <div id="header">
-            <img alt="Max Hemingway Wedding Car Hire" src="beauford_bonnet_header_140.jpg">
+            <img alt="Max Hemingway Wedding Car Hire" src="/img/beauford_bonnet_header_140.jpg">
             <h1>Maxweddingcars</h1>
             <h2><i class="fa fa-phone"></i> <a href="tel:01924370485">01924 370485</a></h2>
             <div id="navigation">
@@ -66,17 +66,17 @@
         <div class="sidebar">
             <h4>Click on images for further details</h4>
             <div class="sidebar-car">
-            <p><a href="vintage"><img alt="vintage style tourer" src="Sidebar/beaufordsidebar.jpg"></a></p>
+            <p><a href="vintage"><img alt="vintage style tourer" src="/img/sidebar/beaufordsidebar.jpg"></a></p>
             <p>Vintage Style Tourers</p>
             </div>
 
             <div class="sidebar-car">
-            <p><a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="Sidebar/stretchmercsidebar.jpg"></a></p>
+            <p><a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="/img/sidebar/stretchmercsidebar.jpg"></a></p>
             <p>Mercedes-Benz Seven Passenger Limousine</p>
             </div>
             
             <div class="sidebar-car">
-            <p><a href="mercedes"><img alt="mercedes wedding car" src="Sidebar/mercsidebar.jpg"></a></p>
+            <p><a href="mercedes"><img alt="mercedes wedding car" src="/img/sidebar/mercsidebar.jpg"></a></p>
             <p>Mercedes-Benz</p>
             </div>
             
@@ -94,9 +94,9 @@
             
 <div id="galleria">
 
-<img src="StretchMercPictures/side.jpg" alt="Mercedes Benz Exterior" />
-<img src="StretchMercPictures/doors_open.jpg" alt="Mercedes Benz Doors Open" />
-<img src="StretchMercPictures/doors_open_2.jpg" alt="Mercedes Benz Interior" />
+<img src="/img/stretch-merc/side.jpg" alt="Mercedes Benz Exterior" />
+<img src="/img/stretch-merc/doors_open.jpg" alt="Mercedes Benz Doors Open" />
+<img src="/img/stretch-merc/doors_open_2.jpg" alt="Mercedes Benz Interior" />
 
 </div>
 <div>
@@ -107,9 +107,12 @@
 </div>
 <script type="text/javascript">
 // Load the classic theme
-Galleria.loadTheme('galleria.classic.js');
+Galleria.loadTheme('/galleria/galleria.classic.min.js');
 // Initialize Galleria
-$('#galleria').galleria();
+Galleria.run('#galleria', {
+  overlayBackground: '#fff',
+  showInfo: false
+});
 </script>
 
         </div><!-- end #container -->

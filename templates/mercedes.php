@@ -3,8 +3,8 @@
 {% block title %}Wedding Cars for Hire || Mercedes Benz{% endblock %}
 
 {% block img_tags %}
-<img src="MercPictures/Merc-Large.gif" alt="Mercedes Benz Exterior">
-<img src="MercPictures/Merc-Interior.gif" alt="Mercedes Benz Interior">
+<img src="/img/merc/Merc-Large.gif" alt="Mercedes Benz Exterior">
+<img src="/img/merc/Merc-Interior.gif" alt="Mercedes Benz Interior">
 {% endblock %}
 
 {% block description %}

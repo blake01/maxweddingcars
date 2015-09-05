@@ -3,14 +3,14 @@
 {% block title %}Wedding Cars for Hire || Vintage Style Tourers{% endblock %}
 
 {% block img_tags %}
-<img alt="Two Wedding Cars" src="BeaufordPictures/beaufordpair.jpg">
-<img alt="Fully Convertible Wedding Car at Newmillerdam, Wakefield" src="BeaufordPictures/beaufordnewmillerdam.jpg">
-<img alt="Fully Convertible Wedding Car with soft-top hood on" src="BeaufordPictures/beaufordroof.jpg">
-<img alt="Fully Convertible Wedding Car at a Wedding Reception" src="BeaufordPictures/beaufordwedding.jpg">
-<img alt="Fully Convertible Wedding Car at Sandal Castle, Wakefield" src="BeaufordPictures/beaufordsandal.jpg">
-<img alt="Fully Convertible Wedding Car Interior" src="BeaufordPictures/beaufordinterior.jpg">
-<img alt="Part-Hardtop Wedding Car 2" src="BeaufordPictures/beaufordfront.jpg">
-<img alt="Part-Hardtop Wedding Car 3" src="BeaufordPictures/beaufordrear.jpg">
+<img alt="Two Wedding Cars" src="/img/vintage/beaufordpair.jpg">
+<img alt="Fully Convertible Wedding Car at Newmillerdam, Wakefield" src="/img/vintage/beaufordnewmillerdam.jpg">
+<img alt="Fully Convertible Wedding Car with soft-top hood on" src="/img/vintage/beaufordroof.jpg">
+<img alt="Fully Convertible Wedding Car at a Wedding Reception" src="/img/vintage/beaufordwedding.jpg">
+<img alt="Fully Convertible Wedding Car at Sandal Castle, Wakefield" src="/img/vintage/beaufordsandal.jpg">
+<img alt="Fully Convertible Wedding Car Interior" src="/img/vintage/beaufordinterior.jpg">
+<img alt="Part-Hardtop Wedding Car 2" src="/img/vintage/beaufordfront.jpg">
+<img alt="Part-Hardtop Wedding Car 3" src="/img/vintage/beaufordrear.jpg">
 {% endblock %}
 
 {% block description %}
