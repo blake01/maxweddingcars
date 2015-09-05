@@ -114,19 +114,8 @@ $headers = 'From: '.$email_from."\r\n".
     <meta content="Leeds" name="geo.placename">
     <meta content="53.801279;-1.548567" name="geo.position">
     <meta content="53.801279, -1.548567" name="ICBM">
-    <script src="/js/modernizr.custom.62869.js"></script>
-    <meta id="vp" name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>
-        checkVp = function() {
-            var vp = document.getElementById('vp');
-            if (Modernizr.mq('screen and (max-device-width : 600px)')) {
-                vp.setAttribute('content','width=600');
-            }
-        }
-        window.onload = checkVp
-        $(window).bind("orientationchange", checkVp); 
-    </script>
     <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
