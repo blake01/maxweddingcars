@@ -20,6 +20,7 @@ solution for transporting your bridesmaids/ guests when a second car is required
     <meta content="53.801279, -1.548567" name="ICBM">
     <script src="/js/modernizr.custom.62869.js"></script>
     <meta id="vp" name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
         checkVp = function() {
             var vp = document.getElementById('vp');
@@ -35,7 +36,6 @@ solution for transporting your bridesmaids/ guests when a second car is required
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <link href="/css/style.css?v=020115" rel="stylesheet" type="text/css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     <script src="/galleria/galleria-1.4.2.min.js" type="text/javascript"></script>
