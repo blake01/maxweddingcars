@@ -2,7 +2,7 @@ function validate(form) {
 	fail  = validateName(form.name.value)
 	fail += validateEmail(form.email.value)
 	fail += validateTele(form.telephone.value)
-	fail += validateCars(form["car[]"][0],form["car[]"][1],form["car[]"][2])
+	fail += validateCars(form["car[]"][0],form["car[]"][1],form["car[]"][2],form["car[]"][3])
 	fail += validateDate(form.date1.value,form.date2.value,form.date3.value)
 	fail += validateAddress(form.addressLine1.value)
 	fail += validatePostcode(form.postcode.value)
@@ -24,8 +24,8 @@ function validateTele(field) {
   }
  
  
-function validateCars(car1,car2,car3) {
-	if (!car1.checked && !car2.checked && !car3.checked) return "Please Select at least One Car.\n"
+function validateCars(car1,car2,car3,car4) {
+	if (!car1.checked && !car2.checked && !car3.checked && !car4.checked) return "Please Select at least One Car.\n"
 	return ""
 }
 
