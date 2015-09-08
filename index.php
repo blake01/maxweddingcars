@@ -13,41 +13,49 @@
     <meta content="53.801279;-1.548567" name="geo.position">
     <meta content="53.801279, -1.548567" name="ICBM">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <link href="/css/style.css?v=020115" rel="stylesheet" type="text/css">
+    <link href="/css/style.css?v=060915" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     
 </head>
 
-<body class="oneColFixCtr">
+<body>
+
     <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
 
     <div class="centerer" id="container">
-        <div id="header">
-            <img alt="Max Hemingway Wedding Car Hire" src="/img/beauford_bonnet_header_140.jpg">
-            <h1>Maxweddingcars</h1>
-            <h2><i class="fa fa-phone"></i> <a href="tel:01924370485">01924 370485</a></h2>
-            <div id="navigation">
-                <a href="/"><i class="fa fa-home"></i> Home</a>
-                <a href="contact"><i class="fa fa-envelope-o"></i> Enquire</a>
-                <a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream">
-                <i class="fa fa-facebook"></i>Facebook Gallery</a>            
+        <header>
+            <div id="title">
+              <img alt="Max Hemingway Wedding Car Hire" src="/img/beauford_bonnet_header_140.jpg">
+              <h1>Maxweddingcars</h1>
+              <i id="mobile-nav-toggle" class="visible-xs fa fa-bars"></i>
+              <h2><i class="fa fa-phone"></i> 01924 370485</h2>
             </div>
-        </div>
+            <nav>
+              <ul>
+                <li>
+                  <a href="/"><i class="fa fa-home"></i> Home</a>
+                </li>
+                <li class="visible-xs">
+                  <a href="contact"><i class="fa fa-car"></i> Our Cars</a>
+                </li>
+                <li>
+                  <a href="contact"><i class="fa fa-envelope-o"></i> Enquire</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream">
+                  <i class="fa fa-facebook"></i>Facebook Gallery</a> 
+                </li>
+                <li class="visible-xs">     
+                  <a href="tel:01924370485"><i class="fa fa-phone"></i> 01924 370485</a>  
+                </li>
+              </ul>    
+            </nav>
+        </header>
 
         <div class="sidebar">
             <h4>Click on images for further details</h4>
@@ -76,29 +84,38 @@
             </div>
         </div>
 
-        <div class="text">
+        <main>
             
-<h1 class="mainhead">Wedding Car Hire in West Yorkshire</h1>
+<section>
+<h1>Wedding Car Hire in West Yorkshire</h1>
+<div class="img-wrap">
+<img class="visible-xs" alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg">
+</div>
 <p>At Maxweddingcars, we have built a formidable reputation based on reliability and superior levels of service.
 We supply only the very best wedding cars including our Vintage style Tourers, Mercedes Benz and Mercedes Benz Limousine.</p>
-<hr>
-<h2 class="mainhead">Based in Wakefield, nr. Leeds</h2>
+</section>
+<section>
+<h2>Based in Wakefield, nr. Leeds</h2>
 <p>Established in 1983, we are now  recognised as the Chauffeur Company of choice specialising in Weddings and Civil Partnerships in and around the Yorkshire area. Our cars are, however, available to hire for any occasion, including proms, birthdays, anniversaries or any other special occasion.</p>
-<hr>
-<h3 class="mainhead">Vintage Style Wedding Cars, Impeccable Service</h3>
+</section>
+<section>
+<h3>Vintage Style Wedding Cars, Impeccable Service</h3>
 <p>We can take care of all your  transport requirements by adopting a flexible approach &amp; tailoring  an affordable package to meet your specific needs.
 All our wedding cars are, of course, tastefully trimmed and may be co-ordinated to match your personal Wedding theme. Our cars are available for inspection by appointment.</p>
-<hr>
-<h3 class="mainhead">Pricing/Reduced Rates</h3>
+</section>
+<section>
+<h3>Pricing/Reduced Rates</h3>
 <p>Whilst our rates are highly competitive, we never compromise on the quality of our service or our cars, all of which are superb.</p>
 <p>We will match any genuine 'like for like' quotation for Weddings in the Wakefield area.</p>
 <p>We  also offer reduced rates for mid week Weddings and/or when more than one car is required.</p>
-<hr>
-<h3 class="mainhead">2015 Weddings</h3>
+</section>
+<section>
+<h3>2015 Weddings</h3>
 <p>Subject to availability, we can offer a special reduced rate on 2015 Weddings.</p>
 <p>Call us on the number above or fill in our <a href="contact.php">enquiry form</a> to obtain a bespoke quote.</p>
-<hr>
-<h3 class="mainhead">Recent Reviews</h3>
+</section>
+<section>
+<h3>Recent Reviews</h3>
 <p>Here is just one of the many unsolicited reviews we have received.</p>
 <?php
 
@@ -116,13 +133,13 @@ $rand_key = array_rand($reviews);
 echo "<p class='review'>&ldquo;" . $reviews[$rand_key] . "&rdquo;</p>";
 ?>
 <p>See more on our <a href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=reviews" target="_blank">Facebook page</a>.</p>
-<hr>
+</section>
 
-        </div><!-- end #container -->
+        </main><!-- end #container -->
     </div>
 
     <div class="centerer">
-        <footer class="footer">
+        <footer>
             Max Hemingway<br>
             01924 370485<br>
             Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
@@ -153,5 +170,17 @@ echo "<p class='review'>&ldquo;" . $reviews[$rand_key] . "&rdquo;</p>";
             src="http://c.statcounter.com/3538675/0/0d87c190/1/"></a>
         </div>
     </noscript> <!-- End of StatCounter Code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script src="/js/maxweddingcars.js"></script>
+    
 </body>
 </html>

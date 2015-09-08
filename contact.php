@@ -13,41 +13,49 @@
     <meta content="53.801279;-1.548567" name="geo.position">
     <meta content="53.801279, -1.548567" name="ICBM">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <link href="/css/style.css?v=020115" rel="stylesheet" type="text/css">
+    <link href="/css/style.css?v=060915" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     
 </head>
 
-<body class="oneColFixCtr">
+<body>
+
     <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
 
     <div class="centerer" id="container">
-        <div id="header">
-            <img alt="Max Hemingway Wedding Car Hire" src="/img/beauford_bonnet_header_140.jpg">
-            <h1>Maxweddingcars</h1>
-            <h2><i class="fa fa-phone"></i> <a href="tel:01924370485">01924 370485</a></h2>
-            <div id="navigation">
-                <a href="/"><i class="fa fa-home"></i> Home</a>
-                <a href="contact"><i class="fa fa-envelope-o"></i> Enquire</a>
-                <a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream">
-                <i class="fa fa-facebook"></i>Facebook Gallery</a>            
+        <header>
+            <div id="title">
+              <img alt="Max Hemingway Wedding Car Hire" src="/img/beauford_bonnet_header_140.jpg">
+              <h1>Maxweddingcars</h1>
+              <i id="mobile-nav-toggle" class="visible-xs fa fa-bars"></i>
+              <h2><i class="fa fa-phone"></i> 01924 370485</h2>
             </div>
-        </div>
+            <nav>
+              <ul>
+                <li>
+                  <a href="/"><i class="fa fa-home"></i> Home</a>
+                </li>
+                <li class="visible-xs">
+                  <a href="contact"><i class="fa fa-car"></i> Our Cars</a>
+                </li>
+                <li>
+                  <a href="contact"><i class="fa fa-envelope-o"></i> Enquire</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream">
+                  <i class="fa fa-facebook"></i>Facebook Gallery</a> 
+                </li>
+                <li class="visible-xs">     
+                  <a href="tel:01924370485"><i class="fa fa-phone"></i> 01924 370485</a>  
+                </li>
+              </ul>    
+            </nav>
+        </header>
 
         <div class="sidebar">
             <h4>Click on images for further details</h4>
@@ -76,48 +84,47 @@
             </div>
         </div>
 
-        <div class="text">
+        <main>
             
-<h2>Enquire / Get A Quote</h2>
+<section>
+<h1>Enquire / Get A Quote</h1>
 
 <p>For an immediate response to your enquiry, and to obtain a quotation without delay, please telephone us on 01924 370485 (7 day service).</p>
 
-<p>Alternatively, please complete the form below and we will endeavour to respond within 24 hours.<br>
-<br></p>
+<p>Alternatively, please complete the form below and we will endeavour to respond within 24 hours.</p>
+</section>
+<section>
 
 <form action="send_form_email.php" id="contactform" method="post" name="contactform" onsubmit="return validate(this)">
-    <table id="contact_form">
-        <tr>
-            <td valign="top" width="206"><label for="name">Full Name *</label></td>
+    <div>
+        <label for="name">Full Name *</label>
+        <input name="name" type="text" required>
+    </div>
+    
+    <div>
+        <label for="email">Email Address *</label>
+        <input name="email" type="email" required>
+    </div>
 
-            <td colspan="3" valign="top"><input maxlength="50" name="name" size="28" type="text"></td>
-        </tr>
+    <div>
+        <label for="telephone">Telephone Number *</label>
+        <input name="telephone" type="text" placeholder="Including Area Code" required>
+    </div>
+    
+    <div>
+        <div class="label">Car(s) Required *</div>
+        <div class="input">
+          <label><input id="Beauford" name="car[]" type="checkbox" value="Beauford"> &nbsp;Vintage Style Tourer(s)</label>
+          <label><input id="Seven_Seater_Mercedes" name="car[]" type="checkbox" value="Seven_Seater_Mercedes"> &nbsp;Mercedes Benz Seven Passenger Limousine</label>
+          <label><input id="Mercedes" name="car[]" type="checkbox" value="Mercedes"> &nbsp;Mercedes Benz</label>
+          <label><input id="LandRover" name="car[]" type="checkbox" value="LandRover"> &nbsp;Land Rover Discovery</label>
+        </div>
+    </div>
 
-        <tr>
-            <td valign="top"><label for="email">Email Address *</label></td>
-
-            <td colspan="3" valign="top"><input maxlength="80" name="email" size="28" type="email"></td>
-        </tr>
-
-        <tr>
-            <td valign="top"><label for="telephone">Telephone Number</label> *</td>
-
-            <td class="smallText" colspan="3" valign="top"><input maxlength="28" name="telephone" size="28" type="text" placeholder="Including Area Code"></td>
-        </tr>
-
-        <tr>
-            <td valign="top">Car(s) Required *</td>
-
-            <td class="smallText" colspan="3" valign="top"><label><input id="Beauford" name="car[]" type="checkbox" value="Beauford"> &nbsp;Vintage Style
-            Tourer(s)<br></label> <label><input id="Seven_Seater_Mercedes" name="car[]" type="checkbox" value="Seven_Seater_Mercedes"> &nbsp;Mercedes Benz
-            Seven Passenger Limousine<br></label> <label><input id="Mercedes" name="car[]" type="checkbox" value="Mercedes"> &nbsp;Mercedes
-            Benz<br></label></td>
-        </tr>
-
-        <tr>
-            <td valign="top">Date of Hire *</td>
-
-            <td width="49"><select id="date1" name="date1">
+    <div>
+        <div class="label">Date of Hire *</div>
+        <div class="input">
+            <select id="date1" name="date1">
                 <?php
                 $now_day = date("d");
                 for($d = 1; $d <= 31; $d++) {
@@ -128,9 +135,8 @@
                     }
                 }
                 ?>
-            </select></td>
-
-            <td width="49"><select id="date2" name="date2">
+            </select>
+            <select id="date2" name="date2">
                 <?php
                 $now_month = date("M");
                 $cal_info = cal_info(0);
@@ -143,9 +149,8 @@
                     }
                 }
                 ?>
-            </select></td>
-
-            <td width="257"><select id="date3" name="date3">
+            </select>
+            <select id="date3" name="date3">
                 <?php
                 $now_year = date("Y");
                 $max_year = $now_year + 3;
@@ -153,66 +158,51 @@
                     echo "<option value='$y'>$y</option>";
                 }
                 ?>
-            </select></td>
-        </tr>
+            </select>
+        </div>
+    </div>
+    
+    <div>
+        <div class="label">Pickup Address *</div>
+        <div class="input">
+            <label><input class="force-full-width" id="addressLine1" name="addressLine1" type="text" placeholder="Address Line 1" required></label>
+            <label><input class="force-full-width" id="addressLine2" name="addressLine2" type="text" placeholder="Address Line 2"></label>
+            <label><input class="force-full-width" id="addressLine3" name="addressLine3" type="text" placeholder="Town/City" required></label></td>
+        </div>
+    </div>
+    
+    <div>
+        <label for="postcode">Postcode *</label>
+        <input name="postcode" type="text" required>
+    </div>
+    
+    <div>
+        <label for="destination1">Wedding/Ceremony Venue *</label>  
+        <input name="destination1" type="text" required>
+    </div>
+    
+    <div>
+        <label for="destination2">Reception Venue (if applicable)</label>
+        <input name="destination2" type="text">
+    </div>
 
-        <tr>
-            <td valign="top">Pickup Address *</td>
-
-            <td class="smallText" colspan="3" valign="top"><label><input id="addressLine1" name="addressLine1" size="28" type="text" placeholder="Address Line 1"></label></td>
-        </tr>
-
-        <tr>
-            <td valign="top">&nbsp;</td>
-
-            <td class="smallText" colspan="3" valign="top"><label><input id="addressLine2" name="addressLine2" size="28" type="text" placeholder="Address Line 2"></label></td>
-        </tr>
-
-        <tr>
-            <td valign="top">&nbsp;</td>
-
-            <td class="smallText" colspan="3" valign="top"><label><input id="addressLine3" name="addressLine3" size="28" type="text" placeholder="Town/City"></label></td>
-        </tr>
-
-        <tr>
-            <td valign="top">Postcode *</td>
-
-            <td class="smallText" colspan="3" valign="top"><label><input id="postcode" name="postcode" size="28" type="text"></label></td>
-        </tr>
-
-        <tr>
-            <td valign="top">Wedding/Ceremony Venue *</td>
-
-            <td colspan="3" valign="top"><label><input id="destination1" name="destination1" size="28" type="text"></label></td>
-        </tr>
-
-        <tr>
-            <td valign="top">Reception Venue (if applicable)</td>
-
-            <td colspan="3" valign="top"><label><input id="destination2" name="destination2" size="28" type="text"></label></td>
-        </tr>
-
-        <tr>
-            <td valign="top"><label for="comments">Addtional Comments (optional)</label></td>
-
-            <td colspan="3" valign="top">
-            <textarea cols="28" name="comments" rows="4">
-</textarea></td>
-        </tr>
-
-        <tr>
-            <td colspan="4" style="text-align:center"><br>
-            <input type="submit" value=" Submit Enquiry ">&nbsp;&nbsp; <input type="reset" value=" Reset Form "></td>
-        </tr>
-    </table>
+    <div>
+        <label for="comments">Addtional Comments (optional)</label>
+        <textarea class="input" cols="28" name="comments" rows="4"></textarea>
+    </div>
+    
+    <input class="button" type="submit" value=" Submit Enquiry ">
+    <input class="button" type="reset" value=" Reset Form ">
+    
 </form>
+</section>
 <script src="js/validate.js"></script>
 
-        </div><!-- end #container -->
+        </main><!-- end #container -->
     </div>
 
     <div class="centerer">
-        <footer class="footer">
+        <footer>
             Max Hemingway<br>
             01924 370485<br>
             Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
@@ -243,5 +233,17 @@
             src="http://c.statcounter.com/3538675/0/0d87c190/1/"></a>
         </div>
     </noscript> <!-- End of StatCounter Code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script src="/js/maxweddingcars.js"></script>
+    
 </body>
 </html>

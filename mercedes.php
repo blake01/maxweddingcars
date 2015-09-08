@@ -19,41 +19,49 @@ solution for transporting your bridesmaids/ guests when a second car is required
     <meta content="53.801279;-1.548567" name="geo.position">
     <meta content="53.801279, -1.548567" name="ICBM">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!--[if IE]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    <link href="/css/style.css?v=020115" rel="stylesheet" type="text/css">
+    <link href="/css/style.css?v=060915" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
-    <script src="/galleria/galleria-1.4.2.min.js" type="text/javascript"></script>
+    
 </head>
 
-<body class="oneColFixCtr">
+<body>
+
     <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
 
     <div class="centerer" id="container">
-        <div id="header">
-            <img alt="Max Hemingway Wedding Car Hire" src="/img/beauford_bonnet_header_140.jpg">
-            <h1>Maxweddingcars</h1>
-            <h2><i class="fa fa-phone"></i> <a href="tel:01924370485">01924 370485</a></h2>
-            <div id="navigation">
-                <a href="/"><i class="fa fa-home"></i> Home</a>
-                <a href="contact"><i class="fa fa-envelope-o"></i> Enquire</a>
-                <a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream">
-                <i class="fa fa-facebook"></i>Facebook Gallery</a>            
+        <header>
+            <div id="title">
+              <img alt="Max Hemingway Wedding Car Hire" src="/img/beauford_bonnet_header_140.jpg">
+              <h1>Maxweddingcars</h1>
+              <i id="mobile-nav-toggle" class="visible-xs fa fa-bars"></i>
+              <h2><i class="fa fa-phone"></i> 01924 370485</h2>
             </div>
-        </div>
+            <nav>
+              <ul>
+                <li>
+                  <a href="/"><i class="fa fa-home"></i> Home</a>
+                </li>
+                <li class="visible-xs">
+                  <a href="contact"><i class="fa fa-car"></i> Our Cars</a>
+                </li>
+                <li>
+                  <a href="contact"><i class="fa fa-envelope-o"></i> Enquire</a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream">
+                  <i class="fa fa-facebook"></i>Facebook Gallery</a> 
+                </li>
+                <li class="visible-xs">     
+                  <a href="tel:01924370485"><i class="fa fa-phone"></i> 01924 370485</a>  
+                </li>
+              </ul>    
+            </nav>
+        </header>
 
         <div class="sidebar">
             <h4>Click on images for further details</h4>
@@ -82,7 +90,7 @@ solution for transporting your bridesmaids/ guests when a second car is required
             </div>
         </div>
 
-        <div class="text">
+        <main>
             
 <div id="galleria">
 
@@ -99,21 +107,12 @@ solution for transporting your bridesmaids/ guests when a second car is required
 <p>Click on the thumbnail images to see more pictures of this car.</p>
 
 </div>
-<script type="text/javascript">
-// Load the classic theme
-Galleria.loadTheme('/galleria/galleria.classic.min.js');
-// Initialize Galleria
-Galleria.run('#galleria', {
-  overlayBackground: '#fff',
-  showInfo: false
-});
-</script>
 
-        </div><!-- end #container -->
+        </main><!-- end #container -->
     </div>
 
     <div class="centerer">
-        <footer class="footer">
+        <footer>
             Max Hemingway<br>
             01924 370485<br>
             Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
@@ -144,5 +143,28 @@ Galleria.run('#galleria', {
             src="http://c.statcounter.com/3538675/0/0d87c190/1/"></a>
         </div>
     </noscript> <!-- End of StatCounter Code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script src="/js/maxweddingcars.js"></script>
+    
+<script src="/galleria/galleria-1.4.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+// Load the classic theme
+Galleria.loadTheme('/galleria/galleria.classic.min.js');
+// Initialize Galleria
+Galleria.run('#galleria', {
+  overlayBackground: '#fff',
+  showInfo: false
+});
+</script>
+
 </body>
 </html>

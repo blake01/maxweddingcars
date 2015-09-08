@@ -2,6 +2,8 @@
 
 #galleria-loader{height:1px!important}
 
+#galleria {visibility: visible!important}
+
 .galleria-theme-classic {
     position: relative;
     overflow: hidden;
