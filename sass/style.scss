@@ -102,8 +102,12 @@ nav ul {
   padding: 0px;
   margin: 0px;
   li {
-  padding: 10px 2em;
-  border-top: 1px solid darken(#e0dbcf, 10);
+    padding: 10px 2em;
+    border-top: 1px solid darken(#e0dbcf, 10);
+    &:hover {
+      background-color: darken(#e0dbcf, 10);
+      cursor: pointer;
+    }
   }
 }
 
@@ -138,7 +142,8 @@ footer {
   font-size:10pt;
   line-height:20px;
   margin:0 15px;
-  text-align:center
+  text-align:center;
+  margin-top: 20px;
 }
 
 footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:hover,.burgundy {
@@ -171,7 +176,7 @@ footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:
   color:#FFF
 }
 
-.sidebar a:hover {
+.sidebar a:hover, #cars div a:hover {
   color:#FFF;
   opacity:0.85;
   text-decoration:none
@@ -248,6 +253,19 @@ h4 {
   font-style:italic
 }
 
+#cars div {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  img {
+      width: 90%;
+      margin: 5%;
+      max-width: 500px;
+      box-shadow:3px 3px 3px #888;
+      margin-bottom: 2%;
+  }
+}
+
 /* Contact form */
 
 form > div {
@@ -316,6 +334,9 @@ form {
       border: none;
       float: left;
       padding: 0 1em;
+      &:hover {
+        background-color: transparent;
+      }
     }
     #telephone {
       position: absolute;

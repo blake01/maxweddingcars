@@ -2,15 +2,9 @@
 <html lang="en">
 <head>
     <meta content="text/html; charset="utf-8">
-    <title>Wedding Cars for Hire || Mercedes Benz</title>
-    <meta content="" name="keywords">
-    <meta content="
-<p>If your wedding theme is less traditional you may prefer the elegant yet modern style of our Mercedes 
-Benz. Finished in brilliant silver, this air conditioned saloon is equally  suited to both Church and Civil Weddings.</p>
-<p> In addition to providing stylish transport for the bride, this car can also provide a cost effective 
-solution for transporting your bridesmaids/ guests when a second car is required.</p>
-<p>Click on the thumbnail images to see more pictures of this car.</p>
-" name="description">
+    <title>Wedding Car Hire Leeds | Max Wedding Cars | Our Cars</title>
+    <meta content="Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds" name="keywords">
+    <meta content="Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds" name="description">
     <!-- Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds -->
     <meta content="index,follow" name="robots">
     <meta content="7 days" name="revisit-after">
@@ -94,23 +88,32 @@ solution for transporting your bridesmaids/ guests when a second car is required
         <main>
             
 <section>
-<h1>Mercedes-Benz</h1>
-<div id="galleria">
+<h1>Our Cars</h1>
 
-<img src="/img/merc/Merc-Large.gif" alt="Mercedes Benz Exterior">
-<img src="/img/merc/Merc-Interior.gif" alt="Mercedes Benz Interior">
+<h4>Click on images for further details</h4>
+</section>
+<section id="cars">
+  <div>
+  <p><a href="vintage"><img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg"></a></p>
+  <p>Vintage Style Tourers</p>
+  </div>
 
-</div>
-<div>
+  <div>
+  <p><a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg"></a></p>
+  <p>Mercedes-Benz Seven Passenger Limousine</p>
+  </div>
 
-<p>If your wedding theme is less traditional you may prefer the elegant yet modern style of our Mercedes 
-Benz. Finished in brilliant silver, this air conditioned saloon is equally  suited to both Church and Civil Weddings.</p>
-<p> In addition to providing stylish transport for the bride, this car can also provide a cost effective 
-solution for transporting your bridesmaids/ guests when a second car is required.</p>
-<p>Click on the thumbnail images to see more pictures of this car.</p>
+  <div>
+  <p><a href="mercedes"><img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif"></a></p>
+  <p>Mercedes-Benz</p>
+  </div>
 
-<p><a class="visible-xs" href="/cars">&lt; Back to Our Cars</a></p>
-</div>
+  <div>
+  <p><a href="landrover"><img alt="land rover wedding car" src="/img/landrover/exterior.jpg"></a></p>
+  <p>Land Rover Discovery</p>
+  </div>
+  
+  <div class="clearfix"></div>
 </section>
 
         </main>
@@ -151,20 +154,17 @@ solution for transporting your bridesmaids/ guests when a second car is required
     <!-- End of StatCounter Code -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
-<!-- Don't load facebook - no room. -->
-
+    <script>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
     <script src="/js/maxweddingcars.js"></script>
     
-<script src="/galleria/galleria-1.4.2.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-// Load the classic theme
-Galleria.loadTheme('/galleria/galleria.classic.min.js');
-// Initialize Galleria
-Galleria.run('#galleria', {
-  overlayBackground: '#fff',
-  showInfo: false
-});
-</script>
-
 </body>
 </html>

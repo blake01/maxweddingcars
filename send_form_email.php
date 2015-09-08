@@ -139,22 +139,21 @@ $headers = 'From: '.$email_from."\r\n".
             </div>
             <nav>
               <ul>
-                <li>
-                  <a href="/"><i class="fa fa-home"></i> Home</a>
-                </li>
-                <li class="visible-xs">
-                  <a href="contact"><i class="fa fa-car"></i> Our Cars</a>
-                </li>
-                <li>
-                  <a href="contact"><i class="fa fa-envelope-o"></i> Enquire</a>
-                </li>
-                <li>
-                  <a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream">
-                  <i class="fa fa-facebook"></i>Facebook Gallery</a> 
-                </li>
-                <li class="visible-xs">     
-                  <a href="tel:01924370485"><i class="fa fa-phone"></i> 01924 370485</a>  
-                </li>
+                <a href="/">
+                  <li><i class="fa fa-home"></i> Home</li>
+                </a>
+                <a href="cars">
+                  <li class="visible-xs"><i class="fa fa-car"></i> Our Cars</li>
+                </a>
+                <a href="contact">
+                  <li><i class="fa fa-envelope-o"></i> Enquire</li>
+                </a>
+                <a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream">
+                  <li><i class="fa fa-facebook"></i>Facebook Gallery</li>
+                </a> 
+                <a href="tel:01924370485">
+                  <li class="visible-xs"><i class="fa fa-phone"></i> 01924 370485</li>
+                </a>  
               </ul>    
             </nav>
         </header>
