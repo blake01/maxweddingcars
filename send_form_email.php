@@ -162,22 +162,24 @@ $headers = 'From: '.$email_from."\r\n".
         <div class="sidebar">
             <h4>Click on images for further details</h4>
             <div class="sidebar-car">
-            <p><a href="vintage"><img alt="vintage style tourer" src="/img/sidebar/beaufordsidebar.jpg"></a></p>
+            <p><a href="vintage"><img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg"></a></p>
             <p>Vintage Style Tourers</p>
             </div>
 
             <div class="sidebar-car">
-            <p><a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="/img/sidebar/stretchmercsidebar.jpg"></a></p>
+            <p><a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg"></a></p>
             <p>Mercedes-Benz Seven Passenger Limousine</p>
             </div>
             
             <div class="sidebar-car">
-            <p><a href="mercedes"><img alt="mercedes wedding car" src="/img/sidebar/mercsidebar.jpg"></a></p>
+            <p><a href="mercedes"><img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif"></a></p>
             <p>Mercedes-Benz</p>
             </div>
             
-            <div class="clearfix"></div>
-            <hr class="display-xs">
+            <div class="sidebar-car">
+            <p><a href="landrover"><img alt="land rover wedding car" src="/img/landrover/exterior.jpg"></a></p>
+            <p>Land Rover Discovery</p>
+            </div>
 
             <div id="fb-like-box-wrap">
             <div class="fb-like-box" data-colorscheme="light" data-header="true" data-href=
@@ -192,10 +194,8 @@ $headers = 'From: '.$email_from."\r\n".
 <p>Your enquiry has been successfully submitted. We will endeavour to respond  within 24 hours. </p>
 <p>Meanwhile, please feel free to continue browsing our site.</p>
 
-        </main><!-- end #container -->
-    </div>
-
-    <div class="centerer">
+        </main>
+        
         <footer>
             Max Hemingway<br>
             01924 370485<br>
@@ -214,7 +214,9 @@ $headers = 'From: '.$email_from."\r\n".
                 Wedding Limos Leeds ~ Wedding Limo Hire Leeds</h1>
             </div>
         </footer>
-    </div><!-- Start of StatCounter Code -->
+    </div>
+
+    <!-- Start of StatCounter Code -->
     <script type="text/javascript">
         var sc_project=3538675;
         var sc_invisible=1;
@@ -226,8 +228,10 @@ $headers = 'From: '.$email_from."\r\n".
             <a class="statcounter" href="http://statcounter.com/tumblr/" title="tumblr hit tracking tool"><img alt="tumblr hit tracking tool" class="statcounter"
             src="http://c.statcounter.com/3538675/0/0d87c190/1/"></a>
         </div>
-    </noscript> <!-- End of StatCounter Code -->
+    </noscript> 
+    <!-- End of StatCounter Code -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
     <script>
         (function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -237,6 +241,7 @@ $headers = 'From: '.$email_from."\r\n".
         fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+    
     <script src="/js/maxweddingcars.js"></script>
     
 </body>

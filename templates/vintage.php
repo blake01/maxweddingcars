@@ -13,6 +13,8 @@
 <img alt="Part-Hardtop Wedding Car 3" src="/img/vintage/beaufordrear.jpg">
 {% endblock %}
 
+{% block cartitle %}Vintage Style Tourers{% endblock %}
+
 {% block description %}
 <p>Our Vintage Style Tourers represent the ultimate in Wedding transport. Finished in old English white with cream leather interiors, these cars will provide a superb
 backdrop to your Wedding photographs. Enjoy the experience of travelling in style in these elegant vehicles. Should the weather be unkind, these cars have soft top hoods (see pictures) to 
