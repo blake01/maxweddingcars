@@ -8,7 +8,7 @@
 
 {% block main %}
 <section>
-<h1>Wedding Car Hire in West Yorkshire</h1>
+<h1>Wedding Car Hire in Yorkshire</h1>
 <div class="img-wrap">
 <img class="visible-xs" alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg">
 </div>
