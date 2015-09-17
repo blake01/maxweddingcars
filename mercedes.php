@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta content="text/html; charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Blake Hemingway">
     <title>Wedding Cars for Hire || Mercedes Benz</title>
     <meta content="" name="keywords">
     <meta content="
@@ -18,7 +21,6 @@ solution for transporting your bridesmaids/ guests when a second car is required
     <meta content="Leeds" name="geo.placename">
     <meta content="53.801279;-1.548567" name="geo.position">
     <meta content="53.801279, -1.548567" name="ICBM">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="/css/style.css?v=060915" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
