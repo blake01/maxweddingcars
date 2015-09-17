@@ -61,7 +61,7 @@ header #title {
   text-align:center;
   height: 90px;
   h1 {
-    font-size: 6vw
+    font-size: 5.5vw
   }
 }
 
@@ -73,7 +73,7 @@ header img {
 header h1,header h2 {
   color:#600;
   font-family:lucida_calligraphyitalic, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
-  left:40px;
+  left:25px;
   margin:0;
   padding:0;
   position:absolute;
@@ -122,6 +122,14 @@ nav ul {
   padding: 6px 7px;
   @include border-radius(4px);
   cursor: pointer;
+  p {
+    margin: 0 10px 0 0;
+    display: none;
+  }
+  &:hover {
+    background-color: darken(#e0dbcf, 10);
+    cursor: pointer;
+  }
 }
 
 header a {
@@ -300,6 +308,11 @@ form {
 }
 
 /* Media queries */
+@media (min-width: 420px) {
+  #mobile-nav-toggle p {
+    display: inline-block;
+  }
+}
 
 @media (min-width: 500px) {
   header #title h1 {
@@ -322,6 +335,7 @@ form {
     height:140px;
     h1 {
       font-size: 2em;
+      left: 40px
     }
   }
   nav {

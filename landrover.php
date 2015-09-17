@@ -38,7 +38,10 @@ With its air suspension, climate control, privacy glass and almond leather inter
             <div id="title">
               <img alt="Max Hemingway Wedding Car Hire" src="/img/beauford_bonnet_header_140.jpg">
               <h1>Maxweddingcars</h1>
-              <i id="mobile-nav-toggle" class="visible-xs fa fa-bars"></i>
+              <div id="mobile-nav-toggle" class="visible-xs">
+                <p>Menu</p>
+                <i class="fa fa-bars"></i>
+              </div>
               <h2><i class="fa fa-phone"></i> 01924 370485</h2>
             </div>
             <nav>
