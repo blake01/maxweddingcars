@@ -101,6 +101,8 @@
 <div id="galleria">
 
 <img src="/img/stretch-merc/side.jpg" alt="Mercedes Benz Exterior" />
+<img src="/img/stretch-merc/merc-stretch-quarter-front.jpg" alt="Mercedes Benz Front" />
+<img src="/img/stretch-merc/merc-stretch-quarter-rear.jpg" alt="Mercedes Benz Rear" />
 
 </div>
 <div>
