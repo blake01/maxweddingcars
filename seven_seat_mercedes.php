@@ -8,7 +8,7 @@
     <title>Wedding Cars for Hire || Mercedes Benz Seven Passenger Limousine</title>
     <meta content="" name="keywords">
     <meta content="
-<p>This superb vehicle, only recently added to our fleet, can carry seven passengers plus the Chauffeur in total comfort. Whilst it is an ideal and particularly spacious Bridal car able to accommodate the largest of bridal gowns, it represents a highly cost effective and efficient solution should you wish to transport several Bridesmaids/Parents/Guests. Please enquire for further details.</p>
+<p>This superb vehicle, finished in Pearl white, can carry seven passengers plus the Chauffeur in total comfort. Whilst it is an ideal and particularly spacious Bridal car able to accommodate the largest of bridal gowns, it represents a highly cost effective and efficient solution should you wish to transport several Bridesmaids/Parents/Guests. Please enquire for further details.</p>
 <p>Click on the thumbnail images to see more pictures of this car.</p>
 " name="description">
     <!-- Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds -->
