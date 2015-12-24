@@ -30,9 +30,8 @@
 </head>
 
 <body>
-    
-<!-- Don't load facebook - no room. -->
 
+    <div id="fb-root"></div>
 
     <div class="centerer" id="container">
         <header>
@@ -152,6 +151,9 @@
     </noscript> 
     <!-- End of StatCounter Code -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+<!-- Don't load facebook - no room. -->
+
     <script src="/js/maxweddingcars.js"></script>
     
 <script src="/galleria/galleria-1.4.2.min.js" type="text/javascript"></script>
