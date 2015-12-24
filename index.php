@@ -117,11 +117,6 @@ All our wedding cars are, of course, tastefully trimmed and may be co-ordinated 
 <p>We  also offer reduced rates for mid week Weddings and/or when more than one car is required.</p>
 </section>
 <section>
-<h3>2015 Weddings</h3>
-<p>Subject to availability, we can offer a special reduced rate on 2015 Weddings.</p>
-<p>Call us on the number above or fill in our <a href="contact.php">enquiry form</a> to obtain a bespoke quote.</p>
-</section>
-<section>
 <h3>Recent Reviews</h3>
 <p>Here is just one of the many unsolicited reviews we have received.</p>
 <?php
