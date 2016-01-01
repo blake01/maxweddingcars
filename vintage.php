@@ -1,5 +1,5 @@
 
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
     <meta content="text/html; charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +7,7 @@
     <meta name="author" content="Blake Hemingway">
     <title>Wedding Cars for Hire || Vintage Style Tourers</title>
     <meta content="" name="keywords">
-    <meta content="
-<p>Our Vintage Style Tourers represent the ultimate in Wedding transport. Finished in old English white with cream leather interiors, these cars will provide a superb
-backdrop to your Wedding photographs. Enjoy the experience of travelling in style in these elegant vehicles. Should the weather be unkind, these cars have soft top hoods (see pictures) to 
-protect you from the elements at any time of year. </p>
-<p>Our Tourers are four door &lsquo;long bodied&rsquo; versions of the marque, affording greater rear space for your comfort.</p>
-<p>See our Mercedes Benz Limousine if you require additional transport for several Bridesmaids.</p>
-<p>Click on the thumbnail images to see more pictures of this car.</p>
-" name="description">
+    <meta content="" name="description">
     <!-- Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds -->
     <meta content="index,follow" name="robots">
     <meta content="7 days" name="revisit-after">
@@ -22,6 +15,9 @@ protect you from the elements at any time of year. </p>
     <meta content="Leeds" name="geo.placename">
     <meta content="53.801279;-1.548567" name="geo.position">
     <meta content="53.801279, -1.548567" name="ICBM">
+    <!--Styling -->
+    <link rel="stylesheet" href="/owl-carousel/owl.theme.css">
+    <link rel="icon" type="image/png" href="http://www.maxweddingcars.co.uk/favicon.png" />
     <link href="/css/style.css?v=060915" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
@@ -30,31 +26,32 @@ protect you from the elements at any time of year. </p>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <meta property="og:site_name" content="Maxweddingcars" />
     
+<meta property="og:url"                content="http://www.maxweddingcars.co.uk/vintage" />
+<meta property="og:title"              content="Maxweddingcars - Vintage Style Tourers" />
+<meta property="og:description"        content="Our Vintage Style Tourers represent the ultimate in Wedding transport." />
+<meta property="og:image"              content="http://www.maxweddingcars.co.uk/img/vintage/beaufordpair.jpg" />
+
 </head>
 
 <body>
-
-    <div id="fb-root"></div>
 
     <div class="centerer" id="container">
         <header>
             <div id="title">
               <img alt="Max Hemingway Wedding Car Hire" src="/img/beauford_bonnet_header_140.jpg">
-              <h1>Maxweddingcars</h1>
+              <h1><a href="/">Maxweddingcars</a></h1>
               <div id="mobile-nav-toggle" class="visible-xs">
-                <p>Menu</p>
                 <i class="fa fa-bars"></i>
+                <p>Menu</p>
               </div>
-              <h2><i class="fa fa-phone"></i> 01924 370485</h2>
+              <h2 id="telephone"><i class="fa fa-phone"></i> 01924 370485</h2>
             </div>
             <nav>
               <ul>
                 <a href="/">
                   <li><i class="fa fa-home"></i> Home</li>
-                </a>
-                <a href="cars">
-                  <li class="visible-xs"><i class="fa fa-car"></i> Our Cars</li>
                 </a>
                 <a href="contact">
                   <li><i class="fa fa-envelope-o"></i> Enquire</li>
@@ -69,84 +66,113 @@ protect you from the elements at any time of year. </p>
             </nav>
         </header>
 
-        <div class="sidebar">
-            <h4>Click on images for further details</h4>
-            <div class="sidebar-car">
-            <p><a href="vintage"><img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg"></a></p>
-            <p>Vintage Style Tourers</p>
-            </div>
-
-            <div class="sidebar-car">
-            <p><a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg"></a></p>
-            <p>Mercedes-Benz Seven Passenger Limousine</p>
-            </div>
+        <main class="row">
+        <div id="inner-wrap">
             
-            <div class="sidebar-car">
-            <p><a href="mercedes"><img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif"></a></p>
-            <p>Mercedes-Benz</p>
-            </div>
-            
-            <div class="sidebar-car">
-            <p><a href="landrover"><img alt="land rover wedding car" src="/img/landrover/exterior.jpg"></a></p>
-            <p>Land Rover Discovery</p>
-            </div>
-
-            <div id="fb-like-box-wrap">
-            <div class="fb-like-box" data-colorscheme="light" data-header="true" data-href=
-            "https://www.facebook.com/pages/Maxweddingcars/259756950891843?fref=ts" data-show-border="true" data-show-faces="true" data-stream="false"
-            data-width="260"></div>
-            </div>
-        </div>
-
-        <main>
-            
-<section>
+<div class="col-xs-12">
 <h1>Vintage Style Tourers</h1>
-<div id="galleria">
+<div id="owl-example" class="owl-carousel car-carousel">
 
+<div>
 <img alt="Two Wedding Cars" src="/img/vintage/beaufordpair.jpg">
-<img alt="Fully Convertible Wedding Car at Newmillerdam, Wakefield" src="/img/vintage/beaufordnewmillerdam.jpg">
-<img alt="Fully Convertible Wedding Car with soft-top hood on" src="/img/vintage/beaufordroof.jpg">
-<img alt="Fully Convertible Wedding Car at a Wedding Reception" src="/img/vintage/beaufordwedding.jpg">
-<img alt="Fully Convertible Wedding Car at Sandal Castle, Wakefield" src="/img/vintage/beaufordsandal.jpg">
-<img alt="Fully Convertible Wedding Car Interior" src="/img/vintage/beaufordinterior.jpg">
-<img alt="Part-Hardtop Wedding Car 2" src="/img/vintage/beaufordfront.jpg">
-<img alt="Part-Hardtop Wedding Car 3" src="/img/vintage/beaufordrear.jpg">
-
 </div>
 <div>
+<img alt="Fully Convertible Wedding Car at Newmillerdam, Wakefield" src="/img/vintage/beaufordnewmillerdam.jpg">
+</div>
+<div>
+<img alt="Fully Convertible Wedding Car with soft-top hood on" src="/img/vintage/beaufordroof.jpg">
+</div>
+<div>
+<img alt="Fully Convertible Wedding Car at a Wedding Reception" src="/img/vintage/beaufordwedding.jpg">
+</div>
+<div>
+<img alt="Fully Convertible Wedding Car at Sandal Castle, Wakefield" src="/img/vintage/beaufordsandal.jpg">
+</div>
+<div>
+<img alt="Fully Convertible Wedding Car Interior" src="/img/vintage/beaufordinterior.jpg">
+</div>
+<div>
+<img alt="Part-Hardtop Wedding Car 2" src="/img/vintage/beaufordfront.jpg">
+</div>
+<div>
+<img alt="Part-Hardtop Wedding Car 3" src="/img/vintage/beaufordrear.jpg">
+</div>
 
-<p>Our Vintage Style Tourers represent the ultimate in Wedding transport. Finished in old English white with cream leather interiors, these cars will provide a superb
-backdrop to your Wedding photographs. Enjoy the experience of travelling in style in these elegant vehicles. Should the weather be unkind, these cars have soft top hoods (see pictures) to 
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="col-sm-6 pull-left" id="car-more-info">
+<section>
+<h2>More Information</h2>
+
+<p>Our Vintage Style Tourers represent the ultimate in Wedding transport.</p>
+<p>Finished in old English white with cream leather interiors, these cars will provide a superb
+backdrop to your Wedding photographs. Enjoy the experience of travelling in style in these elegant vehicles, which may be hired individually or as a matching pair. </p>
+<p>Should the weather be unkind, these cars have soft top hoods (see pictures) to 
 protect you from the elements at any time of year. </p>
 <p>Our Tourers are four door &lsquo;long bodied&rsquo; versions of the marque, affording greater rear space for your comfort.</p>
+<p>These cars each seat <b>three passengers</b>, plus the chauffeur.</p>
 <p>See our Mercedes Benz Limousine if you require additional transport for several Bridesmaids.</p>
-<p>Click on the thumbnail images to see more pictures of this car.</p>
-
-<p><a class="visible-xs" href="/cars">&lt; Back to Our Cars</a></p>
+<h3>Get a Quote</h3>
+<div id="call-to-action">
+<a href="tel:01924370485"><button type="button" class="btn btn-primary" id="first-button"><i class="fa fa-phone"></i>01924 370485</button></a>
+<a href="contact"><button type="button" class="btn btn-primary"><i class="fa fa-envelope"></i>Enquire</button></a>
+<div class="clearfix"></div>
 </div>
-</section>
+<h3>Share on Social Media</h3>
+<a data-pin-do="buttonPin" data-pin-color="red" data-pin-count="beside" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.maxweddingcars.co.uk%2Fvintage&media=http%3A%2F%2Fwww.maxweddingcars.co.uk%2Fimg%2Fvintage%2Fbeaufordpair.jpg&description=Vintage%20Style%20Wedding%20Cars"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" /></a>
+<div class="fb-share-button" data-href="http://www.maxweddingcars.co.uk/vintage" data-layout="button_count"></div>
+<div class="clearfix"></div>
+<br>
 
+</section>
+</div>
+<div class="col-sm-6 pull-right">
+<h2>Browse Our Other Cars</h2>
+
+<div class="extra-car">
+<a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg"></a>
+<button type="button" class="btn btn-default"><a href="seven_seat_mercedes"><i class="fa fa-search"></i>View</a></button>
+</div>
+
+<div class="extra-car">
+<a href="mercedes"><img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif"></a>
+<button type="button" class="btn btn-default"><a href="mercedes"><i class="fa fa-search"></i>View</a></button>
+</div>
+
+<div class="extra-car">
+<a href="landrover"><img alt="land rover wedding car" src="/img/landrover/exterior.jpg"></a>
+<button type="button" class="btn btn-default"><a href="landrover"><i class="fa fa-search"></i>View</a></button>
+</div>
+
+</div>
+<div class="clearfix visible-xs"></div>
+<div class="col-sm-6 pull-left">
+<hr class="visible-xs">
+<footer>
+Max Hemingway<br>
+01924 370485<br>
+Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
+Email: <a href=
+"mailto:max@maxweddingcars.co.uk?subject=Enquiry%20R.E.%20Chauffeur%20Driven%20Car%20Hire">max@maxweddingcars.co.uk</a><br>
+Site Design &copy; 2015 Blake Hemingway<br>
+<span class="footer1">Serving all areas of Yorkshire: View <a href="locations.php">Our Locations</a></span>
+
+<div style="text-align: center">
+    <br />
+
+    <h1 style="text-align: center; font-size: 9px; color:#666; font-family: Arial, Helvetica, sans-serif;">Wedding Cars Leeds ~ Wedding Car Hire
+    Leeds ~ Vintage Wedding Cars Leeds ~ Chauffeur Driven Car Hire Leeds ~ Chauffeur Driven Wedding Cars Leeds ~ Vintage Car Hire Leeds ~ Classic
+    Car Hire Leeds<br>
+    Wedding Limos Leeds ~ Wedding Limo Hire Leeds</h1>
+</div>
+</footer>
+</div>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
+        </div>
         </main>
         
-        <footer>
-            Max Hemingway<br>
-            01924 370485<br>
-            Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
-            Email: <a class="style4" href=
-            "mailto:max@maxweddingcars.co.uk?subject=Enquiry%20R.E.%20Chauffeur%20Driven%20Car%20Hire">max@maxweddingcars.co.uk</a><br>
-            Site Design &copy; 2015 Blake Hemingway<br>
-            <span class="footer1">Serving all areas of Yorkshire: View <a href="locations.php">Our Locations</a></span>
-
-            <div style="text-align: center">
-                <br />
-
-                <h1 style="text-align: center; font-size: 9px; color:#666; font-family: Arial, Helvetica, sans-serif;">Wedding Cars Leeds ~ Wedding Car Hire
-                Leeds ~ Vintage Wedding Cars Leeds ~ Chauffeur Driven Car Hire Leeds ~ Chauffeur Driven Wedding Cars Leeds ~ Vintage Car Hire Leeds ~ Classic
-                Car Hire Leeds<br>
-                Wedding Limos Leeds ~ Wedding Limo Hire Leeds</h1>
-            </div>
-        </footer>
     </div>
 
     <!-- Start of StatCounter Code -->
@@ -165,20 +191,23 @@ protect you from the elements at any time of year. </p>
     <!-- End of StatCounter Code -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
-<!-- Don't load facebook - no room. -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=444675232397235";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
+    
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
+ 
+    <!-- Include js plugin -->
+    <script src="/owl-carousel/owl.carousel.js"></script>
+    
     <script src="/js/maxweddingcars.js"></script>
     
-<script src="/galleria/galleria-1.4.2.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-// Load the classic theme
-Galleria.loadTheme('/galleria/galleria.classic.min.js');
-// Initialize Galleria
-Galleria.run('#galleria', {
-  overlayBackground: '#fff',
-  showInfo: false
-});
-</script>
-
 </body>
 </html>

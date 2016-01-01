@@ -7,6 +7,7 @@
 {% block description %}Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
 
 {% block main %}
+<div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
 <section>
 <h1>Enquire / Get A Quote</h1>
 
@@ -29,7 +30,7 @@
 
     <div>
         <label for="telephone">Telephone Number *</label>
-        <input name="telephone" type="text" placeholder="Including Area Code" required>
+        <input name="telephone" type="text" placeholder="UK Landline inc. Area Code or Mobile " required>
     </div>
     
     <div>
@@ -112,10 +113,11 @@
         <textarea class="input" cols="28" name="comments" rows="4"></textarea>
     </div>
     
-    <input class="button" type="submit" value=" Submit Enquiry ">
-    <input class="button" type="reset" value=" Reset Form ">
+    <input class="button btn btn-primary" type="submit" value=" Submit Enquiry ">
     
 </form>
 </section>
+{% include 'footer_partial.html' %}
+</div>
 <script src="js/validate.js"></script>
 {% endblock %}

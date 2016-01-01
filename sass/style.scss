@@ -1,8 +1,13 @@
-@import "normalize";
+@import "bootstrap-compass";
+@import "bootstrap-variables";
+@import "bootstrap";
 @import "compass/css3";
-
 /* Variables/colours */
-$burgundy: #770024;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: white;
+$btn-default-color: $brand-primary;
+$btn-default-bg: $golden;
+$btn-default-border: $brand-primary;
 
 /* Fonts */
  
@@ -18,11 +23,8 @@ $burgundy: #770024;
 }
 
 /* Body/wrapper/generic */
-
 body {
-  color:#222;
-  font-family:Lusitana, serif;
-  line-height: 1.4em;
+    background-color:lighten($golden, 10);
 }
 
 .centerer {
@@ -30,10 +32,7 @@ body {
   position:relative;
   text-align:center;
   width:100%;
-}
-
-.clearfix {
-  clear:both
+  max-width: 1200px;
 }
 
 #container {
@@ -41,18 +40,28 @@ body {
   background-color: white;
 }
 
-a {
-  text-decoration: none;
+#fb-like-box-wrap {
+    text-align: center;
+    padding: 20px;
+}
+
+#inner-wrap {
+    max-width: 600px;
+    margin: 0 auto;
+    @media (min-width:$screen-sm) {
+        max-width: 100%;
+    }
 }
 
 /* Header */
 
 header {
-  background:#e0dbcf;
+  background: $golden;
   box-shadow:5px 5px 10px #aaa;
   width:100%;
   position: relative;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  font-size: 18px;
 }
 
 header #title {
@@ -60,9 +69,6 @@ header #title {
   position:relative;
   text-align:center;
   height: 90px;
-  h1 {
-    font-size: 5.5vw
-  }
 }
 
 header img {
@@ -78,13 +84,22 @@ header h1,header h2 {
   padding:0;
   position:absolute;
   text-shadow:2px 2px 2px #aaa;
-  top:30px
+  top:30px;
+  font-weight: bold;
+  @media (max-width:300px) {
+    display: none;
+  }
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 header h2 {
   display: none;
-  left:380px;
-  top:40px
+  left:50%;
+  top:40px;
+  font-size: 21px;
 }
 
 .fa {
@@ -104,9 +119,9 @@ nav ul {
   margin: 0px;
   li {
     padding: 10px 2em;
-    border-top: 1px solid darken(#e0dbcf, 10);
+    border-top: 1px solid darken($golden, 10);
     &:hover {
-      background-color: darken(#e0dbcf, 10);
+      background-color: darken($golden, 10);
       cursor: pointer;
     }
   }
@@ -114,152 +129,202 @@ nav ul {
 
 #mobile-nav-toggle {
   position: absolute;
-  right: 25px;
-  top: 25px;
   font-size: 1.5em;
-  color: $burgundy;
-  border: 1px solid darken(#e0dbcf, 10);
+  right: 25px;
+  top: 15px;
+  color: $brand-primary;
+  border: 1px solid darken($golden, 10);
   padding: 6px 7px;
   @include border-radius(4px);
   cursor: pointer;
   p {
-    margin: 0 10px 0 0;
-    display: none;
+    margin: 2px 0 0 0;
+    display: block;
+    font-size: 13px;
+    text-align: center;
   }
   &:hover {
-    background-color: darken(#e0dbcf, 10);
+    background-color: darken($golden, 10);
     cursor: pointer;
   }
 }
 
-header a {
+nav a {
   color:#600;
-  font-size:22px;
   text-decoration:none;
   text-shadow:1px 1px 1px #DDD;
   &:hover {
     text-decoration:none;
+    color:#600;
     text-shadow:2px 2px 2px #888
   }
 }
+
+/* Reviews */
+.review {
+    .fa-star {
+        color: $brand-primary;
+    }
+    h3 {
+        margin: 10px 0;
+    }
+    img, .review-head {
+        margin: 2% 6% 5% 2%;
+        float: left;
+    }
+    img {
+        height: 100px;
+        border:none;
+        box-shadow:3px 3px 3px #888;
+    }
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background-color: darken($golden,10);
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    background-color: $golden;
+    color: $brand-primary;
+    opacity: 1;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border: 1px solid $brand-primary;
+    font-size: $font-size-base;
+    min-width: 45%;
+    margin: 10px 0 0 0;
+    &:hover {
+    background-color: darken($golden,10);
+    }   
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    margin-right: 10%;
+}
+    
 
 /* Footer */
 
 footer {
   color:#666;
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size:10pt;
   line-height:20px;
   margin:0 15px;
   text-align:center;
   margin-top: 20px;
+  font-size: 12px;
 }
 
 footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:hover,.burgundy {
-  color:$burgundy
+  color:$brand-primary
 }
 
 /* Sidebar */
 
 .sidebar {
-  font-size:14px;
   text-align:center;
-  top:150px;
-  width:100%;
-  display: none;
-}
-
-.sidebar-car img {
-  border:none;
-  box-shadow:3px 3px 3px #888;
-  max-width:300px;
-  width:75%
 }
 
 .sidebar-car {
-  float:left;
-  width:33%
+  padding: 10px 0;
+  margin-bottom: 5px;
+  img {
+    border:none;
+    box-shadow:3px 3px 3px #888;
+  }
+  img, button {
+    width:100%;
+    @media (min-width:$screen-sm) {
+        width: 85%;
+    }
+  }
 }
 
-.sidebar a:link,.sidebar a:visited {
-  color:#FFF
+#car-more-info h3 {
+    margin-bottom: 1em;
 }
 
-.sidebar a:hover, #cars div a:hover {
-  color:#FFF;
-  opacity:0.85;
-  text-decoration:none
+.extra-car {
+    width: 50%;
+    min-width: 250px;
+    text-align: center;
+    margin: 0 auto 10px;
+    > *, img {
+        width: 90%;
+    }
+    img {
+      margin: 10px 0;
+      border:none;
+      box-shadow:3px 3px 3px #888;
+    }
 }
 
+button {
+    white-space: normal;
+    a:hover {
+        text-decoration: none;
+    }
+}
 
-#fb-like-box-wrap {
-  display:none
+button .fa {
+  padding-right: 1em;
+}
+
+.btn-primary {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /* Main content */
 
 main {
-  font-size:11pt;
-  margin:0 4%;
+  padding:0 15px;
   text-align:left;
-  .img-wrap {
-    width: 100%;
-    text-align: center;
-    img {
-      width: 90%;
-      margin: 5%;
-      max-width: 500px;
-      box-shadow:3px 3px 3px #888;
-    }
-  }
 }
 
 section {
   border-bottom:1px solid rgba(0,0,0,0.1);
-  padding:3px 0
+  padding:10px 0;
+  position: relative;
+  width: 100%;
 }
 
-section h2, section h3 {
+main h3 {
   color:#000;
-  font-size:16px;
   font-style:normal;
   font-weight:700;
   text-align:left
 }
 
-.fb-post {
-  width:580px
-}
-
-section h1 {
-  color:$burgundy;
-  font-size:14pt;
-  font-style:italic;
-  text-align:center
-}
-
-h4 {
-  color:$burgundy;
-  font-size:16px;
-  font-weight:400;
+main h1, main h2, .sidebar h2 {
+  color:$brand-primary;
   text-align:center;
-  text-shadow:1px 1px 1px #DDD
+  font-weight: bold;
 }
 
-.car h2 {
-  margin-bottom:0
+#call-to-action {
+  button {
+    margin: 0 0 20px;
+    width: 100%;
+    float: left;
+    @media (min-width:$screen-xs) {
+        width: 45%;
+    }
+  }
+  @media (min-width:$screen-xs) {
+    #first-button {
+        margin-right: 10%;
+    }
+  }
 }
 
-#galleria {
-  height:480px;
-  max-width:100%;
-  position:relative;
-  visibility: hidden;
-  margin-bottom: 20px
+#owl-example {
+    margin-bottom: 20px;
 }
 
-.review {
-  font-style:italic
+.car-carousel .owl-item div img {
+    position: relative;
+    max-width: 100%;
 }
 
 #cars div {
@@ -307,17 +372,14 @@ form {
   }
 }
 
-/* Media queries */
-@media (min-width: 420px) {
-  #mobile-nav-toggle p {
-    display: inline-block;
-  }
+/* Cars gallery */
+.car-carousel {
+    text-align: center;
+    margin: 30px 0;
 }
 
-@media (min-width: 500px) {
-  header #title h1 {
-    font-size: 1.9em;
-  }
+/* Media queries */
+@media (min-width: $screen-xs) {
   form > div {
     > * {
       width: 50%;
@@ -330,12 +392,12 @@ form {
   }
 }
 
-@media (min-width:767px) {
+@media (min-width:$screen-sm) {
   header #title {
     height:140px;
     h1 {
-      font-size: 2em;
-      left: 40px
+      left: 40px;
+      font-size: 29px;
     }
   }
   nav {
@@ -353,82 +415,37 @@ form {
         background-color: transparent;
       }
     }
-    #telephone {
-      position: absolute;
-      float: none;
-      top: 0;
-      right: 0;
-    }
-  }
-  .sidebar {
-    display: block;
-  }
-  .visible-xs {
-    display: none !important;
   }
   header h2 {
     display: block;
   }
 
-  .centerer {
-    width:768px
-  }
-
-  main,footer {
-    width:430px
-  }
-
-  main {
-    padding:15px 0 20px
-  }
-
-  .display-xs {
-    display:none
-  }
-
-  .sidebar {
-    float:right;
-    margin-bottom:20px;
-    width:290px
-  }
-
-  .sidebar-car {
-    float:none;
-    width:100%
-  }
-
-  header img,#fb-like-box-wrap {
+  header img {
     display:block
   }
 }
 
-@media (min-width:910px) {
+// Fix to enable Owl Carousel reviews
+.col-sm-6 {
+    width: 100%;
+}
+@media (min-width:$screen-sm) {
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+
+@media (min-width:$screen-md) {
   .centerer {
-    width:910px
-  }
-
-  header h2 {
-    left:420px
-  }
-
-  header h1 {
-    left:50px
-  }
-
-  nav {
-    left:15px
-  }
-
-  main,footer {
-    width:550px
+    width:95%;
+    padding: 0 2.5%;
   }
 }
 
-@media (min-width:1080px) {
+@media (min-width:$screen-lg) {
   .centerer {
-    padding: 0 7%;
-  }
-  body {
-    background-color:lighten(#e0dbcf, 12);
+    width:90%;
+    padding: 0 5%;
   }
 }
+

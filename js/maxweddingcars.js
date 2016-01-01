@@ -10,5 +10,29 @@ $(document).ready(function() {
     var link = el.attr('href');
     window.location = link;
   });
+  
+  var isHome = ! $("#owl-example").hasClass('car-carousel')
+  
+  $("#owl-example").owlCarousel({
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    singleItem:true  ,
+    autoHeight : isHome ,
+    autoPlay: ! isHome,
+    stopOnHover: true,
+    navigationText: [
+      "<i class='fa fa-angle-left'></i> Previous",
+      "Next <i class='fa fa-angle-right'></i>"
+    ],
+    navigation: true
+  });
+  
+  // Now move the carousel to random item.
+  if (isHome) {
+    owl = $("#owl-example").data('owlCarousel');
+    if (owl) {
+        owl.jumpTo(Math.floor(Math.random() * owl.itemsAmount));
+    }
+  }
 
 });

@@ -1,31 +1,27 @@
 {% extends "_base.html" %}
 
 {% block main %}
-<section>
+<div class="col-xs-12">
 <h1>{% block cartitle %}{% endblock %}</h1>
-<div id="galleria">
+<div id="owl-example" class="owl-carousel car-carousel">
 {% block img_tags %}{% endblock %}
 </div>
-<div>
-{% block description %}{% endblock %}
-<p><a class="visible-xs" href="/cars">&lt; Back to Our Cars</a></p>
 </div>
+<div class="clearfix"></div>
+<div class="col-sm-6 pull-left" id="car-more-info">
+<section>
+<h2>More Information</h2>
+{% block car_description %}{% endblock %}
 </section>
-{% endblock %}
-
-{% block bodyjs %}
-<script src="/galleria/galleria-1.4.2.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-// Load the classic theme
-Galleria.loadTheme('/galleria/galleria.classic.min.js');
-// Initialize Galleria
-Galleria.run('#galleria', {
-  overlayBackground: '#fff',
-  showInfo: false
-});
-</script>
-{% endblock %}
-
-{% block loadfacebook %}
-<!-- Don't load facebook - no room. -->
+</div>
+<div class="col-sm-6 pull-right">
+<h2>Browse Our Other Cars</h2>
+{% block other_cars %}{% endblock %}
+</div>
+<div class="clearfix visible-xs"></div>
+<div class="col-sm-6 pull-left">
+<hr class="visible-xs">
+{% include 'footer_partial.html' %}
+</div>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 {% endblock %}

@@ -101,7 +101,7 @@ $headers = 'From: '.$email_from."\r\n".
 @mail($email_to, $email_subject, $email_message, $headers); 
 ?>
 
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
     <meta content="text/html; charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -117,6 +117,9 @@ $headers = 'From: '.$email_from."\r\n".
     <meta content="Leeds" name="geo.placename">
     <meta content="53.801279;-1.548567" name="geo.position">
     <meta content="53.801279, -1.548567" name="ICBM">
+    <!--Styling -->
+    <link rel="stylesheet" href="/owl-carousel/owl.theme.css">
+    <link rel="icon" type="image/png" href="http://www.maxweddingcars.co.uk/favicon.png" />
     <link href="/css/style.css?v=060915" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
@@ -125,31 +128,27 @@ $headers = 'From: '.$email_from."\r\n".
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <meta property="og:site_name" content="Maxweddingcars" />
     
 </head>
 
 <body>
 
-    <div id="fb-root"></div>
-
     <div class="centerer" id="container">
         <header>
             <div id="title">
               <img alt="Max Hemingway Wedding Car Hire" src="/img/beauford_bonnet_header_140.jpg">
-              <h1>Maxweddingcars</h1>
+              <h1><a href="/">Maxweddingcars</a></h1>
               <div id="mobile-nav-toggle" class="visible-xs">
-                <p>Menu</p>
                 <i class="fa fa-bars"></i>
+                <p>Menu</p>
               </div>
-              <h2><i class="fa fa-phone"></i> 01924 370485</h2>
+              <h2 id="telephone"><i class="fa fa-phone"></i> 01924 370485</h2>
             </div>
             <nav>
               <ul>
                 <a href="/">
                   <li><i class="fa fa-home"></i> Home</li>
-                </a>
-                <a href="cars">
-                  <li class="visible-xs"><i class="fa fa-car"></i> Our Cars</li>
                 </a>
                 <a href="contact">
                   <li><i class="fa fa-envelope-o"></i> Enquire</li>
@@ -164,61 +163,38 @@ $headers = 'From: '.$email_from."\r\n".
             </nav>
         </header>
 
-        <div class="sidebar">
-            <h4>Click on images for further details</h4>
-            <div class="sidebar-car">
-            <p><a href="vintage"><img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg"></a></p>
-            <p>Vintage Style Tourers</p>
-            </div>
-
-            <div class="sidebar-car">
-            <p><a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg"></a></p>
-            <p>Mercedes-Benz Seven Passenger Limousine</p>
-            </div>
+        <main class="row">
+        <div id="inner-wrap">
             
-            <div class="sidebar-car">
-            <p><a href="mercedes"><img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif"></a></p>
-            <p>Mercedes-Benz</p>
-            </div>
-            
-            <div class="sidebar-car">
-            <p><a href="landrover"><img alt="land rover wedding car" src="/img/landrover/exterior.jpg"></a></p>
-            <p>Land Rover Discovery</p>
-            </div>
-
-            <div id="fb-like-box-wrap">
-            <div class="fb-like-box" data-colorscheme="light" data-header="true" data-href=
-            "https://www.facebook.com/pages/Maxweddingcars/259756950891843?fref=ts" data-show-border="true" data-show-faces="true" data-stream="false"
-            data-width="260"></div>
-            </div>
-        </div>
-
-        <main>
-            
-<h2>Thank You for your Enquiry</h2>
+<div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+<section>
+<h1>Thank You for your Enquiry</h1>
 <p>Your enquiry has been successfully submitted. We will endeavour to respond  within 24 hours. </p>
 <p>Meanwhile, please feel free to continue browsing our site.</p>
+</section>
+<footer>
+Max Hemingway<br>
+01924 370485<br>
+Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
+Email: <a href=
+"mailto:max@maxweddingcars.co.uk?subject=Enquiry%20R.E.%20Chauffeur%20Driven%20Car%20Hire">max@maxweddingcars.co.uk</a><br>
+Site Design &copy; 2015 Blake Hemingway<br>
+<span class="footer1">Serving all areas of Yorkshire: View <a href="locations.php">Our Locations</a></span>
 
+<div style="text-align: center">
+    <br />
+
+    <h1 style="text-align: center; font-size: 9px; color:#666; font-family: Arial, Helvetica, sans-serif;">Wedding Cars Leeds ~ Wedding Car Hire
+    Leeds ~ Vintage Wedding Cars Leeds ~ Chauffeur Driven Car Hire Leeds ~ Chauffeur Driven Wedding Cars Leeds ~ Vintage Car Hire Leeds ~ Classic
+    Car Hire Leeds<br>
+    Wedding Limos Leeds ~ Wedding Limo Hire Leeds</h1>
+</div>
+</footer>
+</div>
+
+        </div>
         </main>
         
-        <footer>
-            Max Hemingway<br>
-            01924 370485<br>
-            Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
-            Email: <a class="style4" href=
-            "mailto:max@maxweddingcars.co.uk?subject=Enquiry%20R.E.%20Chauffeur%20Driven%20Car%20Hire">max@maxweddingcars.co.uk</a><br>
-            Site Design &copy; 2015 Blake Hemingway<br>
-            <span class="footer1">Serving all areas of Yorkshire: View <a href="locations.php">Our Locations</a></span>
-
-            <div style="text-align: center">
-                <br />
-
-                <h1 style="text-align: center; font-size: 9px; color:#666; font-family: Arial, Helvetica, sans-serif;">Wedding Cars Leeds ~ Wedding Car Hire
-                Leeds ~ Vintage Wedding Cars Leeds ~ Chauffeur Driven Car Hire Leeds ~ Chauffeur Driven Wedding Cars Leeds ~ Vintage Car Hire Leeds ~ Classic
-                Car Hire Leeds<br>
-                Wedding Limos Leeds ~ Wedding Limo Hire Leeds</h1>
-            </div>
-        </footer>
     </div>
 
     <!-- Start of StatCounter Code -->
@@ -237,15 +213,21 @@ $headers = 'From: '.$email_from."\r\n".
     <!-- End of StatCounter Code -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
-    <script>
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
-        fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=444675232397235";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    
+    <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
+ 
+    <!-- Include js plugin -->
+    <script src="/owl-carousel/owl.carousel.js"></script>
     
     <script src="/js/maxweddingcars.js"></script>
     

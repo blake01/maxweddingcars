@@ -9,6 +9,7 @@ Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeu
 <!-- Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds -->
 
 {% block main %}
+<div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
 <section>
 <h1>Wedding Car Hire in Yorkshire</h1>
 <p>We are based in <strong>Wakefield</strong> and believe that we offer the finest <strong>Wedding Car Hire service in Yorkshire</strong>.We serve all towns and cities therein, including, but not limited to:</p>
@@ -34,4 +35,6 @@ Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeu
 <p>Our reputation is no less formidable in <strong>South Yorkshire</strong>, where we can provide affordable <strong>Wedding Car Hire in Sheffield, Rotherham, Barnsley and Doncaster.</strong></p>
 <p>Note that the list above is not exhaustive; please contact us for a quote for any location in the UK.</p>
 </section>
+{% include 'footer_partial.html' %}
+</div>
 {% endblock %}
