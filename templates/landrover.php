@@ -36,17 +36,17 @@ With its air suspension, climate control, privacy glass and almond leather inter
 {% block other_cars %}
 
 <div class="extra-car">
-<a href="vintage"><img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg"></a>
+<img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg">
 <button type="button" class="btn btn-default"><a href="vintage"><i class="fa fa-search"></i>View</a></button>
 </div>
 
 <div class="extra-car">
-<a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg"></a>
+<img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg">
 <button type="button" class="btn btn-default"><a href="seven_seat_mercedes"><i class="fa fa-search"></i>View</a></button>
 </div>
 
 <div class="extra-car">
-<a href="mercedes"><img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif"></a>
+<img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif">
 <button type="button" class="btn btn-default"><a href="mercedes"><i class="fa fa-search"></i>View</a></button>
 </div>
 {% endblock %}

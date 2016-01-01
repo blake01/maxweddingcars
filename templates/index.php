@@ -17,22 +17,22 @@ We supply only the very best wedding cars including our Vintage style Tourers, M
 <div class="col-sm-6 sidebar pull-right">
         <h2>Browse Our Cars</h2>
         <div class="sidebar-car">
-        <p><a href="vintage"><img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg"></a></p>
+        <img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg">
         <a href="vintage"><button type="button" class="btn btn-default"><i class="fa fa-search"></i>View Vintage Style Tourers</button></a>
         </div>
 
         <div class="sidebar-car">
-        <p><a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg"></a></p>
+        <img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg">
         <a href="seven_seat_mercedes"><button type="button" class="btn btn-default"><i class="fa fa-search"></i>View Mercedes-Benz Limousine</button></a>
         </div>
         
         <div class="sidebar-car">
-        <p><a href="mercedes"><img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif"></a></p>
+        <img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif">
         <a href="mercedes"><button type="button" class="btn btn-default"><i class="fa fa-search"></i>View Mercedes-Benz Saloon</button></a>
         </div>
         
         <div class="sidebar-car">
-        <p><a href="landrover"><img alt="land rover wedding car" src="/img/landrover/exterior.jpg"></a></p>
+        <img alt="land rover wedding car" src="/img/landrover/exterior.jpg">
         <a href="landrover"><button type="button" class="btn btn-default"><i class="fa fa-search"></i>View Land Rover Discovery</button></a>
         </div>
         

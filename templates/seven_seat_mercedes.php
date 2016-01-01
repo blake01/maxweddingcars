@@ -40,17 +40,17 @@
 
 {% block other_cars %}
 <div class="extra-car">
-<a href="vintage"><img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg"></a>
+<img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg">
 <button type="button" class="btn btn-default"><a href="vintage"><i class="fa fa-search"></i>View</a></button>
 </div>
 
 <div class="extra-car">
-<a href="mercedes"><img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif"></a>
+<img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif">
 <button type="button" class="btn btn-default"><a href="mercedes"><i class="fa fa-search"></i>View</a></button>
 </div>
 
 <div class="extra-car">
-<a href="landrover"><img alt="land rover wedding car" src="/img/landrover/exterior.jpg"></a>
+<img alt="land rover wedding car" src="/img/landrover/exterior.jpg">
 <button type="button" class="btn btn-default"><a href="landrover"><i class="fa fa-search"></i>View</a></button>
 </div>
 {% endblock %}

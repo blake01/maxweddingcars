@@ -18,8 +18,6 @@ $(document).ready(function() {
     paginationSpeed : 400,
     singleItem:true  ,
     autoHeight : isHome ,
-    autoPlay: ! isHome,
-    stopOnHover: true,
     navigationText: [
       "<i class='fa fa-angle-left'></i> Previous",
       "Next <i class='fa fa-angle-right'></i>"

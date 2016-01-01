@@ -18,7 +18,7 @@
     <!--Styling -->
     <link rel="stylesheet" href="/owl-carousel/owl.theme.css">
     <link rel="icon" type="image/png" href="http://www.maxweddingcars.co.uk/favicon.png" />
-    <link href="/css/style.css?v=060915" rel="stylesheet" type="text/css">
+    <link href="/css/style.css?v=010116" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -101,6 +101,7 @@
 </div>
 </div>
 <div class="clearfix"></div>
+<hr>
 <div class="col-sm-6 pull-left" id="car-more-info">
 <section>
 <h2>More Information</h2>
@@ -131,17 +132,17 @@ protect you from the elements at any time of year. </p>
 <h2>Browse Our Other Cars</h2>
 
 <div class="extra-car">
-<a href="seven_seat_mercedes"><img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg"></a>
+<img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg">
 <button type="button" class="btn btn-default"><a href="seven_seat_mercedes"><i class="fa fa-search"></i>View</a></button>
 </div>
 
 <div class="extra-car">
-<a href="mercedes"><img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif"></a>
+<img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif">
 <button type="button" class="btn btn-default"><a href="mercedes"><i class="fa fa-search"></i>View</a></button>
 </div>
 
 <div class="extra-car">
-<a href="landrover"><img alt="land rover wedding car" src="/img/landrover/exterior.jpg"></a>
+<img alt="land rover wedding car" src="/img/landrover/exterior.jpg">
 <button type="button" class="btn btn-default"><a href="landrover"><i class="fa fa-search"></i>View</a></button>
 </div>
 
