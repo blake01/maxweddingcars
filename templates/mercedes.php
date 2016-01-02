@@ -27,11 +27,7 @@ Benz. Finished in brilliant silver, this air conditioned saloon is equally  suit
 solution for transporting your bridesmaids/ guests when a second car is required.</p>
 <p>This vehicle seats <b>four passengers, plus the chauffeur</b>.</p>
 <h3>Get a Quote</h3>
-<div id="call-to-action">
-<a href="tel:01924370485"><button type="button" class="btn btn-primary" id="first-button"><i class="fa fa-phone"></i>01924 370485</button></a>
-<a href="contact"><button type="button" class="btn btn-primary"><i class="fa fa-envelope"></i>Enquire</button></a>
-<div class="clearfix"></div>
-</div>
+{% include 'call_to_action.html' %}
 <h3>Share on Social Media</h3>
 <div class="pin">
 <a data-pin-do="buttonPin" data-pin-color="red" data-pin-count="beside" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.maxweddingcars.co.uk%2Fmercedes&media=http%3A%2F%2Fwww.maxweddingcars.co.uk%2Fimg%2Fmerc%2FMerc-Large.gif&description=Mercedes%20Benz%20Wedding%20Car"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" /></a>

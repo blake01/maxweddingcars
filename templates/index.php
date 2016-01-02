@@ -8,8 +8,8 @@
 
 {% block main %}
 <div class="col-sm-6 pull-left">
-<h1>Wedding Car Hire in Yorkshire</h1>
 <section>
+<h1>Wedding Car Hire in Yorkshire</h1>
 <p>At Maxweddingcars, we have built a formidable reputation based on reliability and superior levels of service.
 We supply only the very best wedding cars including our Vintage style Tourers, Mercedes Benz and Mercedes Benz Limousine.</p>
 </section>
@@ -49,11 +49,7 @@ We supply only the very best wedding cars including our Vintage style Tourers, M
 <section>
 <h2>Get a Quote</h2>
 <p>Simply call us or use our online enquiry form to get a quotation or arrange to view our cars.</p>
-<div id="call-to-action">
-<a href="tel:01924370485" class="btn btn-primary" id="first-button"><i class="fa fa-phone"></i>01924 370485</a>
-<a href="contact" class="btn btn-primary"><i class="fa fa-envelope"></i>Enquire</a>
-<div class="clearfix"></div>
-</div>
+{% include 'call_to_action.html' %}
 </section>
 <h2>More About Maxweddingcars</h2>
 <section>

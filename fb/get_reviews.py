@@ -11,7 +11,7 @@ e = Environment()
 
 html = """
   <div class="review">
-    <img src="{{ img_src }}">
+    <img src="{{ img_src }}" alt="{{ name }} Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>

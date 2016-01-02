@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
-    <meta content="text/html; charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Blake Hemingway">
@@ -16,9 +17,10 @@
     <meta content="53.801279;-1.548567" name="geo.position">
     <meta content="53.801279, -1.548567" name="ICBM">
     <!--Styling -->
+    <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="/owl-carousel/owl.theme.css">
     <link rel="icon" type="image/png" href="http://www.maxweddingcars.co.uk/favicon.png" />
-    <link href="/css/style.css?v=010116" rel="stylesheet" type="text/css">
+    <link href="/css/style.css?v=010216" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -45,18 +47,10 @@
             </div>
             <nav>
               <ul>
-                <a href="/">
-                  <li><i class="fa fa-home"></i> Home</li>
-                </a>
-                <a href="contact">
-                  <li><i class="fa fa-envelope-o"></i> Enquire</li>
-                </a>
-                <a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream">
-                  <li><i class="fa fa-facebook"></i>Facebook Gallery</li>
-                </a> 
-                <a href="tel:01924370485">
-                  <li class="visible-xs"><i class="fa fa-phone"></i> 01924 370485</li>
-                </a>  
+                  <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                  <li><a href="contact"><i class="fa fa-envelope-o"></i> Enquire</a></li>
+                  <li><a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream"><i class="fa fa-facebook"></i>Facebook Gallery</a></li>
+                  <li class="visible-xs"><a href="tel:01924370485"><i class="fa fa-phone"></i> 01924 370485</a></li>
               </ul>    
             </nav>
         </header>
@@ -64,8 +58,8 @@
         <main class="row">
             
 <div class="col-sm-6 pull-left">
-<h1>Wedding Car Hire in Yorkshire</h1>
 <section>
+<h1>Wedding Car Hire in Yorkshire</h1>
 <p>At Maxweddingcars, we have built a formidable reputation based on reliability and superior levels of service.
 We supply only the very best wedding cars including our Vintage style Tourers, Mercedes Benz and Mercedes Benz Limousine.</p>
 </section>
@@ -101,7 +95,7 @@ We supply only the very best wedding cars including our Vintage style Tourers, M
 <div id="owl-example" class="owl-carousel">
   
   <div class="review">
-    <img src="/fb/845082252267876.jpg">
+    <img src="/fb/845082252267876.jpg" alt="Marlaina Luigjes Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -115,7 +109,7 @@ We supply only the very best wedding cars including our Vintage style Tourers, M
     <p>Can I say, that the car was beautiful but mostly the driver, Steve was absolutely fantastic. He was helpful, courteous and professional.  He did a fantastic job helping getting my 2 small children in and out of the car, and also helped with my dress. We had an amazing day and would recommend that everyone should Max for cars. A special thank you to Steve you were amazing xxx</p>
   </div>
   <div class="review">
-    <img src="/fb/10207992174459788.jpg">
+    <img src="/fb/10207992174459788.jpg" alt="Mark Ballance Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -129,7 +123,7 @@ We supply only the very best wedding cars including our Vintage style Tourers, M
     <p>Just wanted to say many thanks for making our day extra special. From start to finish everything was perfect. Great to see the passion you have in your cars, that you hand built, which all shows in the extra care, details and quality you offer. Would not hesitate to recommend you.</p>
   </div>
   <div class="review">
-    <img src="/fb/10208038927481395.jpg">
+    <img src="/fb/10208038927481395.jpg" alt="Soleil Barrett Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -143,7 +137,7 @@ We supply only the very best wedding cars including our Vintage style Tourers, M
     <p>Excellent very friendly got us to the venue on time. Thanks :-)</p>
   </div>
   <div class="review">
-    <img src="/fb/10207192363720863.jpg">
+    <img src="/fb/10207192363720863.jpg" alt="Karen Gunson Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -158,7 +152,7 @@ We supply only the very best wedding cars including our Vintage style Tourers, M
 he is so polite, patient, understand and down to earth nothing is too much trouble for him and his cars are amazing you definitely won't be disappointed 10/10 service</p>
   </div>
   <div class="review">
-    <img src="/fb/548502378646159.jpg">
+    <img src="/fb/548502378646159.jpg" alt="Si&#226;n Lois Le Masurier Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -172,7 +166,7 @@ he is so polite, patient, understand and down to earth nothing is too much troub
     <p>Absolutely loved the wedding cars, definitely recommend. Your service was amazing thank you so much x</p>
   </div>
   <div class="review">
-    <img src="/fb/10207130065983964.jpg">
+    <img src="/fb/10207130065983964.jpg" alt="Claire Robinson Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -186,7 +180,7 @@ he is so polite, patient, understand and down to earth nothing is too much troub
     <p>I can highly recommended maxwedding cars. Professional cars are immaculate max really made me feel at ease on Saturday. Thanks max</p>
   </div>
   <div class="review">
-    <img src="/fb/10100241532336792.jpg">
+    <img src="/fb/10100241532336792.jpg" alt="Kat Brook Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -200,7 +194,7 @@ he is so polite, patient, understand and down to earth nothing is too much troub
     <p>Excellent car and wonderful Max! Thank you so much! xx</p>
   </div>
   <div class="review">
-    <img src="/fb/10208169305853075.jpg">
+    <img src="/fb/10208169305853075.jpg" alt="Emma Brierley Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -214,7 +208,7 @@ he is so polite, patient, understand and down to earth nothing is too much troub
     <p>Best by far...  Used for our wedding in 2010...  We had snow and the service was the best ever xx highly recommended xx</p>
   </div>
   <div class="review">
-    <img src="/fb/10154486620224972.jpg">
+    <img src="/fb/10154486620224972.jpg" alt="Tom Crook Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -228,7 +222,7 @@ he is so polite, patient, understand and down to earth nothing is too much troub
     <p>Fantastic bloke, attention to detail and customer care is second to non. Max will look after you and bring a touch of class to your event. Superb.</p>
   </div>
   <div class="review">
-    <img src="/fb/535240363302387.jpg">
+    <img src="/fb/535240363302387.jpg" alt="Megan Waugh Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -320,8 +314,6 @@ All our wedding cars are, of course, tastefully trimmed and may be co-ordinated 
     }(document, 'script', 'facebook-jssdk'));</script>
 
     
-    <!-- Important Owl stylesheet -->
-    <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
  
     <!-- Include js plugin -->
     <script src="/owl-carousel/owl.carousel.js"></script>

@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 
 <html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
-    <meta content="text/html; charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Blake Hemingway">
@@ -16,9 +17,10 @@
     <meta content="53.801279;-1.548567" name="geo.position">
     <meta content="53.801279, -1.548567" name="ICBM">
     <!--Styling -->
+    <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="/owl-carousel/owl.theme.css">
     <link rel="icon" type="image/png" href="http://www.maxweddingcars.co.uk/favicon.png" />
-    <link href="/css/style.css?v=010116" rel="stylesheet" type="text/css">
+    <link href="/css/style.css?v=010216" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -45,18 +47,10 @@
             </div>
             <nav>
               <ul>
-                <a href="/">
-                  <li><i class="fa fa-home"></i> Home</li>
-                </a>
-                <a href="contact">
-                  <li><i class="fa fa-envelope-o"></i> Enquire</li>
-                </a>
-                <a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream">
-                  <li><i class="fa fa-facebook"></i>Facebook Gallery</li>
-                </a> 
-                <a href="tel:01924370485">
-                  <li class="visible-xs"><i class="fa fa-phone"></i> 01924 370485</li>
-                </a>  
+                  <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
+                  <li><a href="contact"><i class="fa fa-envelope-o"></i> Enquire</a></li>
+                  <li><a target="_blank" href="https://www.facebook.com/pages/Maxweddingcars/259756950891843?sk=photos_stream"><i class="fa fa-facebook"></i>Facebook Gallery</a></li>
+                  <li class="visible-xs"><a href="tel:01924370485"><i class="fa fa-phone"></i> 01924 370485</a></li>
               </ul>    
             </nav>
         </header>
@@ -74,18 +68,18 @@
 
 <form action="send_form_email.php" id="contactform" method="post" name="contactform" onsubmit="return validate(this)">
     <div>
-        <label for="name">Full Name *</label>
-        <input name="name" type="text" required>
+        <label for="f-name">Full Name *</label>
+        <input id="f-name" name="name" type="text" required>
     </div>
     
     <div>
-        <label for="email">Email Address *</label>
-        <input name="email" type="email" required>
+        <label for="f-email">Email Address *</label>
+        <input id="f-email" name="email" type="email" required>
     </div>
 
     <div>
-        <label for="telephone">Telephone Number *</label>
-        <input name="telephone" type="text" placeholder="UK Landline inc. Area Code or Mobile " required>
+        <label for="f-telephone">Telephone Number *</label>
+        <input id="f-telephone" name="telephone" type="text" placeholder="UK Landline inc. Area Code or Mobile " required>
     </div>
     
     <div>
@@ -106,7 +100,7 @@
                 $now_day = date("d");
                 for($d = 1; $d <= 31; $d++) {
                     if ($d == $now_day) {
-                        echo "<option selected='$d'>$d</option>";
+                        echo "<option value='$d' selected>$d</option>";
                     } else {
                         echo "<option value='$d'>$d</option>";
                     }
@@ -120,7 +114,7 @@
                 $months = $cal_info['abbrevmonths'];
                 foreach ($months as $month) {
                     if ($month == $now_month) {
-                        echo "<option selected='$month'>$month</option>";
+                        echo "<option value='$month' selected>$month</option>";
                     } else {
                         echo "<option value='$month'>$month</option>";
                     }
@@ -144,28 +138,28 @@
         <div class="input">
             <label><input class="force-full-width" id="addressLine1" name="addressLine1" type="text" placeholder="Address Line 1" required></label>
             <label><input class="force-full-width" id="addressLine2" name="addressLine2" type="text" placeholder="Address Line 2"></label>
-            <label><input class="force-full-width" id="addressLine3" name="addressLine3" type="text" placeholder="Town/City" required></label></td>
+            <label><input class="force-full-width" id="addressLine3" name="addressLine3" type="text" placeholder="Town/City" required></label>
         </div>
     </div>
     
     <div>
-        <label for="postcode">Postcode *</label>
-        <input name="postcode" type="text" required>
+        <label for="f-postcode">Postcode *</label>
+        <input id="f-postcode" name="postcode" type="text" required>
     </div>
     
     <div>
-        <label for="destination1">Wedding/Ceremony Venue *</label>  
-        <input name="destination1" type="text" required>
+        <label for="f-destination1">Wedding/Ceremony Venue *</label>  
+        <input id="f-destination1" name="destination1" type="text" required>
     </div>
     
     <div>
-        <label for="destination2">Reception Venue (if applicable)</label>
-        <input name="destination2" type="text">
+        <label for="f-destination2">Reception Venue (if applicable)</label>
+        <input id="f-destination2" name="destination2" type="text">
     </div>
 
     <div>
-        <label for="comments">Addtional Comments (optional)</label>
-        <textarea class="input" cols="28" name="comments" rows="4"></textarea>
+        <label for="f-comments">Addtional Comments (optional)</label>
+        <textarea id="f-comments" class="input" cols="28" name="comments" rows="4"></textarea>
     </div>
     
     <button class="button btn btn-primary" type="submit" ><i class="fa fa-send"></i>Submit Enquiry</button>
@@ -226,8 +220,6 @@
     }(document, 'script', 'facebook-jssdk'));</script>
 
     
-    <!-- Important Owl stylesheet -->
-    <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
  
     <!-- Include js plugin -->
     <script src="/owl-carousel/owl.carousel.js"></script>
