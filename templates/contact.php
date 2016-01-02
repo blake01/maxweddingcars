@@ -15,7 +15,6 @@
 
 <p>Alternatively, please complete the form below and we will endeavour to respond within 24 hours.</p>
 </section>
-<section>
 
 <form action="send_form_email.php" id="contactform" method="post" name="contactform" onsubmit="return validate(this)">
     <div>
@@ -113,11 +112,9 @@
         <textarea class="input" cols="28" name="comments" rows="4"></textarea>
     </div>
     
-    <input class="button btn btn-primary" type="submit" value=" Submit Enquiry ">
+    <button class="button btn btn-primary" type="submit" ><i class="fa fa-send"></i>Submit Enquiry</button>
     
 </form>
-</section>
-{% include 'footer_partial.html' %}
 </div>
 <script src="js/validate.js"></script>
 {% endblock %}

@@ -63,7 +63,6 @@ Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeu
         </header>
 
         <main class="row">
-        <div id="inner-wrap">
             
 <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
 <section>
@@ -86,33 +85,36 @@ Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeu
 <h2>Wedding Car Hire York</h2>
 <p>We also have many years experience of serving <strong>North Yorkshire</strong>, and can provide you with a bespoke quote for <strong>Wedding Car Hire in York</strong> if you contact us on the telephone number above or via the 'enquire' link. We provide chauffeur services in the York area, including the towns of <strong>Harrogate, Wetherby, Knaresborough and Tadcaster.</strong></p>
 </section>
-<section>
+<section class="borderless">
 <h2>Wedding Car Hire Sheffield</h2>
 <p>Our reputation is no less formidable in <strong>South Yorkshire</strong>, where we can provide affordable <strong>Wedding Car Hire in Sheffield, Rotherham, Barnsley and Doncaster.</strong></p>
 <p>Note that the list above is not exhaustive; please contact us for a quote for any location in the UK.</p>
 </section>
-<footer>
-Max Hemingway<br>
-01924 370485<br>
-Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
-Email: <a href=
-"mailto:max@maxweddingcars.co.uk?subject=Enquiry%20R.E.%20Chauffeur%20Driven%20Car%20Hire">max@maxweddingcars.co.uk</a><br>
-Site Design &copy; 2015 Blake Hemingway<br>
-<span class="footer1">Serving all areas of Yorkshire: View <a href="locations.php">Our Locations</a></span>
-
-<div style="text-align: center">
-    <br />
-
-    <h1 style="text-align: center; font-size: 9px; color:#666; font-family: Arial, Helvetica, sans-serif;">Wedding Cars Leeds ~ Wedding Car Hire
-    Leeds ~ Vintage Wedding Cars Leeds ~ Chauffeur Driven Car Hire Leeds ~ Chauffeur Driven Wedding Cars Leeds ~ Vintage Car Hire Leeds ~ Classic
-    Car Hire Leeds<br>
-    Wedding Limos Leeds ~ Wedding Limo Hire Leeds</h1>
-</div>
-</footer>
 </div>
 
-        </div>
         </main>
+        <footer>
+        <hr>
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+        Max Hemingway<br>
+        01924 370485<br>
+        Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
+        Email: <a href=
+        "mailto:max@maxweddingcars.co.uk?subject=Enquiry%20R.E.%20Chauffeur%20Driven%20Car%20Hire">max@maxweddingcars.co.uk</a><br>
+        Site Design &copy; 2016 Blake Hemingway<br>
+        <span class="footer1">Serving all areas of Yorkshire: View <a href="locations.php">Our Locations</a></span>
+
+        <div style="text-align: center">
+        <br />
+
+        <h1 style="text-align: center; font-size: 9px; color:#666; font-family: Arial, Helvetica, sans-serif;">Wedding Cars Leeds ~ Wedding Car Hire
+        Leeds ~ Vintage Wedding Cars Leeds ~ Chauffeur Driven Car Hire Leeds ~ Chauffeur Driven Wedding Cars Leeds ~ Vintage Car Hire Leeds ~ Classic
+        Car Hire Leeds<br>
+        Wedding Limos Leeds ~ Wedding Limo Hire Leeds</h1>
+        </div>
+        </div>
+        <div class="clearfix"></div>
+        </footer>
         
     </div>
 
@@ -148,7 +150,7 @@ Site Design &copy; 2015 Blake Hemingway<br>
     <!-- Include js plugin -->
     <script src="/owl-carousel/owl.carousel.js"></script>
     
-    <script src="/js/maxweddingcars.js"></script>
+    <script src="/js/maxweddingcars.js?v=020116"></script>
     
 </body>
 </html>

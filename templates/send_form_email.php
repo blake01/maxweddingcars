@@ -108,12 +108,11 @@ $headers = 'From: '.$email_from."\r\n".
 
 {% block main %}
 <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
-<section>
+<section class="borderless">
 <h1>Thank You for your Enquiry</h1>
 <p>Your enquiry has been successfully submitted. We will endeavour to respond  within 24 hours. </p>
 <p>Meanwhile, please feel free to continue browsing our site.</p>
 </section>
-{% include 'footer_partial.html' %}
 </div>
 {% endblock %}
 

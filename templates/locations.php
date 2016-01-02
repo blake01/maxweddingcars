@@ -30,11 +30,10 @@ Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeu
 <h2>Wedding Car Hire York</h2>
 <p>We also have many years experience of serving <strong>North Yorkshire</strong>, and can provide you with a bespoke quote for <strong>Wedding Car Hire in York</strong> if you contact us on the telephone number above or via the 'enquire' link. We provide chauffeur services in the York area, including the towns of <strong>Harrogate, Wetherby, Knaresborough and Tadcaster.</strong></p>
 </section>
-<section>
+<section class="borderless">
 <h2>Wedding Car Hire Sheffield</h2>
 <p>Our reputation is no less formidable in <strong>South Yorkshire</strong>, where we can provide affordable <strong>Wedding Car Hire in Sheffield, Rotherham, Barnsley and Doncaster.</strong></p>
 <p>Note that the list above is not exhaustive; please contact us for a quote for any location in the UK.</p>
 </section>
-{% include 'footer_partial.html' %}
 </div>
 {% endblock %}

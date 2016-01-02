@@ -32,7 +32,7 @@ body {
   position:relative;
   text-align:center;
   width:100%;
-  max-width: 1200px;
+  max-width: 1250px;
 }
 
 #container {
@@ -45,12 +45,9 @@ body {
     padding: 20px;
 }
 
-#inner-wrap {
-    max-width: 600px;
-    margin: 0 auto;
-    @media (min-width:$screen-sm) {
-        max-width: 100%;
-    }
+a:hover {
+text-decoration: none;
+color: inherit;
 }
 
 /* Header */
@@ -88,10 +85,6 @@ header h1,header h2 {
   font-weight: bold;
   @media (max-width:300px) {
     display: none;
-  }
-  a:hover {
-    text-decoration: none;
-    color: inherit;
   }
 }
 
@@ -208,10 +201,7 @@ nav a {
 footer {
   color:#666;
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height:20px;
-  margin:0 15px;
   text-align:center;
-  margin-top: 20px;
   font-size: 12px;
 }
 
@@ -233,7 +223,7 @@ footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:
     margin: 10px 0;
     box-shadow:3px 3px 3px #888;
   }
-  img, button {
+  img, a {
     width:100%;
     @media (min-width:$screen-sm) {
         width: 85%;
@@ -246,8 +236,8 @@ footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:
 }
 
 .extra-car {
-    width: 50%;
-    min-width: 250px;
+    width: 250px;
+    max-width: 85%;
     text-align: center;
     margin: 0 auto 10px;
     > *, img {
@@ -260,14 +250,7 @@ footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:
     }
 }
 
-button {
-    white-space: normal;
-    a:hover {
-        text-decoration: none;
-    }
-}
-
-button .fa {
+.btn .fa {
   padding-right: 1em;
 }
 
@@ -276,11 +259,29 @@ button .fa {
   margin-bottom: 1em;
 }
 
+.fb-share-button, .pin {
+    display: block!important;
+    margin: 1.5em 0;
+}
+
 /* Main content */
 
+main, footer {
+    padding:0 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    @media (min-width:$screen-sm) {
+        max-width: 100%;
+    }
+}
+
 main {
-  padding:0 15px;
-  text-align:left;
+    text-align:left;
+}
+
+.row {
+    /* Override Bootstrap default */
+    margin: 0 auto;
 }
 
 section {
@@ -289,6 +290,11 @@ section {
   position: relative;
   width: 100%;
 }
+
+.borderless {
+    border-bottom: none;
+}
+
 
 main h3 {
   color:#000;
@@ -304,10 +310,11 @@ main h1, main h2, .sidebar h2 {
 }
 
 #call-to-action {
-  button {
+  .btn {
     margin: 0 0 20px;
     width: 100%;
     float: left;
+    color: white;
     @media (min-width:$screen-xs) {
         width: 45%;
     }
@@ -358,6 +365,8 @@ form > div {
   > label, >.label {
     margin: 2% 1%;
     font-weight: bold;
+    color: inherit;
+    font-size: inherit;
   }
   label, .label {
     display: block;
@@ -372,8 +381,10 @@ form > div {
 
 form {
   text-align: center;
+  margin: 2em 0 0;
   .button {
-    margin: 5%;
+    margin: 2em;
+    min-width: 30%;
   }
 }
 

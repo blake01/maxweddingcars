@@ -45,7 +45,7 @@ backdrop to your Wedding photographs. Enjoy the experience of travelling in styl
 <p>Should the weather be unkind, these cars have soft top hoods (see pictures) to 
 protect you from the elements at any time of year. </p>
 <p>Our Tourers are four door &lsquo;long bodied&rsquo; versions of the marque, affording greater rear space for your comfort.</p>
-<p>These cars each seat <b>three passengers</b>, plus the chauffeur.</p>
+<p>These cars each seat <b>three passengers, plus the chauffeur</b>.</p>
 <p>See our Mercedes Benz Limousine if you require additional transport for several Bridesmaids.</p>
 <h3>Get a Quote</h3>
 <div id="call-to-action">
@@ -54,7 +54,9 @@ protect you from the elements at any time of year. </p>
 <div class="clearfix"></div>
 </div>
 <h3>Share on Social Media</h3>
+<div class="pin">
 <a data-pin-do="buttonPin" data-pin-color="red" data-pin-count="beside" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.maxweddingcars.co.uk%2Fvintage&media=http%3A%2F%2Fwww.maxweddingcars.co.uk%2Fimg%2Fvintage%2Fbeaufordpair.jpg&description=Vintage%20Style%20Wedding%20Cars"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" /></a>
+</div>
 <div class="fb-share-button" data-href="http://www.maxweddingcars.co.uk/vintage" data-layout="button_count"></div>
 <div class="clearfix"></div>
 <br>
@@ -63,16 +65,16 @@ protect you from the elements at any time of year. </p>
 {% block other_cars %}
 <div class="extra-car">
 <img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg">
-<button type="button" class="btn btn-default"><a href="seven_seat_mercedes"><i class="fa fa-search"></i>View</a></button>
+<a href="seven_seat_mercedes" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 
 <div class="extra-car">
 <img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif">
-<button type="button" class="btn btn-default"><a href="mercedes"><i class="fa fa-search"></i>View</a></button>
+<a href="mercedes" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 
 <div class="extra-car">
 <img alt="land rover wedding car" src="/img/landrover/exterior.jpg">
-<button type="button" class="btn btn-default"><a href="landrover"><i class="fa fa-search"></i>View</a></button>
+<a href="landrover" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 {% endblock %}

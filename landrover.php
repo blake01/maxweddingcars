@@ -67,7 +67,6 @@
         </header>
 
         <main class="row">
-        <div id="inner-wrap">
             
 <div class="col-xs-12">
 <h1>Land Rover Discovery</h1>
@@ -82,11 +81,10 @@
 <div class="clearfix"></div>
 <hr>
 <div class="col-sm-6 pull-left" id="car-more-info">
-<section>
 <h2>More Information</h2>
 
 <p>This Land Rover Discovery is the latest addition to our fleet.
-With its air suspension, climate control, privacy glass and almond leather interior, it has the ability to transport up to six in total luxury. It makes a superb Groom's or Bridesmaid's car, and also suits the Bride who is seeking out the unusual.</p>
+With its air suspension, climate control, privacy glass and almond leather interior, it has the ability to transport up to <b>six passengers plus the chauffeur</b> in total luxury. It makes a superb Groom's or Bridesmaid's car, and also suits the Bride who is seeking out the unusual.</p>
 <h3>Get a Quote</h3>
 <div id="call-to-action">
 <a href="tel:01924370485"><button type="button" class="btn btn-primary" id="first-button"><i class="fa fa-phone"></i>01924 370485</button></a>
@@ -94,12 +92,14 @@ With its air suspension, climate control, privacy glass and almond leather inter
 <div class="clearfix"></div>
 </div>
 <h3>Share on Social Media</h3>
+<div class="pin">
 <a data-pin-do="buttonPin" data-pin-color="red" data-pin-count="beside" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.maxweddingcars.co.uk%2Flandrover&media=http%3A%2F%2Fwww.maxweddingcars.co.uk%2Fimg%2Flandrover%2Fexterior.jpg&description=Land%20Rover%20Discovery%20Wedding%20Car"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" /></a>
+</div>
 <div class="fb-share-button" data-href="http://www.maxweddingcars.co.uk/vintage" data-layout="button_count"></div>
 <div class="clearfix"></div>
 <br>
 
-</section>
+<hr class="visible-xs">
 </div>
 <div class="col-sm-6 pull-right">
 <h2>Browse Our Other Cars</h2>
@@ -107,46 +107,45 @@ With its air suspension, climate control, privacy glass and almond leather inter
 
 <div class="extra-car">
 <img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg">
-<button type="button" class="btn btn-default"><a href="vintage"><i class="fa fa-search"></i>View</a></button>
+<a href="vintage" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 
 <div class="extra-car">
 <img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg">
-<button type="button" class="btn btn-default"><a href="seven_seat_mercedes"><i class="fa fa-search"></i>View</a></button>
+<a href="seven_seat_mercedes" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 
 <div class="extra-car">
 <img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif">
-<button type="button" class="btn btn-default"><a href="mercedes"><i class="fa fa-search"></i>View</a></button>
+<a href="mercedes" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 
-</div>
-<div class="clearfix visible-xs"></div>
-<div class="col-sm-6 pull-left">
-<hr class="visible-xs">
-<footer>
-Max Hemingway<br>
-01924 370485<br>
-Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
-Email: <a href=
-"mailto:max@maxweddingcars.co.uk?subject=Enquiry%20R.E.%20Chauffeur%20Driven%20Car%20Hire">max@maxweddingcars.co.uk</a><br>
-Site Design &copy; 2015 Blake Hemingway<br>
-<span class="footer1">Serving all areas of Yorkshire: View <a href="locations.php">Our Locations</a></span>
-
-<div style="text-align: center">
-    <br />
-
-    <h1 style="text-align: center; font-size: 9px; color:#666; font-family: Arial, Helvetica, sans-serif;">Wedding Cars Leeds ~ Wedding Car Hire
-    Leeds ~ Vintage Wedding Cars Leeds ~ Chauffeur Driven Car Hire Leeds ~ Chauffeur Driven Wedding Cars Leeds ~ Vintage Car Hire Leeds ~ Classic
-    Car Hire Leeds<br>
-    Wedding Limos Leeds ~ Wedding Limo Hire Leeds</h1>
-</div>
-</footer>
 </div>
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
-        </div>
         </main>
+        <footer>
+        <hr>
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+        Max Hemingway<br>
+        01924 370485<br>
+        Bradford Road, Wakefield, West Yorkshire, WF12AS<br>
+        Email: <a href=
+        "mailto:max@maxweddingcars.co.uk?subject=Enquiry%20R.E.%20Chauffeur%20Driven%20Car%20Hire">max@maxweddingcars.co.uk</a><br>
+        Site Design &copy; 2016 Blake Hemingway<br>
+        <span class="footer1">Serving all areas of Yorkshire: View <a href="locations.php">Our Locations</a></span>
+
+        <div style="text-align: center">
+        <br />
+
+        <h1 style="text-align: center; font-size: 9px; color:#666; font-family: Arial, Helvetica, sans-serif;">Wedding Cars Leeds ~ Wedding Car Hire
+        Leeds ~ Vintage Wedding Cars Leeds ~ Chauffeur Driven Car Hire Leeds ~ Chauffeur Driven Wedding Cars Leeds ~ Vintage Car Hire Leeds ~ Classic
+        Car Hire Leeds<br>
+        Wedding Limos Leeds ~ Wedding Limo Hire Leeds</h1>
+        </div>
+        </div>
+        <div class="clearfix"></div>
+        </footer>
         
     </div>
 
@@ -182,7 +181,7 @@ Site Design &copy; 2015 Blake Hemingway<br>
     <!-- Include js plugin -->
     <script src="/owl-carousel/owl.carousel.js"></script>
     
-    <script src="/js/maxweddingcars.js"></script>
+    <script src="/js/maxweddingcars.js?v=020116"></script>
     
 </body>
 </html>
