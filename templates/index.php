@@ -8,7 +8,7 @@
 
 {% block main %}
 <div class="col-sm-6 pull-left">
-<section>
+<section class="no-top-padding">
 <h1>Wedding Car Hire in Yorkshire</h1>
 <p>At Maxweddingcars, we have built a formidable reputation based on reliability and superior levels of service.
 We supply only the very best wedding cars including our Vintage style Tourers, Mercedes Benz and Mercedes Benz Limousine.</p>
