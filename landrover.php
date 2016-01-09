@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Blake Hemingway">
+    <meta name="author" content="Max Hemingway">
     <title>Wedding Cars for Hire || Mercedes Benz</title>
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -31,7 +31,7 @@
     <meta property="og:site_name" content="Maxweddingcars" />
     
 <meta property="og:url"                content="http://www.maxweddingcars.co.uk/landrover" />
-<meta property="og:title"              content="Land Rover Discovery" />
+<meta property="og:title"              content="Maxweddingcars - Land Rover Discovery" />
 <meta property="og:description"        content="The Land Rover Discovery makes a superb Groom's or Bridesmaid's car, and also suits the Bride who is seeking out the unusual." />
 <meta property="og:image"              content="http://www.maxweddingcars.co.uk/img/landrover/exterior.jpg" />
 

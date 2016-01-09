@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Blake Hemingway">
+    <meta name="author" content="Max Hemingway">
     <title>Wedding Cars for Hire || Mercedes Benz Seven Passenger Limousine</title>
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -31,9 +31,9 @@
     <meta property="og:site_name" content="Maxweddingcars" />
     
 <meta property="og:url"                content="http://www.maxweddingcars.co.uk/seven_seat_mercedes" />
-<meta property="og:title"              content="Mercedes-Benz Seven Passenger Limousine" />
+<meta property="og:title"              content="Maxweddingcars - Mercedes-Benz Seven Passenger Limousine" />
 <meta property="og:description"        content="This superb vehicle, finished in Pearl white, can carry seven passengers plus the chauffeur in total comfort." />
-<meta property="og:image"              content="http://www.maxweddingcars.co.uk/img/vintage/beaufordpair.jpg" />
+<meta property="og:image"              content="http://www.maxweddingcars.co.uk/img/stretch-merc/merc-stretch-quarter-front.jpg" />
 
 </head>
 

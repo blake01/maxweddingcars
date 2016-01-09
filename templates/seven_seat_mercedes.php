@@ -4,9 +4,9 @@
 
 {% block head %}
 <meta property="og:url"                content="http://www.maxweddingcars.co.uk/seven_seat_mercedes" />
-<meta property="og:title"              content="Mercedes-Benz Seven Passenger Limousine" />
+<meta property="og:title"              content="Maxweddingcars - Mercedes-Benz Seven Passenger Limousine" />
 <meta property="og:description"        content="This superb vehicle, finished in Pearl white, can carry seven passengers plus the chauffeur in total comfort." />
-<meta property="og:image"              content="http://www.maxweddingcars.co.uk/img/vintage/beaufordpair.jpg" />
+<meta property="og:image"              content="http://www.maxweddingcars.co.uk/img/stretch-merc/merc-stretch-quarter-front.jpg" />
 {% endblock %}
 
 {% block img_tags %}

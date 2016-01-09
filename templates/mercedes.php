@@ -13,7 +13,7 @@
 
 {% block head %}
 <meta property="og:url"                content="http://www.maxweddingcars.co.uk/mercedes" />
-<meta property="og:title"              content="Mercedes-Benz" />
+<meta property="og:title"              content="Maxweddingcars - Mercedes-Benz" />
 <meta property="og:description"        content="If your wedding theme is less traditional you may prefer the elegant yet modern style of our Mercedes Benz." />
 <meta property="og:image"              content="http://www.maxweddingcars.co.uk/img/merc/Merc-Large.gif" />
 {% endblock %}

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Blake Hemingway">
+    <meta name="author" content="Max Hemingway">
     <title>Wedding Cars for Hire || Vintage Style Tourers</title>
     <meta content="" name="keywords">
     <meta content="" name="description">

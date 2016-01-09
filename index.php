@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Blake Hemingway">
+    <meta name="author" content="Max Hemingway">
     <title>Wedding Cars Leeds | Maxweddingcars | Ring 01924 370485 For Classic Car Hire Leeds</title>
     <meta content="Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds" name="keywords">
     <meta content="Wedding Cars Leeds with Maxweddingcars. We have built a formidable reputation based on reliability and superior levels of service. We supply only the very best wedding cars including our Vintage style Tourers, Rolls Royce and Mercedes Benz. Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds" name="description">
