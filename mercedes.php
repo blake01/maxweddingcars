@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="/owl-carousel/owl.theme.css">
     <link rel="icon" type="image/png" href="http://www.maxweddingcars.co.uk/favicon.png" />
-    <link href="/css/style.css?v=010216" rel="stylesheet" type="text/css">
+    <link href="/css/style.css?v=090116" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lusitana:400,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -162,7 +162,7 @@ solution for transporting your bridesmaids/ guests when a second car is required
         </div>
     </noscript> 
     <!-- End of StatCounter Code -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
