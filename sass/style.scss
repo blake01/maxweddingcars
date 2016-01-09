@@ -190,7 +190,7 @@ nav a {
     padding: 6px 12px;
     border: 1px solid $brand-primary;
     font-size: $font-size-base;
-    min-width: 45%;
+    width: 45%;
     margin: 10px 0 0 0;
     &:hover {
     background-color: darken($golden,10);
