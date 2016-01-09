@@ -318,7 +318,7 @@ All our wedding cars are, of course, tastefully trimmed and may be co-ordinated 
     <!-- Include js plugin -->
     <script src="/owl-carousel/owl.carousel.js"></script>
     
-    <script src="/js/maxweddingcars.js?v=020116"></script>
+    <script src="/js/maxweddingcars.js?v=090116"></script>
     
 </body>
 </html>

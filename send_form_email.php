@@ -223,7 +223,7 @@ $headers = 'From: '.$email_from."\r\n".
     <!-- Include js plugin -->
     <script src="/owl-carousel/owl.carousel.js"></script>
     
-    <script src="/js/maxweddingcars.js?v=020116"></script>
+    <script src="/js/maxweddingcars.js?v=090116"></script>
     
 </body>
 </html>

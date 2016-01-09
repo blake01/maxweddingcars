@@ -178,7 +178,7 @@ solution for transporting your bridesmaids/ guests when a second car is required
     <!-- Include js plugin -->
     <script src="/owl-carousel/owl.carousel.js"></script>
     
-    <script src="/js/maxweddingcars.js?v=020116"></script>
+    <script src="/js/maxweddingcars.js?v=090116"></script>
     
 </body>
 </html>

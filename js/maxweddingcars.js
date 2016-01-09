@@ -26,11 +26,23 @@ $(document).ready(function() {
   });
   
   // Now move the carousel to random item.
+  owl = $("#owl-example").data('owlCarousel');
   if (isHome) {
-    owl = $("#owl-example").data('owlCarousel');
     if (owl) {
         owl.jumpTo(Math.floor(Math.random() * owl.itemsAmount));
     }
+  }
+  
+  // Fix for Owl with Respond in IE<9
+  var div = document.createElement("div");
+  div.innerHTML = "<!--[if lt IE 9]><i></i><![endif]-->";
+  var isIeLessThan9 = (div.getElementsByTagName("i").length == 1);
+  if (isIeLessThan9) {
+    $(window).load(function() {
+      window.setTimeout(function() {
+        owl.reinit();
+      }, 200);
+    });
   }
 
 });

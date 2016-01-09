@@ -142,7 +142,7 @@ Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeu
     <!-- Include js plugin -->
     <script src="/owl-carousel/owl.carousel.js"></script>
     
-    <script src="/js/maxweddingcars.js?v=020116"></script>
+    <script src="/js/maxweddingcars.js?v=090116"></script>
     
 </body>
 </html>

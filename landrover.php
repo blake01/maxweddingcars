@@ -173,7 +173,7 @@ With its air suspension, climate control, privacy glass and almond leather inter
     <!-- Include js plugin -->
     <script src="/owl-carousel/owl.carousel.js"></script>
     
-    <script src="/js/maxweddingcars.js?v=020116"></script>
+    <script src="/js/maxweddingcars.js?v=090116"></script>
     
 </body>
 </html>
