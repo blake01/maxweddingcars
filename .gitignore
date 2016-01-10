@@ -1,2 +1,4 @@
 *.pyc
 *.scssc
+deploy/*
+node_modules/*

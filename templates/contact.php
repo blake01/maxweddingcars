@@ -116,5 +116,4 @@
     
 </form>
 </div>
-<script src="js/validate.js"></script>
 {% endblock %}
