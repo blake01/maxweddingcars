@@ -2,21 +2,21 @@
 
 {% block main %}
 <div class="col-xs-12">
-<h1>{% block cartitle %}{% endblock %}</h1>
-<div id="owl-example" class="owl-carousel car-carousel">
-{% block img_tags %}{% endblock %}
-</div>
+  <h1>{% block cartitle %}{% endblock %}</h1>
+  <div id="owl-example" class="owl-carousel car-carousel">
+    {% block img_tags %}{% endblock %}
+  </div>
 </div>
 <div class="clearfix"></div>
 <hr>
 <div class="col-sm-6 pull-left" id="car-more-info">
-<h2>More Information</h2>
-{% block car_description %}{% endblock %}
-<hr class="visible-xs">
+  <h2>More Information</h2>
+  {% block car_description %}{% endblock %}
+  <hr class="visible-xs">
 </div>
 <div class="col-sm-6 pull-right">
-<h2>Browse Our Other Cars</h2>
-{% block other_cars %}{% endblock %}
+  <h2>Browse Our Other Cars</h2>
+  {% block other_cars %}{% endblock %}
 </div>
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 {% endblock %}

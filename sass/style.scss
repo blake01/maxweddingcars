@@ -13,10 +13,10 @@ $btn-default-bg: $golden;
 $btn-default-border: $brand-primary;
 
 /* Fonts */
- 
-@include font-face(lucida_calligraphyitalic, 
-  font-files('lu-cal-it.woff2','lu-cal-it.woff','lu-cal-it.ttf','lu-cal-it.svg'),
-  'lu-cal-it.eot'
+
+@include font-face(lucida_calligraphyitalic,
+font-files('lu-cal-it.woff2','lu-cal-it.woff','lu-cal-it.ttf','lu-cal-it.svg'),
+'lu-cal-it.eot'
 );
 
 @font-face {
@@ -27,7 +27,7 @@ $btn-default-border: $brand-primary;
 
 /* Body/wrapper/generic */
 body {
-    background-color:lighten($golden, 10);
+  background-color:lighten($golden, 10);
 }
 
 .centerer {
@@ -44,13 +44,13 @@ body {
 }
 
 #fb-like-box-wrap {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 a:hover {
-text-decoration: none;
-color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* Header */
@@ -101,7 +101,7 @@ header h2 {
 .fa {
   font-size:1.2em;
   width: 1.5em;
-}  
+}
 
 nav {
   width:100%;
@@ -164,46 +164,46 @@ nav a {
 
 /* Reviews */
 .review {
-    .fa-star {
-        color: $brand-primary;
-    }
-    h3 {
-        margin: 10px 0;
-    }
-    img, .review-head {
-        margin: 2% 6% 5% 2%;
-        float: left;
-    }
-    img {
-        height: 100px;
-        border:none;
-        box-shadow:3px 3px 3px #888;
-    }
+  .fa-star {
+    color: $brand-primary;
+  }
+  h3 {
+    margin: 10px 0;
+  }
+  img, .review-head {
+    margin: 2% 6% 5% 2%;
+    float: left;
+  }
+  img {
+    height: 100px;
+    border:none;
+    box-shadow:3px 3px 3px #888;
+  }
 }
 
 .owl-theme .owl-controls .owl-page span {
-    background-color: darken($golden,10);
+  background-color: darken($golden,10);
 }
 
 .owl-theme .owl-controls .owl-buttons div {
-    background-color: $golden;
-    color: $brand-primary;
-    opacity: 1;
-    border-radius: 4px;
-    padding: 6px 12px;
-    border: 1px solid $brand-primary;
-    font-size: $font-size-base;
-    width: 45%;
-    margin: 10px 0 0 0;
-    &:hover {
+  background-color: $golden;
+  color: $brand-primary;
+  opacity: 1;
+  border-radius: 4px;
+  padding: 6px 12px;
+  border: 1px solid $brand-primary;
+  font-size: $font-size-base;
+  width: 45%;
+  margin: 10px 0 0 0;
+  &:hover {
     background-color: darken($golden,10);
-    }   
+  }
 }
 
 .owl-theme .owl-controls .owl-buttons .owl-prev {
-    margin-right: 10%;
+  margin-right: 10%;
 }
-    
+
 
 /* Footer */
 
@@ -235,28 +235,28 @@ footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:
   img, a {
     width:100%;
     @media (min-width:$screen-sm) {
-        width: 85%;
+      width: 85%;
     }
   }
 }
 
 #car-more-info h3 {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .extra-car {
-    width: 250px;
-    max-width: 85%;
-    text-align: center;
-    margin: 0 auto 10px;
-    > *, img {
-        width: 90%;
-    }
-    img {
-      margin: 10px 0;
-      border:none;
-      box-shadow:3px 3px 3px #888;
-    }
+  width: 250px;
+  max-width: 85%;
+  text-align: center;
+  margin: 0 auto 10px;
+  > *, img {
+    width: 90%;
+  }
+  img {
+    margin: 10px 0;
+    border:none;
+    box-shadow:3px 3px 3px #888;
+  }
 }
 
 .btn .fa {
@@ -269,28 +269,28 @@ footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:
 }
 
 .fb-share-button, .pin {
-    display: block!important;
-    margin: 1.5em 0;
+  display: block!important;
+  margin: 1.5em 0;
 }
 
 /* Main content */
 
 main, footer {
-    padding:0 15px;
-    max-width: 600px;
-    margin: 0 auto;
-    @media (min-width:$screen-sm) {
-        max-width: 100%;
-    }
+  padding:0 15px;
+  max-width: 600px;
+  margin: 0 auto;
+  @media (min-width:$screen-sm) {
+    max-width: 100%;
+  }
 }
 
 main {
-    text-align:left;
+  text-align:left;
 }
 
 .row {
-    /* Override Bootstrap default */
-    margin: 0 auto;
+  /* Override Bootstrap default */
+  margin: 0 auto;
 }
 
 section {
@@ -301,11 +301,11 @@ section {
 }
 
 .borderless {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .no-top-padding {
-    padding-top: 0
+  padding-top: 0
 }
 
 main h3 {
@@ -328,27 +328,27 @@ main h1, main h2, .sidebar h2 {
     float: left;
     color: white;
     @media (min-width:$screen-xs) {
-        width: 45%;
+      width: 45%;
     }
   }
   @media (min-width:$screen-xs) {
     #first-button {
-        margin-right: 10%;
+      margin-right: 10%;
     }
   }
 }
 
 #owl-example {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .car-carousel .owl-item div img {
-    position: relative;
-    max-width: 100%;
+  position: relative;
+  max-width: 100%;
 }
 
 .car-carousel img {
-    max-height: 75vh;
+  max-height: 75vh;
 }
 
 #cars div {
@@ -356,11 +356,11 @@ main h1, main h2, .sidebar h2 {
   text-align: center;
   font-weight: bold;
   img {
-      width: 90%;
-      margin: 5%;
-      max-width: 500px;
-      box-shadow:3px 3px 3px #888;
-      margin-bottom: 2%;
+    width: 90%;
+    margin: 5%;
+    max-width: 500px;
+    box-shadow:3px 3px 3px #888;
+    margin-bottom: 2%;
   }
 }
 
@@ -402,8 +402,8 @@ form {
 
 /* Cars gallery */
 .car-carousel {
-    text-align: center;
-    margin: 30px 0;
+  text-align: center;
+  margin: 30px 0;
 }
 
 /* Media queries */
@@ -455,12 +455,12 @@ form {
 
 // Fix to enable Owl Carousel reviews
 .col-sm-6 {
-    width: 100%;
+  width: 100%;
 }
 @media (min-width:$screen-sm) {
-    .col-sm-6 {
-        width: 50%;
-    }
+  .col-sm-6 {
+    width: 50%;
+  }
 }
 
 @media (min-width:$screen-md) {
@@ -476,4 +476,3 @@ form {
     padding: 0 5%;
   }
 }
-
