@@ -20,7 +20,7 @@ env = "dev";
 
 // Delete the deploy folder
 gulp.task("clean", function() {
-  return del(["deploy"]);
+  return del(["deploy", "*.pyc", ".sass-cache/*"]);
 });
 
 gulp.task("css", function() {
