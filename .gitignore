@@ -1,4 +1,4 @@
 *.pyc
-*.scssc
+.sass-cache/*
 deploy/*
 node_modules/*

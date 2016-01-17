@@ -1,17 +1,17 @@
 $(document).ready(function() {
 
-  $("#mobile-nav-toggle").click(function() {
+  $("mobile-nav-toggle").click(function() {
     $("nav").slideToggle();
   });
 
   // Overcome iOS double tap issue on links with hover states
-  $('a').on('click touchend', function(e) {
+  $("a").on("click touchend", function(e) {
     var el = $(this);
-    var link = el.attr('href');
+    var link = el.attr("href");
     window.location = link;
   });
 
-  var isHome = ! $("#owl-example").hasClass('car-carousel')
+  var isHome = ! $("#owl-example").hasClass("car-carousel");
 
   $("#owl-example").owlCarousel({
     slideSpeed : 300,
@@ -26,7 +26,7 @@ $(document).ready(function() {
   });
 
   // Now move the carousel to random item.
-  owl = $("#owl-example").data('owlCarousel');
+  var owl = $("#owl-example").data("owlCarousel");
   if (isHome) {
     if (owl) {
       owl.jumpTo(Math.floor(Math.random() * owl.itemsAmount));

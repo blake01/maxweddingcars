@@ -1,9 +1,32 @@
-@import "bootstrap-compass";
-@import "bootstrap-variables";
-@import "bootstrap";
-@import "compass/css3";
-@import "owl.carousel";
-@import "owl.theme";
+// Override Bootstrap variables
+@import 'bootstrap-variables';
+// Core Bootstrap (from NPM) - Only take what's needed
+// Core variables and mixins
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/variables';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/mixins';
+// Reset and dependencies
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/normalize';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/print';
+// Core CSS
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/scaffolding';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/type';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/code';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/grid';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/tables';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/forms';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/buttons';
+// Components
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/button-groups';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/input-groups';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/media';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/wells';
+// Utility classes
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/utilities';
+@import 'bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities';
+// Owl (version-controlled dependency)
+@import 'owl.carousel';
+@import 'owl.theme';
 
 /* Variables/colours */
 $btn-primary-bg: $brand-primary;
@@ -14,32 +37,30 @@ $btn-default-border: $brand-primary;
 
 /* Fonts */
 
-@include font-face(lucida_calligraphyitalic,
-font-files('lu-cal-it.woff2','lu-cal-it.woff','lu-cal-it.ttf','lu-cal-it.svg'),
-'lu-cal-it.eot'
-);
-
 @font-face {
-  font-family:lucida_calligraphyitalic;
-  font-style:normal;
-  font-weight:400;
+  font-family: 'lucidacalligraphyitalic';
+  src: url('/fonts/lu-cal-it.eot?') format('eot'),
+  url('/fonts/lu-cal-it.woff2') format('woff2'),
+  url('/fonts/lu-cal-it.woff') format('woff'),
+  url('/fonts/lu-cal-it.ttf') format('truetype'),
+  url('/fonts/lu-cal-it.svg#Lucida') format('svg');
 }
 
 /* Body/wrapper/generic */
 body {
-  background-color:lighten($golden, 10);
+  background-color: lighten($golden, 10);
 }
 
 .centerer {
-  margin:0 auto;
-  position:relative;
-  text-align:center;
-  width:100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
   max-width: 1250px;
 }
 
 #container {
-  padding-bottom:10px;
+  padding-bottom: 10px;
   background-color: white;
 }
 
@@ -57,34 +78,34 @@ a:hover {
 
 header {
   background: $golden;
-  box-shadow:5px 5px 10px #aaa;
-  width:100%;
+  box-shadow: 5px 5px 10px #aaaaaa;
+  width: 100%;
   position: relative;
   margin-bottom: 20px;
   font-size: 18px;
 }
 
 header #title {
-  overflow:hidden;
-  position:relative;
-  text-align:center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
   height: 90px;
 }
 
 header img {
-  display:none;
-  float:right
+  display: none;
+  float: right;
 }
 
-header h1,header h2 {
-  color:#600;
-  font-family:lucida_calligraphyitalic, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
-  left:25px;
-  margin:0;
-  padding:0;
-  position:absolute;
-  text-shadow:2px 2px 2px #aaa;
-  top:30px;
+header h1, header h2 {
+  color: #660000;
+  font-family: 'lucidacalligraphyitalic', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Times New Roman', Times, serif;
+  left: 25px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  text-shadow: 2px 2px 2px #aaaaaa;
+  top: 30px;
   font-weight: bold;
   @media (max-width:300px) {
     display: none;
@@ -93,26 +114,26 @@ header h1,header h2 {
 
 header h2 {
   display: none;
-  left:50%;
-  top:40px;
+  left: 50%;
+  top: 40px;
   font-size: 21px;
 }
 
 .fa {
-  font-size:1.2em;
+  font-size: 1.2em;
   width: 1.5em;
 }
 
 nav {
-  width:100%;
+  width: 100%;
   display: none;
 }
 
 nav ul {
   text-align: left;
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   li {
     padding: 10px 2em;
     border-top: 1px solid darken($golden, 10);
@@ -131,7 +152,7 @@ nav ul {
   color: $brand-primary;
   border: 1px solid darken($golden, 10);
   padding: 6px 7px;
-  @include border-radius(4px);
+  border-radius: 4px;
   cursor: pointer;
   p {
     margin: 2px 0 0 0;
@@ -149,16 +170,16 @@ nav ul {
 }
 
 nav a {
-  color:#600;
-  text-decoration:none;
-  text-shadow:1px 1px 1px #DDD;
+  color: #660000;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #dddddd;
   width: 100%;
   height: 100%;
   display: block;
   &:hover {
-    text-decoration:none;
-    color:#600;
-    text-shadow:2px 2px 2px #888
+    text-decoration: none;
+    color: #660000;
+    text-shadow: 2px 2px 2px #888888;
   }
 }
 
@@ -176,8 +197,8 @@ nav a {
   }
   img {
     height: 100px;
-    border:none;
-    box-shadow:3px 3px 3px #888;
+    border: none;
+    box-shadow: 3px 3px 3px #888888;
   }
 }
 
@@ -208,32 +229,32 @@ nav a {
 /* Footer */
 
 footer {
-  color:#666;
-  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-align:center;
+  color: #666666;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
   font-size: 12px;
 }
 
-footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:hover,.burgundy {
-  color:$brand-primary
+footer a:link, footer a:visited, footer a:hover, main a:link, main a:visited, main a:hover, .burgundy {
+  color: $brand-primary;
 }
 
 /* Sidebar */
 
 .sidebar {
-  text-align:center;
+  text-align: center;
 }
 
 .sidebar-car {
   margin-bottom: 5px;
   margin: 0 auto 10px;
   img {
-    border:none;
+    border: none;
     margin: 10px 0;
-    box-shadow:3px 3px 3px #888;
+    box-shadow: 3px 3px 3px #888888;
   }
   img, a {
-    width:100%;
+    width: 100%;
     @media (min-width:$screen-sm) {
       width: 85%;
     }
@@ -254,8 +275,8 @@ footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:
   }
   img {
     margin: 10px 0;
-    border:none;
-    box-shadow:3px 3px 3px #888;
+    border: none;
+    box-shadow: 3px 3px 3px #888888;
   }
 }
 
@@ -276,7 +297,7 @@ footer a:link,footer a:visited,footer a:hover,main a:link,main a:visited,main a:
 /* Main content */
 
 main, footer {
-  padding:0 15px;
+  padding: 0 15px;
   max-width: 600px;
   margin: 0 auto;
   @media (min-width:$screen-sm) {
@@ -285,7 +306,7 @@ main, footer {
 }
 
 main {
-  text-align:left;
+  text-align: left;
 }
 
 .row {
@@ -294,8 +315,8 @@ main {
 }
 
 section {
-  border-bottom:1px solid rgba(0,0,0,0.1);
-  padding:10px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 10px 0;
   position: relative;
   width: 100%;
 }
@@ -305,19 +326,19 @@ section {
 }
 
 .no-top-padding {
-  padding-top: 0
+  padding-top: 0;
 }
 
 main h3 {
-  color:#000;
-  font-style:normal;
-  font-weight:700;
-  text-align:left
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
 }
 
 main h1, main h2, .sidebar h2 {
-  color:$brand-primary;
-  text-align:center;
+  color: $brand-primary;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -359,7 +380,7 @@ main h1, main h2, .sidebar h2 {
     width: 90%;
     margin: 5%;
     max-width: 500px;
-    box-shadow:3px 3px 3px #888;
+    box-shadow: 3px 3px 3px #888888;
     margin-bottom: 2%;
   }
 }
@@ -374,7 +395,7 @@ form > div {
     width: 100%;
     float: left;
   }
-  > label, >.label {
+  > label, > .label {
     margin: 2% 1%;
     font-weight: bold;
     color: inherit;
@@ -422,7 +443,7 @@ form {
 
 @media (min-width:$screen-sm) {
   header #title {
-    height:140px;
+    height: 140px;
     h1 {
       left: 40px;
       font-size: 29px;
@@ -430,8 +451,8 @@ form {
   }
   nav {
     display: block !important;
-    bottom:15px;
-    position:absolute;
+    bottom: 15px;
+    position: absolute;
     ul {
       margin-left: 25px;
     }
@@ -449,7 +470,7 @@ form {
   }
 
   header img {
-    display:block
+    display: block;
   }
 }
 
@@ -465,14 +486,14 @@ form {
 
 @media (min-width:$screen-md) {
   .centerer {
-    width:95%;
+    width: 95%;
     padding: 0 2.5%;
   }
 }
 
 @media (min-width:$screen-lg) {
   .centerer {
-    width:90%;
+    width: 90%;
     padding: 0 5%;
   }
 }

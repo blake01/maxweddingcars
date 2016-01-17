@@ -1,39 +1,32 @@
 var gulp = require('gulp');
-var compass = require('gulp-compass');
+var sass = require('gulp-sass');
+var notify = require("gulp-notify");
 var del = require('del');
 var shell = require('gulp-shell');
 var nunjucksRender = require('gulp-nunjucks-render');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglifyjs');
-var eol = require('gulp-eol');
 var htmlmin = require('gulp-htmlmin');
-
-// Ensure correct line endings in all dev files
-gulp.task('eol', function() {
-  return gulp.src(['./*.js', './*.html', './*.php'])
-  .pipe(eol())
-  .pipe(gulp.dest('./'));
-});
+var autoprefixer = require('gulp-autoprefixer');
+var sourcemaps = require('gulp-sourcemaps');
+var nano = require('gulp-cssnano');
 
 // Delete the deploy folder
 gulp.task('clean', function() {
   return del(['deploy']);
 });
 
-// Use Compass to compile SASS to CSS
 gulp.task('css', function() {
-  gulp.src('./sass/*.scss')
-  .pipe(compass({
-    css: 'deploy/css',
-    image: 'img',
-    style: 'compressed',
-    sourcemap: true,
-    require: ['bootstrap-sass']
+  return gulp.src('./sass/*.scss')
+  .pipe(sourcemaps.init()) // Not dev
+  .pipe(sass({includePaths: ['./node_modules']}))
+  .pipe(autoprefixer({remove: false}))
+  .pipe(nano()) // Not dev
+  .pipe(sourcemaps.write('.'))
+  .on("error", notify.onError(function (error) {
+    return "Error: " + error.message;
   }))
-  .on('error', function(error) {
-    console.log(error);
-    this.emit('end');
-  })
+  .pipe(gulp.dest('deploy/css'));
 });
 
 // Concatenate and minify Javascript
