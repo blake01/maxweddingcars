@@ -6,6 +6,7 @@
   "trailing": true,
   "curly": true,
   "browser": true,
+  "node": true,
   "globals": {
     "$": false
   }

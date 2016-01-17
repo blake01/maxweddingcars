@@ -50,7 +50,7 @@
   <section>
     <h2>Get a Quote</h2>
     <p>Simply call us or use our online enquiry form to get a quotation or arrange to view our cars.</p>
-    {% include 'call_to_action.html' %}
+    {% include '_call_to_action.html' %}
   </section>
   <h2>More About Maxweddingcars</h2>
   <section>
