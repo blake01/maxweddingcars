@@ -21,7 +21,8 @@
     "gulp-html5-lint": "^1.1.0",
     "gulp-notify": "^2.2.0",
     "gulp-sass": "^2.1.1",
-    "gulp-sourcemaps": "^1.6.0"
+    "gulp-sourcemaps": "^1.6.0",
+    "run-sequence": "^1.1.5"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
@@ -29,6 +30,7 @@
     "gulp-if": "^2.0.0",
     "gulp-nunjucks-render": "^1.0.0",
     "gulp-rename": "^1.2.2",
+    "gulp-rsync": "0.0.5",
     "gulp-shell": "^0.5.1",
     "gulp-uglifyjs": "^0.6.2"
   }

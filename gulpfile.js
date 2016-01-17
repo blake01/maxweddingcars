@@ -11,6 +11,9 @@ var autoprefixer = require("gulp-autoprefixer");
 var sourcemaps = require("gulp-sourcemaps");
 var nano = require("gulp-cssnano");
 var gulpif = require("gulp-if");
+var rsync = require("gulp-rsync");
+var runSequence = require("run-sequence");
+
 var pjson = require("./package.json");
 
 // Enviroment may be 'dev' (development) or 'prod' (production).
@@ -18,11 +21,15 @@ var env = process.env.NODE_ENV;
 // Default to dev (overwritten by build:prod)
 env = "dev";
 
-// Delete the deploy folder
+// Delete the deploy folder and other unversioned assets
 gulp.task("clean", function() {
-  return del(["deploy", "*.pyc", ".sass-cache/*"]);
+  return del(
+    ["deploy", "*.pyc", ".sass-cache/*", "templates/reviews_partial.html"]
+  );
 });
 
+// Compile SASS to CSS and autoprefix.
+// If production, minify. If development, write sourcemaps.
 gulp.task("css", function() {
   return gulp.src("./sass/*.scss")
   .pipe(gulpif(env === "dev", sourcemaps.init()))
@@ -36,7 +43,7 @@ gulp.task("css", function() {
   .pipe(gulp.dest("deploy/css"));
 });
 
-// Concatenate and minify Javascript
+// Concatenate and minify Javascript. Write soucemaps if development.
 gulp.task("js", function() {
   gulp.src("js/*.js")
   .pipe(uglify("maxweddingcars.min.js", {
@@ -48,18 +55,16 @@ gulp.task("js", function() {
 
 // Copy files to deploy directly directly
 gulp.task("copy", function() {
-  // Copy whole directories
+  // Copy whole directories in-place
   gulp.src(["fb/*", "img/**", "fonts/*", "owl-carousel/*"], {base:"."})
   .pipe(gulp.dest("deploy"));
-  // Copy directory contents to root
+  // Copy 'static' directory contents to root
   gulp.src(["static/*", "static/.*"])
   .pipe(gulp.dest("deploy"));
 });
 
 // Get all Facebook reviews and images using the get_reviews Python script
-gulp.task("facebook", shell.task([
-  "python get_reviews.py"
-], {verbose: true}));
+gulp.task("facebook", shell.task(["python get_reviews.py"]));
 
 // Build HTML/PHP files from Nunjucks templates
 gulp.task("html", function () {
@@ -80,17 +85,32 @@ gulp.task("watch", function () {
     ["copy"]);
 });
 
-// Standard development build
+// Standard development build. Run simultaneously.
 gulp.task("default", ["css", "html", "js", "copy"]);
 
 // Full development build with pre-clean and fresh Facebook download
-gulp.task("build", ["clean"], function () {
-  gulp.run("default");
-  gulp.run("facebook");
+gulp.task("build", function (cb) {
+  runSequence("clean", "facebook", "default", cb);
 });
 
 // Full production build with asset minification and no source mapping
-gulp.task("build:prod", function () {
+gulp.task("build:prod", function (cb) {
   env = "prod";
-  gulp.run("build");
+  runSequence("build", cb);
+});
+
+// Server-side synchronisation of deploy folder and live files
+gulp.task("sync", function() {
+  return gulp.src("deploy")
+  .pipe(rsync({
+    root: "deploy",
+    destination: "/home/blake01/webapps/maxweddingcars",
+    recursive: true,
+    clean: true,
+  }));
+});
+
+// The Full Works - build and deploy
+gulp.task("deploy", function (cb) {
+  runSequence("build:prod", "sync", cb);
 });
