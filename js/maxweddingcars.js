@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("mobile-nav-toggle").click(function() {
+  $("#mobile-nav-toggle").click(function() {
     $("nav").slideToggle();
   });
 
