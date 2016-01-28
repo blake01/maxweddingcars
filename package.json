@@ -1,6 +1,6 @@
 {
   "name": "maxweddingcars",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Static website development environment for www.maxweddingcars.co.uk",
   "main": "index.js",
   "scripts": {

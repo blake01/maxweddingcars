@@ -6,12 +6,10 @@ var shell = require("gulp-shell");
 var nunjucksRender = require("gulp-nunjucks-render");
 var rename = require("gulp-rename");
 var uglify = require("gulp-uglifyjs");
-var htmlmin = require("gulp-htmlmin");
 var autoprefixer = require("gulp-autoprefixer");
 var sourcemaps = require("gulp-sourcemaps");
 var nano = require("gulp-cssnano");
 var gulpif = require("gulp-if");
-var rsync = require("gulp-rsync");
 var runSequence = require("run-sequence");
 
 var pjson = require("./package.json");
@@ -71,7 +69,6 @@ gulp.task("html", function () {
   nunjucksRender.nunjucks.configure(["./templates/"], {watch: false});
   return gulp.src("./templates/*.php")
   .pipe(nunjucksRender({version: pjson.version}))
-  .pipe(htmlmin({collapseWhitespace: env === "prod"}))
   .pipe(rename(function (path) {path.extname = ".php";}))
   .pipe(gulp.dest("deploy"));
 });
@@ -97,20 +94,4 @@ gulp.task("build", function (cb) {
 gulp.task("build:prod", function (cb) {
   env = "prod";
   runSequence("build", cb);
-});
-
-// Server-side synchronisation of deploy folder and live files
-gulp.task("sync", function() {
-  return gulp.src("deploy")
-  .pipe(rsync({
-    root: "deploy",
-    destination: "/home/blake01/webapps/maxweddingcars",
-    recursive: true,
-    clean: true,
-  }));
-});
-
-// The Full Works - build and deploy
-gulp.task("deploy", function (cb) {
-  runSequence("build:prod", "sync", cb);
 });

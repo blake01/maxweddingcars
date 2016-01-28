@@ -1,11 +1,10 @@
 {% extends "_base.html" %}
 
-{% block php %}
-<?php
+{% block php %}<?php
 if(isset($_POST['email'])) {
 
   // EDIT THE 2 LINES BELOW AS REQUIRED
-  $email_to = "maxchauffeurhire@googlemail.com";
+  $email_to = "maxchauffeurhire@googlemail.com,blakehemingway@gmail.com";
   $email_subject = "Wedding Enquiry from Website";
 
 
@@ -101,8 +100,7 @@ if(isset($_POST['email'])) {
   'Reply-To: '.$email_from."\r\n" .
   'X-Mailer: PHP/' . phpversion();
   @mail($email_to, $email_subject, $email_message, $headers);
-  ?>
-  {% endblock %}
+  ?>{% endblock %}
 
   {% block title %}Wedding Cars for Hire || Enquire{% endblock %}
 

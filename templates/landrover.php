@@ -29,7 +29,6 @@
 </div>
 <div class="fb-share-button" data-href="http://www.maxweddingcars.co.uk/vintage" data-layout="button_count"></div>
 <div class="clearfix"></div>
-<br>
 {% endblock %}
 
 {% block other_cars %}

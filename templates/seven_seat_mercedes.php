@@ -33,7 +33,6 @@
 </div>
 <div class="fb-share-button" data-href="http://www.maxweddingcars.co.uk/seven_seat_mercedes" data-layout="button_count"></div>
 <div class="clearfix"></div>
-<br>
 {% endblock %}
 
 {% block other_cars %}
