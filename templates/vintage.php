@@ -11,28 +11,28 @@
 
 {% block img_tags %}
 <div>
-  <img alt="Two Wedding Cars" src="/img/vintage/beaufordpair.jpg">
+  <img alt="Two Wedding Cars" class="lazyOwl" data-src="/img/vintage/beaufordpair.jpg">
 </div>
 <div>
-  <img alt="Fully Convertible Wedding Car at Newmillerdam, Wakefield" src="/img/vintage/beaufordnewmillerdam.jpg">
+  <img alt="Fully Convertible Wedding Car at Newmillerdam, Wakefield" class="lazyOwl" data-src="/img/vintage/beaufordnewmillerdam.jpg">
 </div>
 <div>
-  <img alt="Fully Convertible Wedding Car with soft-top hood on" src="/img/vintage/beaufordroof.jpg">
+  <img alt="Fully Convertible Wedding Car with soft-top hood on" class="lazyOwl" data-src="/img/vintage/beaufordroof.jpg">
 </div>
 <div>
-  <img alt="Fully Convertible Wedding Car at a Wedding Reception" src="/img/vintage/beaufordwedding.jpg">
+  <img alt="Fully Convertible Wedding Car at a Wedding Reception" class="lazyOwl" data-src="/img/vintage/beaufordwedding.jpg">
 </div>
 <div>
-  <img alt="Fully Convertible Wedding Car at Sandal Castle, Wakefield" src="/img/vintage/beaufordsandal.jpg">
+  <img alt="Fully Convertible Wedding Car at Sandal Castle, Wakefield" class="lazyOwl" data-src="/img/vintage/beaufordsandal.jpg">
 </div>
 <div>
-  <img alt="Fully Convertible Wedding Car Interior" src="/img/vintage/beaufordinterior.jpg">
+  <img alt="Fully Convertible Wedding Car Interior" class="lazyOwl" data-src="/img/vintage/beaufordinterior.jpg">
 </div>
 <div>
-  <img alt="Part-Hardtop Wedding Car 2" src="/img/vintage/beaufordfront.jpg">
+  <img alt="Part-Hardtop Wedding Car 2" class="lazyOwl" data-src="/img/vintage/beaufordfront.jpg">
 </div>
 <div>
-  <img alt="Part-Hardtop Wedding Car 3" src="/img/vintage/beaufordrear.jpg">
+  <img alt="Part-Hardtop Wedding Car 3" class="lazyOwl" data-src="/img/vintage/beaufordrear.jpg">
 </div>
 {% endblock %}
 

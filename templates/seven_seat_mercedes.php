@@ -11,13 +11,13 @@
 
 {% block img_tags %}
 <div>
-  <img src="/img/stretch-merc/side.jpg" alt="Mercedes Benz Exterior" />
+  <img class="lazyOwl" data-src="/img/stretch-merc/side.jpg" alt="Mercedes Benz Exterior" />
 </div>
 <div>
-  <img src="/img/stretch-merc/merc-stretch-quarter-front.jpg" alt="Mercedes Benz Front" />
+  <img class="lazyOwl" data-src="/img/stretch-merc/merc-stretch-quarter-front.jpg" alt="Mercedes Benz Front" />
 </div>
 <div>
-  <img src="/img/stretch-merc/merc-stretch-quarter-rear.jpg" alt="Mercedes Benz Rear" />
+  <img class="lazyOwl" data-src="/img/stretch-merc/merc-stretch-quarter-rear.jpg" alt="Mercedes Benz Rear" />
 </div>
 {% endblock %}
 

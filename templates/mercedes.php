@@ -4,10 +4,10 @@
 
 {% block img_tags %}
 <div>
-  <img src="/img/merc/Merc-Large.gif" alt="Mercedes Benz Exterior">
+  <img class="lazyOwl" data-src="/img/merc/Merc-Large.gif" alt="Mercedes Benz Exterior">
 </div>
 <div>
-  <img src="/img/merc/Merc-Interior.gif" alt="Mercedes Benz Interior">
+  <img class="lazyOwl" data-src="/img/merc/Merc-Interior.gif" alt="Mercedes Benz Interior">
 </div>
 {% endblock %}
 
