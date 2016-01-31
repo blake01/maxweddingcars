@@ -89,7 +89,7 @@
   {% endblock %}
 
   <!-- Include concatenated and minified js, including Carousel -->
-  <script src="/js/maxweddingcars.min.js?v={{ version }}"></script>
-  {% block bodyjs %}{% endblock %}
+  <script src="/js/maxweddingcars.min.js?v={{ version }}" data-no-instant></script>
+  <script data-no-instant>InstantClick.init();</script>
 </body>
 </html>{% block closing_php %}{% endblock %}
