@@ -12,6 +12,11 @@
   },
   "author": "Blake Hemingway",
   "license": "CC-BY-NC-ND-4.0",
+  "scripts": {
+    "deploy": "rsync -avz -e 'ssh' deploy/ blake01@web371.webfaction.com:/home/blake01/webapps/maxweddingcars/",
+    "clean": "rm -rf deploy",
+    "facebook": "python get_reviews.py"
+  },
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.0",
