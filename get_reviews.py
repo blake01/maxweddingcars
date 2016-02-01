@@ -44,9 +44,11 @@ all_maxweddingcars_reviews_api_call = '259756950891843/ratings/'
 reviews_data_packet = get_fb_data(all_maxweddingcars_reviews_api_call)
 reviews = json.loads(reviews_data_packet.content)
 
-outfile = open('templates/reviews_partial.html', 'w')
+ASSETS_PATH = 'app/assets/'
+
+outfile = open('app/templates/reviews_partial.html', 'w')
 try:
-    os.makedirs('deploy/fb')
+    os.makedirs(ASSETS_PATH + '/fb')
 except OSError:
     # Already exists
     pass
@@ -64,7 +66,7 @@ for review in reviews['data']:
         if not is_silhouette and write_count < 10:
             img_data_packet = get_fb_data(profile_pic_api_call, {'type':'large'})
             file_name = '/fb/%s.jpg'%(review['reviewer']['id'])
-            with open('deploy' + file_name, 'wb') as f:
+            with open(ASSETS_PATH + file_name, 'wb') as f:
                 for chunk in img_data_packet:
                     f.write(chunk)
             # Get other details and render template

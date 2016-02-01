@@ -2,5 +2,5 @@
 .sass-cache/*
 deploy/*
 node_modules/*
-templates/reviews_partial.html
+npm-debug.log
 *accesstoken.js
