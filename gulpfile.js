@@ -8,6 +8,7 @@ var autoprefixer = require("gulp-autoprefixer");
 var sourcemaps = require("gulp-sourcemaps");
 var nano = require("gulp-cssnano");
 var gulpif = require("gulp-if");
+var imagemin = require("gulp-imagemin");
 
 var pjson = require("./package.json");
 
@@ -27,6 +28,16 @@ gulp.task("css", function() {
     return "Error: " + error.message;
   }))
   .pipe(gulp.dest("deploy/css"));
+});
+
+// Losslessly compress images
+gulp.task("img", function() {
+  return gulp.src("app/img/**")
+  .pipe(imagemin({
+    progressive: true,
+    svgoPlugins: [{removeViewBox: false}]
+  }))
+  .pipe(gulp.dest("deploy/img"));
 });
 
 // Concatenate and minify Javascript. Write soucemaps if development.
@@ -63,4 +74,4 @@ gulp.task("watch", function () {
 });
 
 // Standard development build. Run simultaneously.
-gulp.task("default", ["css", "html", "js", "copy"]);
+gulp.task("default", ["css", "img", "html", "js", "copy"]);
