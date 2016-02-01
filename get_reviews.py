@@ -48,7 +48,7 @@ ASSETS_PATH = 'app/'
 
 outfile = open('app/templates/reviews_partial.html', 'w')
 try:
-    os.makedirs(ASSETS_PATH + '/fb')
+    os.makedirs(ASSETS_PATH + 'img/fb')
 except OSError:
     # Already exists
     pass
