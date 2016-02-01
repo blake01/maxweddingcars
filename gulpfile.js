@@ -9,6 +9,8 @@ var sourcemaps = require("gulp-sourcemaps");
 var nano = require("gulp-cssnano");
 var gulpif = require("gulp-if");
 var imagemin = require("gulp-imagemin");
+// Adds dependencies on imagemagick & graphicsmagick
+var imageResize = require("gulp-image-resize");
 
 var pjson = require("./package.json");
 
@@ -38,6 +40,18 @@ gulp.task("img", function() {
     svgoPlugins: [{removeViewBox: false}]
   }))
   .pipe(gulp.dest("deploy/img"));
+});
+
+gulp.task("fb-img", function() {
+  return gulp.src("app/fb/*")
+  .pipe(imageResize({
+    height: 200,
+    quality: 1
+  }))
+  .pipe(imagemin({
+    progressive: true,
+  }))
+  .pipe(gulp.dest("deploy/fb"));
 });
 
 // Concatenate and minify Javascript. Write soucemaps if development.
@@ -74,4 +88,4 @@ gulp.task("watch", function () {
 });
 
 // Standard development build. Run simultaneously.
-gulp.task("default", ["css", "img", "html", "js", "copy"]);
+gulp.task("default", ["css", "img", "fb-img", "html", "js", "copy"]);

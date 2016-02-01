@@ -48,7 +48,7 @@ ASSETS_PATH = 'app/'
 
 outfile = open('app/templates/reviews_partial.html', 'w')
 try:
-    os.makedirs(ASSETS_PATH + 'img/fb')
+    os.makedirs(ASSETS_PATH + 'fb')
 except OSError:
     # Already exists
     pass
@@ -65,7 +65,7 @@ for review in reviews['data']:
         is_silhouette = json.loads(img_metadata_packet.content)['data']['is_silhouette']
         if not is_silhouette and write_count < 10:
             img_data_packet = get_fb_data(profile_pic_api_call, {'type':'large'})
-            file_name = '/img/fb/%s.jpg'%(review['reviewer']['id'])
+            file_name = '/fb/%s.jpg'%(review['reviewer']['id'])
             with open(ASSETS_PATH + file_name, 'wb') as f:
                 for chunk in img_data_packet:
                     f.write(chunk)
