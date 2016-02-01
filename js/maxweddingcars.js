@@ -1,4 +1,4 @@
-InstantClick.on('change', function() {
+$(document).ready(function() {
 
   $("#mobile-nav-toggle").click(function() {
     $("nav").slideToggle();
