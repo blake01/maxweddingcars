@@ -69,7 +69,7 @@ body {
   padding: 20px;
 }
 
-a:hover {
+a:hover, a:active, a:visited {
   text-decoration: none;
   color: inherit;
 }
