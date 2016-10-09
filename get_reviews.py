@@ -7,6 +7,7 @@ from dateutil.parser import parse as dateparse
 from jinja2 import Environment
 from cgi import escape
 import os
+import re
 
 e = Environment()
 
@@ -59,26 +60,33 @@ for review in reviews['data']:
     # Take only 5 star reviews
     if review['rating'] == 5:
         # Get profile picture
-        profile_pic_api_call = '%s/picture'%(review['reviewer']['id'])
+        profile_pic_api_call = '%s/picture' % (review['reviewer']['id'])
         # Check if the picture is a silhouette
-        img_metadata_packet = get_fb_data(profile_pic_api_call, {'fields':'is_silhouette', 'redirect':False})
+        img_metadata_packet = get_fb_data(
+            profile_pic_api_call,
+            {'fields': 'is_silhouette', 'redirect': False}
+        )
         is_silhouette = json.loads(img_metadata_packet.content)['data']['is_silhouette']
         if not is_silhouette and write_count < 10:
             img_data_packet = get_fb_data(profile_pic_api_call, {'type':'large'})
-            file_name = '/fb/%s.jpg'%(review['reviewer']['id'])
+            file_name = '/fb/%s.jpg' % (review['reviewer']['id'])
             with open(ASSETS_PATH + file_name, 'wb') as f:
                 for chunk in img_data_packet:
                     f.write(chunk)
             # Get other details and render template
             date_and_time = dateparse(review['created_time'], fuzzy=True)
+            # Encode special characters using html escapes
+            encoded_review_text = review['review_text'].encode('ascii', 'xmlcharrefreplace')
+            # Remove html numbers that can't be displayed
+            clean_review_text = re.sub(r'&#65533; ', '', encoded_review_text)
             review_html = e.from_string(html).render(
-                img_src = file_name,
-                name = review['reviewer']['name'].encode('ascii', 'xmlcharrefreplace'),
-                review_date = date_and_time.strftime("%d/%m/%y"),
-                review_text = review['review_text'].encode('ascii', 'xmlcharrefreplace')
+                img_src=file_name,
+                name=review['reviewer']['name'].encode('ascii', 'xmlcharrefreplace'),
+                review_date=date_and_time.strftime("%d/%m/%y"),
+                review_text=clean_review_text
             )
             write_count += 1
-            print 'Writing HTML for review %s'%(write_count)
+            print 'Writing HTML for review %s' % (write_count)
             outfile.write(review_html.encode('utf8'))
 
 outfile.close()

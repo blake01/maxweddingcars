@@ -22,7 +22,6 @@ if(isset($_POST['email'])) {
   !isset($_POST['email']) ||
   //!isset($_POST['car']) ||
   !isset($_POST['telephone']) ||
-  !isset($_POST['addressLine1']) ||
   !isset($_POST['postcode']) ||
   !isset($_POST['destination1'])) {
     died('We are sorry, but there appears to be a problem with the form you submitted.');
@@ -33,9 +32,6 @@ if(isset($_POST['email'])) {
   $telephone = $_POST['telephone']; // required
   $date1 = $_POST['date1']; $date2 = $_POST['date2']; $date3 = $_POST['date3'];
   $cars =  $_POST['car']; //required
-  $addressLine1 = $_POST['addressLine1']; // required
-  $addressLine2 = $_POST['addressLine2'];
-  $addressLine3 = $_POST['addressLine3'];
   $postcode = $_POST['postcode']; // required
   $destination1 = $_POST['destination1']; // required
   $destination2 = $_POST['destination2'];
@@ -86,9 +82,6 @@ if(isset($_POST['email'])) {
   $email_message .= "Day: ".clean_string($date1)."\n";
   $email_message .= "Month: ".clean_string($date2)."\n";
   $email_message .= "Year: ".clean_string($date3)."\n";
-  $email_message .= "Pickup Address Line 1: ".clean_string($addressLine1)."\n";
-  $email_message .= "Pickup Address Line 2: ".clean_string($addressLine2)."\n";
-  $email_message .= "Pickup Address Line 3: ".clean_string($addressLine3)."\n";
   $email_message .= "Postcode: ".clean_string($postcode)."\n";
   $email_message .= "Wedding/Ceremony Venue: ".clean_string($destination1)."\n";
   $email_message .= "Reception Venue (if specified): ".clean_string($destination2)."\n";

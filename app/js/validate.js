@@ -6,7 +6,6 @@ function validate(form) {
 		form["car[]"][0],form["car[]"][1],form["car[]"][2],form["car[]"][3]
 	);
 	fail += validateDate(form.date1.value,form.date2.value,form.date3.value);
-	fail += validateAddress(form.addressLine1.value);
 	fail += validatePostcode(form.postcode.value);
 	fail += validateVenue(form.destination1.value);
 	if (fail === "") {
@@ -69,13 +68,6 @@ function validateDate(day,month,year) {
 	else {
 		return "";
 	}
-}
-
-function validateAddress(field) {
-	if (field === "") {
-		return "Please Fill In Address Line 1.\n";
-	}
-	return "";
 }
 
 function validatePostcode(field) {

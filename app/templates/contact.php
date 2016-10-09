@@ -18,22 +18,22 @@
 
   <form action="send_form_email.php" id="contactform" method="post" name="contactform" onsubmit="return validate(this)">
     <div>
-      <label for="f-name">Full Name *</label>
+      <label for="f-name">Full Name&nbsp;*</label>
       <input id="f-name" name="name" type="text" required>
     </div>
 
     <div>
-      <label for="f-email">Email Address *</label>
+      <label for="f-email">Email Address&nbsp;*</label>
       <input id="f-email" name="email" type="email" required>
     </div>
 
     <div>
-      <label for="f-telephone">Telephone Number *</label>
+      <label for="f-telephone">Telephone Number&nbsp;*</label>
       <input id="f-telephone" name="telephone" type="text" placeholder="UK Landline inc. Area Code or Mobile " required>
     </div>
 
     <div>
-      <div class="label">Car(s) Required *</div>
+      <div class="label">Car(s) Required&nbsp;*</div>
       <div class="input">
         <label><input id="Beauford" name="car[]" type="checkbox" value="Beauford"> &nbsp;Vintage Style Tourer(s)</label>
         <label><input id="Seven_Seater_Mercedes" name="car[]" type="checkbox" value="Seven_Seater_Mercedes"> &nbsp;Mercedes Benz Seven Passenger Limousine</label>
@@ -43,7 +43,7 @@
     </div>
 
     <div>
-      <div class="label">Date of Hire *</div>
+      <div class="label">Date of Hire&nbsp;*</div>
       <div class="input">
         <select id="date1" name="date1">
           <?php
@@ -84,21 +84,12 @@
     </div>
 
     <div>
-      <div class="label">Pickup Address *</div>
-      <div class="input">
-        <label><input class="force-full-width" id="addressLine1" name="addressLine1" type="text" placeholder="Address Line 1" required></label>
-        <label><input class="force-full-width" id="addressLine2" name="addressLine2" type="text" placeholder="Address Line 2"></label>
-        <label><input class="force-full-width" id="addressLine3" name="addressLine3" type="text" placeholder="Town/City" required></label>
-      </div>
-    </div>
-
-    <div>
-      <label for="f-postcode">Postcode *</label>
+      <label for="f-postcode">Pickup Postcode&nbsp;*</label>
       <input id="f-postcode" name="postcode" type="text" required>
     </div>
 
     <div>
-      <label for="f-destination1">Wedding/Ceremony Venue *</label>
+      <label for="f-destination1">Wedding/Ceremony Venue&nbsp;*</label>
       <input id="f-destination1" name="destination1" type="text" required>
     </div>
 
