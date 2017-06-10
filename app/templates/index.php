@@ -17,17 +17,17 @@
 <div class="col-sm-6 sidebar pull-right">
   <h2>Browse Our Cars</h2>
   <div class="sidebar-car">
-    <img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg">
+    <img alt="vintage style tourer" src="/img/small/vintage/beaufordpair.jpg" srcset="/img/small/vintage/beaufordpair.jpg 1x, /img/vintage/beaufordpair.jpg 2x">
     <a href="vintage" class="btn btn-default"><i class="fa fa-search"></i>View Vintage Style Tourers</a>
   </div>
 
   <div class="sidebar-car">
-    <img alt="viscount wedding car" src="/img/viscount/viscount.jpg">
+    <img alt="viscount wedding car" src="/img/viscount/viscount.jpg" srcset="/img/small/viscount/viscount.jpg 1x, /img/viscount/viscount.jpg 2x">
     <a href="viscount" class="btn btn-default"><i class="fa fa-search"></i>View 7 Seater Viscount</a>
   </div>
 
   <div class="sidebar-car">
-    <img alt="land rover wedding car" src="/img/landrover/exterior.jpg">
+    <img alt="land rover wedding car" src="/img/landrover/exterior.jpg" srcset="/img/small/landrover/exterior.jpg 1x, /img/landrover/exterior.jpg 2x">
     <a href="landrover" class="btn btn-default"><i class="fa fa-search"></i>View Land Rover Discovery</a>
   </div>
 

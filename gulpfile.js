@@ -46,7 +46,7 @@ gulp.task("img", function() {
 gulp.task("img-small", function() {
   return gulp.src("app/img/**")
   .pipe(imageResize({
-    width: 400,
+    width: 540,
     quality: 1
   }))
   .pipe(imagemin({
@@ -103,4 +103,4 @@ gulp.task("watch", function () {
 });
 
 // Standard development build. Run simultaneously.
-gulp.task("default", ["css", "img", "fb-img", "html", "js", "copy"]);
+gulp.task("default", ["css", "img", "img-small", "fb-img", "html", "js", "copy"]);

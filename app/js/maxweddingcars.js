@@ -9,9 +9,9 @@ $(document).ready(function() {
   $("#owl-example").owlCarousel({
     slideSpeed : 300,
     paginationSpeed : 400,
-    singleItem: true  ,
-    autoHeight : isHome ,
-    lazyLoad: !isHome ,
+    singleItem: true,
+    autoHeight : isHome,
+    lazyLoad: !isHome,
     navigationText: [
       "<i class='fa fa-angle-left'></i> Previous",
       "Next <i class='fa fa-angle-right'></i>"

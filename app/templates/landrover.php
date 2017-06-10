@@ -27,12 +27,12 @@
 {% block other_cars %}
 
 <div class="extra-car">
-  <img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg">
+  <img alt="vintage style tourer" src="/img/small/vintage/beaufordpair.jpg" srcset="/img/small/vintage/beaufordpair.jpg 1x, /img/vintage/beaufordpair.jpg 2x">
   <a href="vintage" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 
 <div class="extra-car">
-  <img alt="viscount wedding car" src="/img/viscount/viscount.jpg">
+  <img alt="viscount wedding car" src="/img/viscount/viscount.jpg" srcset="/img/small/viscount/viscount.jpg 1x, /img/viscount/viscount.jpg 2x">
   <a href="viscount" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 {% endblock %}

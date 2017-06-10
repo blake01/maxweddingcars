@@ -36,12 +36,12 @@ the roof can be lowered providing an excellent photo opportunity.</p>
 
 {% block other_cars %}
 <div class="extra-car">
-  <img alt="vintage style tourer" src="/img/vintage/beaufordpair.jpg">
+  <img alt="vintage style tourer" src="/img/small/vintage/beaufordpair.jpg" srcset="/img/small/vintage/beaufordpair.jpg 1x, /img/vintage/beaufordpair.jpg 2x">
   <a href="vintage" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 
 <div class="extra-car">
-  <img alt="land rover wedding car" src="/img/landrover/exterior.jpg">
+  <img alt="land rover wedding car" src="/img/landrover/exterior.jpg" srcset="/img/small/landrover/exterior.jpg 1x, /img/landrover/exterior.jpg 2x">
   <a href="landrover" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 {% endblock %}
