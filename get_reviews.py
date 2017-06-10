@@ -13,7 +13,7 @@ e = Environment()
 
 html = """
   <div class="review">
-    <img src="{{ img_src }}" alt="{{ name }} Facebook profile picture">
+    <img src="{{ img_src }}" srcset="{{ img_src }} 1x, {{ img_src_lg }} 2x" alt="{{ name }} Facebook profile picture">
     <div class="review-head">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -68,9 +68,14 @@ for review in reviews['data']:
         )
         is_silhouette = json.loads(img_metadata_packet.content)['data']['is_silhouette']
         if not is_silhouette and write_count < 10:
-            img_data_packet = get_fb_data(profile_pic_api_call, {'type':'large'})
+            img_data_packet = get_fb_data(profile_pic_api_call, {'type':'normal'})
             file_name = '/fb/%s.jpg' % (review['reviewer']['id'])
             with open(ASSETS_PATH + file_name, 'wb') as f:
+                for chunk in img_data_packet:
+                    f.write(chunk)
+            img_data_packet = get_fb_data(profile_pic_api_call, {'type':'large'})
+            file_name_lg = '/fb/%s_lg.jpg' % (review['reviewer']['id'])
+            with open(ASSETS_PATH + file_name_lg, 'wb') as f:
                 for chunk in img_data_packet:
                     f.write(chunk)
             # Get other details and render template
@@ -81,6 +86,7 @@ for review in reviews['data']:
             clean_review_text = re.sub(r'&#65533;', ' ', encoded_review_text)
             review_html = e.from_string(html).render(
                 img_src=file_name,
+                img_src_lg=file_name_lg,
                 name=review['reviewer']['name'].encode('ascii', 'xmlcharrefreplace'),
                 review_date=date_and_time.strftime("%d/%m/%y"),
                 review_text=clean_review_text

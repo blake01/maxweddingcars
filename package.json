@@ -1,6 +1,6 @@
 {
   "name": "maxweddingcars",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Static website development environment for www.maxweddingcars.co.uk",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "author": "Blake Hemingway",
   "license": "CC-BY-NC-ND-4.0",
   "scripts": {
-    "deploy": "rsync -avz -e 'ssh' deploy/ blake01@web371.webfaction.com:/home/blake01/webapps/maxweddingcars/",
+    "deploy": "rsync -avz -e 'ssh' deploy/ blake01@web579.webfaction.com:/home/blake01/webapps/maxweddingcars/",
     "clean": "rm -rf deploy; find . -type f -name '*.DS_Store' -delete",
     "facebook": "python get_reviews.py",
     "start": "npm run facebook; gulp watch",

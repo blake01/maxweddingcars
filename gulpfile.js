@@ -42,11 +42,26 @@ gulp.task("img", function() {
   .pipe(gulp.dest("deploy/img"));
 });
 
+// Make thumbnails of all images
+gulp.task("img-small", function() {
+  return gulp.src("app/img/**")
+  .pipe(imageResize({
+    width: 400,
+    quality: 1
+  }))
+  .pipe(imagemin({
+    progressive: true,
+    svgoPlugins: [{removeViewBox: false}]
+  }))
+  .pipe(gulp.dest("deploy/img/small"));
+});
+
 gulp.task("fb-img", function() {
   return gulp.src("app/fb/*")
   .pipe(imageResize({
     height: 200,
-    quality: 1
+    quality: 1,
+    upscale: false // Do not increase size of images < 200px high
   }))
   .pipe(imagemin({
     progressive: true,
