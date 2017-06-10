@@ -18,9 +18,8 @@
 {% block cartitle %}Land Rover Discovery{% endblock %}
 
 {% block car_description %}
-<p>This Land Rover Discovery is the latest addition to our fleet.
-  With its air suspension, climate control, privacy glass and almond leather interior, it has the ability to transport up to <b>six passengers plus the chauffeur</b> in total luxury. It makes a superb Groom's or Bridesmaid's car, and also suits the Bride who is seeking out the unusual.
-</p>
+<p>With its air suspension, climate control, privacy glass and almond leather interior, this car has the ability to transport up to <b>six passengers plus the chauffeur</b> in total luxury.
+  It makes a superb Groom's or Bridesmaid's car, and also suits the Bride who is seeking out the unusual.</p>
 <h3>Get a Quote</h3>
 {% include '_call_to_action.html' %}
 {% endblock %}
