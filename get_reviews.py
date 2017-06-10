@@ -78,7 +78,7 @@ for review in reviews['data']:
             # Encode special characters using html escapes
             encoded_review_text = review['review_text'].encode('ascii', 'xmlcharrefreplace')
             # Remove html numbers that can't be displayed
-            clean_review_text = re.sub(r'&#65533; ', '', encoded_review_text)
+            clean_review_text = re.sub(r'&#65533;', ' ', encoded_review_text)
             review_html = e.from_string(html).render(
                 img_src=file_name,
                 name=review['reviewer']['name'].encode('ascii', 'xmlcharrefreplace'),

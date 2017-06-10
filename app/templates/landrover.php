@@ -1,6 +1,6 @@
 {% extends "_car.html" %}
 
-{% block title %}Wedding Cars for Hire || Mercedes Benz{% endblock %}
+{% block title %}Wedding Cars for Hire || Land Rover{% endblock %}
 
 {% block head %}
 <meta property="og:url"                content="http://www.maxweddingcars.co.uk/landrover" />
@@ -23,12 +23,6 @@
 </p>
 <h3>Get a Quote</h3>
 {% include '_call_to_action.html' %}
-<h3>Share on Social Media</h3>
-<div class="pin">
-  <a data-pin-do="buttonPin" data-pin-color="red" data-pin-count="beside" href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.maxweddingcars.co.uk%2Flandrover&media=http%3A%2F%2Fwww.maxweddingcars.co.uk%2Fimg%2Flandrover%2Fexterior.jpg&description=Land%20Rover%20Discovery%20Wedding%20Car"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" /></a>
-</div>
-<div class="fb-share-button" data-href="http://www.maxweddingcars.co.uk/vintage" data-layout="button_count"></div>
-<div class="clearfix"></div>
 {% endblock %}
 
 {% block other_cars %}
@@ -39,12 +33,7 @@
 </div>
 
 <div class="extra-car">
-  <img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg">
-  <a href="seven_seat_mercedes" class="btn btn-default"><i class="fa fa-search"></i>View</a>
-</div>
-
-<div class="extra-car">
-  <img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif">
-  <a href="mercedes" class="btn btn-default"><i class="fa fa-search"></i>View</a>
+  <img alt="viscount wedding car" src="/img/viscount/viscount.jpg">
+  <a href="viscount" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 {% endblock %}

@@ -3,15 +3,14 @@
 {% block title %}Wedding Cars Leeds | Maxweddingcars | Ring 01924 370485 For Classic Car Hire Leeds{% endblock %}
 
 {% block keywords %}Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
-
-{% block description %}Wedding Cars Leeds with Maxweddingcars. We have built a formidable reputation based on reliability and superior levels of service. We supply only the very best wedding cars including our Vintage style Tourers, Rolls Royce and Mercedes Benz. Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
+{% block description %}Wedding Cars Leeds with Maxweddingcars. We supply only the very best wedding cars including our Vintage style Tourers, 7 seater Viscount, and our late model Land Rover Discovery.{% endblock %}
 
 {% block main %}
 <div class="col-sm-6 pull-left">
   <section class="no-top-padding">
     <h1>Wedding Car Hire in Yorkshire</h1>
     <p>At Maxweddingcars, we have built a formidable reputation based on reliability and superior levels of service.
-      We supply only the very best wedding cars including our Vintage style Tourers, Mercedes Benz and Mercedes Benz Limousine.
+      We supply only the very best wedding cars including our Vintage style Tourers, 7 seater Viscount, and our late model Land Rover Discovery.
     </p>
   </section>
 </div>
@@ -23,13 +22,8 @@
   </div>
 
   <div class="sidebar-car">
-    <img alt="mercedes wedding car" src="/img/stretch-merc/side.jpg">
-    <a href="seven_seat_mercedes" class="btn btn-default"><i class="fa fa-search"></i>View Mercedes-Benz Limousine</a>
-  </div>
-
-  <div class="sidebar-car">
-    <img alt="mercedes wedding car" src="/img/merc/Merc-Large.gif">
-    <a href="mercedes" class="btn btn-default"><i class="fa fa-search"></i>View Mercedes-Benz Saloon</a>
+    <img alt="viscount wedding car" src="/img/viscount/viscount.jpg">
+    <a href="viscount" class="btn btn-default"><i class="fa fa-search"></i>View 7 Seater Viscount</a>
   </div>
 
   <div class="sidebar-car">

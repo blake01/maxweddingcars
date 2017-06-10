@@ -16,7 +16,7 @@ Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeu
   </section>
   <section>
     <h2>Wedding Car Hire Leeds</h2>
-    <p>Max Wedding Cars have been providing <strong>Wedding Car Hire in Leeds</strong> since 1983, and can offer both modern vehicles such as our Mercedes Benz, or vintage style cars such as our 1930s style tourers, to ensure that you arrive in style on your special day in <strong>Leeds</strong> and surrounding towns/cities including <strong>Bradford, Morley, Keighley, Ilkley, Otley and Skipton.</strong></p>
+    <p>Max Wedding Cars have been providing <strong>Wedding Car Hire in Leeds</strong> since 1983, and can offer both modern vehicles such as our Land Rover, or vintage style cars such as our 1930s style tourers, to ensure that you arrive in style on your special day in <strong>Leeds</strong> and surrounding towns/cities including <strong>Bradford, Morley, Keighley, Ilkley, Otley and Skipton.</strong></p>
   </section>
   <section>
     <h2>Wedding Car Hire Wakefield</h2>

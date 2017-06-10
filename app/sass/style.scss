@@ -34,6 +34,7 @@ $btn-primary-border: white;
 $btn-default-color: $brand-primary;
 $btn-default-bg: $golden;
 $btn-default-border: $brand-primary;
+$headings-color: $brand-primary;
 
 /* Fonts */
 
@@ -97,7 +98,7 @@ header img {
 }
 
 header h1, header h2 {
-  color: #660000;
+  color: $headings-color;
   font-family: 'lucidacalligraphyitalic', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Times New Roman', Times, serif;
   left: 25px;
   margin: 0;
@@ -169,7 +170,7 @@ nav ul {
 }
 
 nav a {
-  color: #660000;
+  color: $headings-color;
   text-decoration: none;
   text-shadow: 1px 1px 1px #dddddd;
   width: 100%;
@@ -177,7 +178,7 @@ nav a {
   display: block;
   &:hover {
     text-decoration: none;
-    color: #660000;
+    color: $headings-color;
     text-shadow: 2px 2px 2px #888888;
   }
 }
@@ -246,7 +247,7 @@ footer a:link, footer a:visited, footer a:hover, main a:link, main a:visited, ma
 
 .sidebar-car {
   margin-bottom: 5px;
-  margin: 0 auto 10px;
+  margin: 0 auto 15px;
   img {
     border: none;
     margin: 10px 0;
@@ -265,7 +266,7 @@ footer a:link, footer a:visited, footer a:hover, main a:link, main a:visited, ma
 }
 
 .extra-car {
-  width: 250px;
+  width: 300px;
   max-width: 85%;
   text-align: center;
   margin: 0 auto 10px;

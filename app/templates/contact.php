@@ -36,8 +36,7 @@
       <div class="label">Car(s) Required&nbsp;*</div>
       <div class="input">
         <label><input id="Beauford" name="car[]" type="checkbox" value="Beauford"> &nbsp;Vintage Style Tourer(s)</label>
-        <label><input id="Seven_Seater_Mercedes" name="car[]" type="checkbox" value="Seven_Seater_Mercedes"> &nbsp;Mercedes Benz Seven Passenger Limousine</label>
-        <label><input id="Mercedes" name="car[]" type="checkbox" value="Mercedes"> &nbsp;Mercedes Benz</label>
+        <label><input id="Viscount" name="car[]" type="checkbox" value="Viscount"> &nbsp;7 Seater Viscount</label>
         <label><input id="LandRover" name="car[]" type="checkbox" value="LandRover"> &nbsp;Land Rover Discovery</label>
       </div>
     </div>

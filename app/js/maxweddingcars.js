@@ -9,7 +9,7 @@ $(document).ready(function() {
   $("#owl-example").owlCarousel({
     slideSpeed : 300,
     paginationSpeed : 400,
-    singleItem:true  ,
+    singleItem: true  ,
     autoHeight : isHome ,
     lazyLoad: !isHome ,
     navigationText: [
@@ -23,7 +23,12 @@ $(document).ready(function() {
   var owl = $("#owl-example").data("owlCarousel");
   if (isHome) {
     if (owl) {
-      owl.jumpTo(Math.floor(Math.random() * owl.itemsAmount));
+      // 2017 update - make it more likely to select a more recent review.
+      // Latest review has a 19% chance; oldest has a 1% chance.
+      var randomIndex1 = Math.random() * owl.itemsAmount;
+      var randomIndex2 = Math.random() * owl.itemsAmount;
+      var lowestRandomIndex = Math.min(randomIndex1, randomIndex2)
+      owl.jumpTo(Math.floor(lowestRandomIndex));
     }
   }
 
