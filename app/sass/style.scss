@@ -104,7 +104,6 @@ header h1, header h2 {
   margin: 0;
   padding: 0;
   position: absolute;
-  text-shadow: 2px 2px 2px #aaaaaa;
   top: 30px;
   font-weight: bold;
   @media (max-width:300px) {
@@ -172,14 +171,12 @@ nav ul {
 nav a {
   color: $headings-color;
   text-decoration: none;
-  text-shadow: 1px 1px 1px #dddddd;
   width: 100%;
   height: 100%;
   display: block;
   &:hover {
     text-decoration: none;
     color: $headings-color;
-    text-shadow: 2px 2px 2px #888888;
   }
 }
 
@@ -193,12 +190,11 @@ nav a {
   }
   img, .review-head {
     margin: 2% 6% 5% 2%;
-    float: left;
   }
   img {
     height: 100px;
     border: none;
-    box-shadow: 3px 3px 3px #888888;
+    float: left;
   }
 }
 
@@ -251,7 +247,6 @@ footer a:link, footer a:visited, footer a:hover, main a:link, main a:visited, ma
   img {
     border: none;
     margin: 10px 0;
-    box-shadow: 3px 3px 3px #888888;
   }
   img, a {
     width: 100%;
@@ -276,7 +271,6 @@ footer a:link, footer a:visited, footer a:hover, main a:link, main a:visited, ma
   img {
     margin: 10px 0;
     border: none;
-    box-shadow: 3px 3px 3px #888888;
   }
 }
 
@@ -380,7 +374,6 @@ main h1, main h2, .sidebar h2 {
     width: 90%;
     margin: 5%;
     max-width: 500px;
-    box-shadow: 3px 3px 3px #888888;
     margin-bottom: 2%;
   }
 }

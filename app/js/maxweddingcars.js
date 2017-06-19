@@ -27,7 +27,7 @@ $(document).ready(function() {
       // Latest review has a 19% chance; oldest has a 1% chance.
       var randomIndex1 = Math.random() * owl.itemsAmount;
       var randomIndex2 = Math.random() * owl.itemsAmount;
-      var lowestRandomIndex = Math.min(randomIndex1, randomIndex2)
+      var lowestRandomIndex = Math.min(randomIndex1, randomIndex2);
       owl.jumpTo(Math.floor(lowestRandomIndex));
     }
   }
