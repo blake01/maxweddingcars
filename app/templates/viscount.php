@@ -4,17 +4,32 @@
 
 {% block img_tags %}
 <div>
-  <img class="lazyOwl" data-src="/img/viscount/viscount.jpg" alt="Viscount Exterior">
+  <img class="lazyOwl" data-src="/img/viscount/viscount_front_1_opt.jpg" alt="Viscount Exterior">
 </div>
 <div>
-  <img class="lazyOwl" data-src="/img/viscount/viscount_interior.jpg" alt="Viscount Interior">
+  <img class="lazyOwl" data-src="/img/viscount/viscount_front_opt.jpg" alt="Viscount Exterior">
+</div>
+<div>
+  <img class="lazyOwl" data-src="/img/viscount/viscount_quarter_opt.jpg" alt="Viscount Exterior">
+</div>
+<div>
+  <img class="lazyOwl" data-src="/img/viscount/viscount_side_opt.jpg" alt="Viscount Exterior">
+</div>
+<div>
+  <img class="lazyOwl" data-src="/img/viscount/viscount_side_1_opt.jpg" alt="Viscount Exterior">
+</div>
+<div>
+  <img class="lazyOwl" data-src="/img/viscount/viscount_open_door_opt.jpg" alt="Viscount Interior">
+</div>
+<div>
+  <img class="lazyOwl" data-src="/img/viscount/viscount_interior_1_opt.jpg" alt="Viscount Interior">
 </div>
 {% endblock %}
 
 {% block head %}
 <meta property="og:url"                content="http://www.maxweddingcars.co.uk/viscount" />
 <meta property="og:title"              content="Maxweddingcars - 7 Seater Viscount" />
-<meta property="og:description"        content="he latest addition to our fleet is the superb Viscount." />
+<meta property="og:description"        content="The latest addition to our fleet is the superb Viscount." />
 <meta property="og:image"              content="http://www.maxweddingcars.co.uk/img/viscount/viscount.jpg" />
 {% endblock %}
 

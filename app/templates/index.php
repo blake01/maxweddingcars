@@ -22,7 +22,7 @@
   </div>
 
   <div class="sidebar-car">
-    <img alt="viscount wedding car" src="/img/viscount/viscount.jpg" srcset="/img/small/viscount/viscount.jpg 1x, /img/viscount/viscount.jpg 2x">
+    <img alt="viscount wedding car" src="/img/viscount/viscount_front_1_opt.jpg" srcset="/img/small/viscount/viscount_front_1_opt.jpg 1x, /img/viscount/viscount_front_1_opt.jpg 2x">
     <a href="viscount" class="btn btn-default"><i class="fa fa-search"></i>View 7 Seater Viscount</a>
   </div>
 
