@@ -36,7 +36,6 @@
 {% block cartitle %}7 Seater Viscount{% endblock %}
 
 {% block car_description %}
-<p>The latest addition to our fleet is the superb Viscount.</p>
 <p>Finished in Old English white with a cream leather interior, this very rare car
 can carry <b>seven passengers, plus the chauffeur</b>.</p>
 <p>The headroom and interior space of the Viscount make for ease of
@@ -56,7 +55,7 @@ the roof can be lowered providing an excellent photo opportunity.</p>
 </div>
 
 <div class="extra-car">
-  <img alt="land rover wedding car" src="/img/landrover/exterior.jpg" srcset="/img/small/landrover/exterior.jpg 1x, /img/landrover/exterior.jpg 2x">
-  <a href="landrover" class="btn btn-default"><i class="fa fa-search"></i>View</a>
+  <img alt="range rover wedding car" src="/img/landrover/range-rover-exterior.jpg" srcset="/img/small/landrover/range-rover-exterior.jpg 1x, /img/landrover/range-rover-exterior.jpg 2x">
+  <a href="range-rover" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 {% endblock %}

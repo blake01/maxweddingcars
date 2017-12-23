@@ -48,7 +48,7 @@
 </p>
 <p>Our Tourers are four door &lsquo;long bodied&rsquo; versions of the marque, affording greater rear space for your comfort.</p>
 <p>These cars each seat <b>three passengers, plus the chauffeur</b>.</p>
-<p>See our 7 seater Viscount or Land Rover Discovery if you require additional transport for Bridesmaids, the Groom, Parents or your guests.</p>
+<p>See our 7 seater Viscount or Range Rover Vogue if you require additional transport for Bridesmaids, the Groom, Parents or your guests.</p>
 <h3>Get a Quote</h3>
 {% include '_call_to_action.html' %}
 {% endblock %}
@@ -60,7 +60,7 @@
 </div>
 
 <div class="extra-car">
-  <img alt="land rover wedding car" src="/img/landrover/exterior.jpg" srcset="/img/small/landrover/exterior.jpg 1x, /img/landrover/exterior.jpg 2x">
-  <a href="landrover" class="btn btn-default"><i class="fa fa-search"></i>View</a>
+  <img alt="range rover wedding car" src="/img/landrover/range-rover-exterior.jpg" srcset="/img/small/landrover/range-rover-exterior.jpg 1x, /img/landrover/range-rover-exterior.jpg 2x">
+  <a href="range-rover" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 {% endblock %}

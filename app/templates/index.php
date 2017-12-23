@@ -3,14 +3,14 @@
 {% block title %}Wedding Cars Leeds | Maxweddingcars | Call 01924 370485 For Classic Car Hire Leeds{% endblock %}
 
 {% block keywords %}Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
-{% block description %}Wedding Cars Leeds with Maxweddingcars. We supply only the very best wedding cars including our Vintage style Tourers, 7 seater Viscount, and our late model Land Rover Discovery.{% endblock %}
+{% block description %}Wedding Cars Leeds with Maxweddingcars. We supply only the very best wedding cars including our Vintage style Tourers, 7 seater Viscount, and our new Range Rover Vogue.{% endblock %}
 
 {% block main %}
 <div class="col-sm-6 pull-left">
   <section class="no-top-padding">
     <h1>Wedding Car Hire in Yorkshire</h1>
     <p>At Maxweddingcars, we have built a formidable reputation based on reliability and superior levels of service.
-      We supply only the very best wedding cars including our Vintage style Tourers, 7 seater Viscount, and our late model Land Rover Discovery.
+      We supply only the very best wedding cars including our Vintage style Tourers, 7 seater Viscount, and our new Range Rover Vogue.
     </p>
   </section>
 </div>
@@ -27,8 +27,8 @@
   </div>
 
   <div class="sidebar-car">
-    <img alt="land rover wedding car" src="/img/landrover/exterior.jpg" srcset="/img/small/landrover/exterior.jpg 1x, /img/landrover/exterior.jpg 2x">
-    <a href="landrover" class="btn btn-default"><i class="fa fa-search"></i>View Land Rover Discovery</a>
+    <img alt="range rover wedding car" src="/img/landrover/range-rover-exterior.jpg" srcset="/img/small/landrover/range-rover-exterior.jpg 1x, /img/landrover/range-rover-exterior.jpg 2x">
+    <a href="range-rover" class="btn btn-default"><i class="fa fa-search"></i>View Range Rover Vogue</a>
   </div>
 
 </div>
