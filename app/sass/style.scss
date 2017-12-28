@@ -497,3 +497,7 @@ form {
   display: table;
   clear: both;
 }
+
+.html5-video-player:not(.ytp-transparent), .html5-video-player.ad-interrupting, .html5-video-player.ended-mode {
+  background-color: #fff!important;
+}
