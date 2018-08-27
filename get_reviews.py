@@ -55,10 +55,9 @@ except OSError:
     pass
 
 write_count = 0
-
 for review in reviews['data']:
     # Take only 5 star reviews
-    if review['rating'] == 5:
+    if 'rating' not in review or review['rating'] == 5:
         # Get profile picture
         profile_pic_api_call = '%s/picture' % (review['reviewer']['id'])
         # Check if the picture is a silhouette
