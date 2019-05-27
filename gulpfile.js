@@ -35,10 +35,13 @@ gulp.task("css", function() {
 // Losslessly compress images
 gulp.task("img", function() {
   return gulp.src("app/img/**")
-  .pipe(imagemin({
-    progressive: true,
-    svgoPlugins: [{removeViewBox: false}]
-  }))
+  .pipe(imagemin([
+      imagemin.svgo({
+          progressive: true,
+          plugins: [
+              {removeViewBox: true}          ]
+      })
+  ]))
   .pipe(gulp.dest("deploy/img"));
 });
 
@@ -49,10 +52,13 @@ gulp.task("img-small", function() {
     width: 540,
     quality: 1
   }))
-  .pipe(imagemin({
-    progressive: true,
-    svgoPlugins: [{removeViewBox: false}]
-  }))
+  .pipe(imagemin([
+      imagemin.svgo({
+          progressive: true,
+          plugins: [
+              {removeViewBox: true}          ]
+      })
+  ]))
   .pipe(gulp.dest("deploy/img/small"));
 });
 
@@ -87,9 +93,8 @@ gulp.task("copy", function() {
 
 // Build HTML/PHP files from Nunjucks templates
 gulp.task("html", function () {
-  nunjucksRender.nunjucks.configure(["./app/templates/"], {watch: false});
   return gulp.src("./app/templates/*.php")
-  .pipe(nunjucksRender({version: pjson.version}))
+  .pipe(nunjucksRender({version: pjson.version, path: "./app/templates/"}))
   .pipe(rename(function (path) {path.extname = ".php";}))
   .pipe(gulp.dest("deploy"));
 });
@@ -103,4 +108,5 @@ gulp.task("watch", function () {
 });
 
 // Standard development build. Run simultaneously.
-gulp.task("default", ["css", "img", "img-small", "fb-img", "html", "js", "copy"]);
+gulp.task("default", ["css", "html", "js", "copy"]);
+gulp.task("images", ["img", "img-small", "fb-img"]);

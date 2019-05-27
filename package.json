@@ -1,6 +1,6 @@
 {
   "name": "maxweddingcars",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "Static website development environment for www.maxweddingcars.co.uk",
   "repository": {
     "type": "git",
@@ -9,31 +9,32 @@
   "author": "Blake Hemingway",
   "license": "CC-BY-NC-ND-4.0",
   "scripts": {
-    "deploy": "rsync -avz -e 'ssh' deploy/ blake01@web579.webfaction.com:/home/blake01/webapps/maxweddingcars/",
-    "clean": "rm -rf deploy; find . -type f -name '*.DS_Store' -delete",
+    "deploy": "rsync -avz -e 'ssh' deploy/* blake01@web579.webfaction.com:/home/blake01/webapps/maxweddingcars/",
+    "deploy:win": "scp -r deploy/ blake01@web579.webfaction.com:/home/blake01/webapps/maxweddingcars/",
+    "clean": "rm -rf deploy",
     "facebook": "python get_reviews.py",
     "start": "npm run facebook; gulp watch",
     "prebuild": "npm run facebook && npm run clean",
     "build": "gulp",
-    "build:prod": "NODE_ENV=prod npm run build",
+    "build:prod": "SET NODE_ENV=prod && npm run build",
     "postbuild": "rm -rf app/fb && rm -f app/templates/reviews_partial.html",
-    "postbuild:prod": "NODE_ENV=dev"
+    "postbuild:prod": "SET NODE_ENV=dev"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-cssnano": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.3",
     "gulp-html5-lint": "^1.1.0",
-    "gulp-htmlmin": "^1.3.0",
-    "gulp-if": "^2.0.0",
-    "gulp-image-resize": "^0.7.1",
-    "gulp-imagemin": "^2.4.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-image-resize": "^0.13.0",
+    "gulp-imagemin": "^3.4.0",
     "gulp-notify": "^2.2.0",
-    "gulp-nunjucks-render": "^1.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.1",
-    "gulp-sourcemaps": "^1.6.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-uglifyjs": "^0.6.2"
   }
 }
