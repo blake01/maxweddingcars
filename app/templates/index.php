@@ -3,14 +3,14 @@
 {% block title %}Wedding Cars Leeds | Maxweddingcars | Call 01924 370485 For Classic Car Hire Leeds{% endblock %}
 
 {% block keywords %}Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
-{% block description %}Wedding Cars Leeds with Maxweddingcars. We supply only the very best wedding cars including our Vintage style Tourers, 7 seater Viscount, and our new Range Rover Vogue.{% endblock %}
+{% block description %}Wedding Cars Leeds with Maxweddingcars. We supply only the very best wedding cars including our Vintage style Tourers, 6 seater Viscount, and our new Range Rover Vogue.{% endblock %}
 
 {% block main %}
 <div class="col-sm-6 pull-left">
   <section class="no-top-padding">
     <h1>Wedding Car Hire in Yorkshire</h1>
     <p>At Maxweddingcars, we have built a formidable reputation based on reliability and superior levels of service.
-      We supply only the very best wedding cars including our Vintage style Tourers, 7 seater Viscount, and our new Range Rover Vogue.
+      We supply only the very best wedding cars including our Vintage style Tourers, 6 seater Viscount, and our new Range Rover Vogue.
     </p>
   </section>
 </div>
@@ -23,7 +23,7 @@
 
   <div class="sidebar-car">
     <img alt="viscount wedding car" src="/img/viscount/viscount_front_1_opt.jpg" srcset="/img/small/viscount/viscount_front_1_opt.jpg 1x, /img/viscount/viscount_front_1_opt.jpg 2x">
-    <a href="viscount" class="btn btn-default"><i class="fa fa-search"></i>View 7 Seater Viscount</a>
+    <a href="viscount" class="btn btn-default"><i class="fa fa-search"></i>View 6 Seater Viscount</a>
   </div>
 
   <div class="sidebar-car">
@@ -35,12 +35,13 @@
 <div class="clearfix visible-xs"></div>
 <hr class="visible-xs">
 <div class="col-sm-6 pull-left">
+  <!--Commented out until reviews from FB work. Replace 'perc' with '%' below when uncommenting.
   <section>
     <h2>Read Our Reviews</h2>
     <div id="owl-example" class="owl-carousel">
-      {% include 'reviews_partial.html' %}
+      {perc include 'reviews_partial.html' perc}
     </div>
-  </section>
+  </section>-->
   <section>
     <h2>Get a Quote</h2>
     <p>Simply call us or use our online enquiry form to get a quotation or arrange to view our cars.</p>

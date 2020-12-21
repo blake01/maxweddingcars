@@ -1,6 +1,6 @@
 {% extends "_car.html" %}
 
-{% block title %}Wedding Cars for Hire || 7 Seater Viscount{% endblock %}
+{% block title %}Wedding Cars for Hire || 6 Seater Viscount{% endblock %}
 
 {% block img_tags %}
 <div>
@@ -28,12 +28,12 @@
 
 {% block head %}
 <meta property="og:url"                content="http://www.maxweddingcars.co.uk/viscount" />
-<meta property="og:title"              content="Maxweddingcars - 7 Seater Viscount" />
+<meta property="og:title"              content="Maxweddingcars - 6 Seater Viscount" />
 <meta property="og:description"        content="The latest addition to our fleet is the superb Viscount." />
 <meta property="og:image"              content="http://www.maxweddingcars.co.uk/img/viscount/viscount.jpg" />
 {% endblock %}
 
-{% block cartitle %}7 Seater Viscount{% endblock %}
+{% block cartitle %}6 Seater Viscount{% endblock %}
 
 {% block car_description %}
 <p>Finished in Old English white with a cream leather interior, this very rare car
