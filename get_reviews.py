@@ -1,11 +1,9 @@
 # Get all 5 star ratings for maxweddingcars.co.uk
-from __future__ import unicode_literals
 import requests
 import json
 import urllib
 from dateutil.parser import parse as dateparse
 from jinja2 import Environment
-from cgi import escape
 import os
 import re
 
@@ -40,7 +38,7 @@ def get_fb_data(api_call, extra_params={}):
     r = requests.get(url, allow_redirects=True, stream=True)
     return r
 
-print 'Retrieving all reviews from Facebook'
+print('Retrieving all reviews from Facebook')
 all_maxweddingcars_reviews_api_call = '259756950891843/ratings/'
 reviews_data_packet = get_fb_data(all_maxweddingcars_reviews_api_call)
 reviews = json.loads(reviews_data_packet.content)
@@ -91,7 +89,7 @@ for review in reviews['data']:
                 review_text=clean_review_text
             )
             write_count += 1
-            print 'Writing HTML for review %s' % (write_count)
+            print('Writing HTML for review %s' % (write_count))
             outfile.write(review_html.encode('utf8'))
 
 outfile.close()

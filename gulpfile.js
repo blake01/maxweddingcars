@@ -76,19 +76,21 @@ gulp.task("fb-img", function() {
 });
 
 // Concatenate and minify Javascript. Write soucemaps if development.
-gulp.task("js", function() {
+gulp.task("js", function(done) {
   gulp.src("./app/js/*.js")
   .pipe(uglify("maxweddingcars.min.js", {
     outSourceMap: env !== "prod",
     mangle: true,
   }))
   .pipe(gulp.dest("deploy/js"));
+  done();
 });
 
 // Copy Assets to deploy directly directly
-gulp.task("copy", function() {
+gulp.task("copy", function(done) {
   gulp.src(["app/assets/**", "app/assets/.*"], {base:"app/assets/"})
   .pipe(gulp.dest("deploy"));
+  done();
 });
 
 // Build HTML/PHP files from Nunjucks templates
@@ -108,5 +110,11 @@ gulp.task("watch", function () {
 });
 
 // Standard development build. Run simultaneously.
-gulp.task("default", ["css", "html", "js", "copy"]);
-gulp.task("images", ["img", "img-small", "fb-img"]);
+gulp.task("default", gulp.series("css", "html", "js", "copy"), function(done) {
+  console.log("default completed")
+  done();
+});
+gulp.task("images", gulp.series("img", "img-small", "fb-img"), function(done) {
+  console.log("images completed")
+  done();
+});
