@@ -1,5 +1,5 @@
 var gulp = require("gulp");
-var sass = require("gulp-sass");
+var sass = require("gulp-sass")(require('sass'));
 var notify = require("gulp-notify");
 var nunjucksRender = require("gulp-nunjucks-render");
 var rename = require("gulp-rename");
@@ -62,19 +62,6 @@ gulp.task("img-small", function() {
   .pipe(gulp.dest("deploy/img/small"));
 });
 
-gulp.task("fb-img", function() {
-  return gulp.src("app/fb/*")
-  .pipe(imageResize({
-    height: 200,
-    quality: 1,
-    upscale: false // Do not increase size of images < 200px high
-  }))
-  .pipe(imagemin({
-    progressive: true,
-  }))
-  .pipe(gulp.dest("deploy/fb"));
-});
-
 // Concatenate and minify Javascript. Write soucemaps if development.
 gulp.task("js", function(done) {
   gulp.src("./app/js/*.js")
@@ -103,10 +90,10 @@ gulp.task("html", function () {
 
 // Watch for updates to files in development
 gulp.task("watch", function () {
-  gulp.watch("app/js/*.js", ["js"]);
-  gulp.watch("app/sass/*.scss", ["css"]);
-  gulp.watch("app/templates/*", ["html"]);
-  gulp.watch("app/assets/**", ["copy"]);
+  gulp.watch("app/js/*.js", gulp.series("js"));
+  gulp.watch("app/sass/*.scss", gulp.series("css"));
+  gulp.watch("app/templates/*", gulp.series("html"));
+  gulp.watch("app/assets/**", gulp.series("copy"));
 });
 
 // Standard development build. Run simultaneously.
@@ -114,7 +101,7 @@ gulp.task("default", gulp.series("css", "html", "js", "copy"), function(done) {
   console.log("default completed")
   done();
 });
-gulp.task("images", gulp.series("img", "img-small", "fb-img"), function(done) {
+gulp.task("images", gulp.series("img", "img-small"), function(done) {
   console.log("images completed")
   done();
 });
