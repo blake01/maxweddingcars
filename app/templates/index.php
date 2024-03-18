@@ -3,22 +3,22 @@
 {% block title %}Wedding Cars Leeds | Maxweddingcars | Call 01924 370485 For Classic Car Hire Leeds{% endblock %}
 
 {% block keywords %}Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
-{% block description %}Wedding Cars Leeds with Maxweddingcars. We supply only the very best wedding cars including our Vintage style Tourers, 6 seater Viscount, and our new Range Rover Vogue.{% endblock %}
+{% block description %}Wedding Cars Leeds with Maxweddingcars. We supply only the very best wedding cars including our Vintage style Tourer, 6 seater Viscount, and  Range Rover Vogue.{% endblock %}
 
 {% block main %}
 <div class="col-sm-6 pull-left">
   <section class="no-top-padding">
     <h1>Wedding Car Hire in Yorkshire</h1>
     <p>At Maxweddingcars, we have built a formidable reputation based on reliability and superior levels of service.
-      We supply only the very best wedding cars including our Vintage style Tourers, 6 seater Viscount, and our new Range Rover Vogue.
+      We supply only the very best wedding cars including our Vintage style Tourer, 6 seater Viscount, and Range Rover Vogue.
     </p>
   </section>
 </div>
 <div class="col-sm-6 sidebar pull-right">
   <h2>Browse Our Cars</h2>
   <div class="sidebar-car">
-    <img alt="vintage style tourer" src="/img/small/vintage/beaufordpair.jpg" srcset="/img/small/vintage/beaufordpair.jpg 1x, /img/vintage/beaufordpair.jpg 2x">
-    <a href="vintage" class="btn btn-default"><i class="fa fa-search"></i>View Vintage Style Tourers</a>
+    <img alt="vintage style tourer" src="/img/small/vintage/hardtop1.jpg" srcset="/img/small/vintage/hardtop1.jpg 1x, /img/vintage/hardtop1.jpg 2x">
+    <a href="vintage" class="btn btn-default"><i class="fa fa-search"></i>View Vintage Style Tourer</a>
   </div>
 
   <div class="sidebar-car">

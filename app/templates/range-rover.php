@@ -41,7 +41,7 @@ suits the Bride who is seeking out the unusual.</p>
 {% block other_cars %}
 
 <div class="extra-car">
-  <img alt="vintage style tourer" src="/img/small/vintage/beaufordpair.jpg" srcset="/img/small/vintage/beaufordpair.jpg 1x, /img/vintage/beaufordpair.jpg 2x">
+  <img alt="vintage style tourer" src="/img/small/vintage/hardtop1.jpg" srcset="/img/small/vintage/hardtop1.jpg 1x, /img/vintage/hardtop1.jpg 2x">
   <a href="vintage" class="btn btn-default"><i class="fa fa-search"></i>View</a>
 </div>
 

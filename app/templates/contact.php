@@ -35,14 +35,14 @@
     <div>
       <div class="label">Car(s) Required&nbsp;*</div>
       <div class="input">
-        <label><input id="Beauford" name="car[]" type="checkbox" value="Beauford"> &nbsp;Vintage Style Tourer(s)</label>
+        <label><input id="Beauford" name="car[]" type="checkbox" value="Beauford"> &nbsp;Vintage Style Tourer</label>
         <label><input id="Viscount" name="car[]" type="checkbox" value="Viscount"> &nbsp;6 Seater Viscount</label>
         <label><input id="LandRover" name="car[]" type="checkbox" value="LandRover"> &nbsp;Range Rover Vogue</label>
       </div>
     </div>
 
     <div>
-      <div class="label">Date of Hire&nbsp;*</div>
+      <div class="label">Date of Wedding&nbsp;*</div>
       <div class="input">
         <select id="date1" name="date1">
           <?php
