@@ -4,7 +4,7 @@
 if(isset($_POST['email'])) {
 
   // EDIT THE 2 LINES BELOW AS REQUIRED
-  $email_to = "maxchauffeurhire@googlemail.com,blakehemingway@gmail.com";
+  $email_to = "maxchauffeurhire@googlemail.com,blakehemingway@gmail.com,server@maxweddingcars.co.uk";
   $email_subject = "Wedding Enquiry from Website";
 
 
@@ -89,10 +89,10 @@ if(isset($_POST['email'])) {
 
 
   // create email headers
-  $headers = 'From: '.$email_from."\r\n".
+  $headers = "From: server@maxweddingcars.co.uk\r\n".
   'Reply-To: '.$email_from."\r\n" .
   'X-Mailer: PHP/' . phpversion();
-  @mail($email_to, $email_subject, $email_message, $headers);
+  @mail($email_to, $email_subject, $email_message, $headers, "-fserver@maxweddingcars.co.uk");
   ?>{% endblock %}
 
   {% block title %}Wedding Cars for Hire || Enquire{% endblock %}

@@ -37,7 +37,7 @@
 
 {% block car_description %}
 <p>Finished in Old English white with a cream leather interior, this very rare car
-can carry <b>seven passengers, plus the chauffeur</b>.</p>
+can carry <b>six passengers, plus the chauffeur</b>.</p>
 <p>The headroom and interior space of the Viscount make for ease of
 access with the fullest of Wedding dresses whilst the rear section of
 the roof can be lowered providing an excellent photo opportunity.</p>
