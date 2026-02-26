@@ -1,6 +1,6 @@
 {% extends "_base.html" %}
 
-{% block title %}Wedding Car Hire Leeds | Max Wedding Cars | Call 01924 370485 For Vintage Car Hire Leeds{% endblock %}
+{% block title %}Wedding Car Hire Leeds | Max Wedding Cars | Call 07748 768501 For Vintage Car Hire Leeds{% endblock %}
 
 {% block keywords %}Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
 
@@ -11,7 +11,7 @@
   <section>
     <h1>Enquire / Get A Quote</h1>
 
-    <p>For an immediate response to your enquiry, and to obtain a quotation without delay, please telephone us on 01924 370485 (7 day service).</p>
+    <p>For an immediate response to your enquiry, and to obtain a quotation without delay, please telephone us on 07748 768501 (7 day service).</p>
 
     <p>Alternatively, please complete the form below and we will endeavour to respond within 24 hours.</p>
   </section>

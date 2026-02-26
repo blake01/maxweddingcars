@@ -1,6 +1,6 @@
 {% extends "_base.html" %}
 
-{% block title %}Wedding Cars Leeds | Maxweddingcars | Call 01924 370485 For Classic Car Hire Leeds{% endblock %}
+{% block title %}Wedding Cars Leeds | Maxweddingcars | Call 07748 768501 For Classic Car Hire Leeds{% endblock %}
 
 {% block keywords %}Wedding Cars Leeds, Wedding Car Hire Leeds, Vintage Wedding Cars Leeds, Chauffeur Driven Car Hire Leeds, Chauffeur Driven Wedding Cars Leeds, Vintage Car Hire Leeds, Classic Car Hire Leeds, Wedding Limos Leeds, Wedding Limo Hire Leeds{% endblock %}
 {% block description %}Wedding Cars Leeds with Maxweddingcars. We supply only the very best wedding cars including our Vintage style Tourer, 6 seater Viscount, and  Range Rover Vogue.{% endblock %}
