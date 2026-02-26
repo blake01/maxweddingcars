@@ -28,13 +28,13 @@
 
 {% block car_description %}
 <p>Our Vintage Style Tourer represents the ultimate in Wedding transport.</p>
-<p>Finished in Old English White with a cream leather interior, this car will provide a superb
-  backdrop to your wedding photographs. Enjoy the experience of travelling in style in this elegant vehicle, which may be hired individually, or as a matching pair with our 6 seater Viscount.
+<p>Finished in Old English White with a cream leather interior, this car provides a superb
+  backdrop to your wedding photographs. Enjoy the experience of travelling in style in this elegant vehicle, which may be hired individually or as a matching pair with our 6 seater Viscount.
 </p>
-<p>Should the weather be unkind, these cars have soft top hoods (see pictures) to
+<p>Should the weather be unkind, this car has a soft top hood (see pictures) to
   protect you from the elements at any time of year.
 </p>
-<p>Our Tourer is a four door ‘long bodied’ version of the marque seating <b>three passengers, plus the chauffeur</b> whilst affording greater rear space for your comfort.</p>
+<p>Our Tourer is a four door ‘long bodied’ version of the marque seating <b>three passengers, plus the chauffeur</b>, whilst affording greater rear space for your comfort.</p>
 <p>See our 6 seater Viscount or Range Rover Vogue if you require additional transport for Bridesmaids, the Groom, Parents or your guests.</p>
 <hr>
 <iframe width="100%" height="275" src="https://www.youtube.com/embed/VgRdROvQq6c?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
