@@ -9,8 +9,8 @@
   "author": "Blake Hemingway",
   "license": "CC-BY-NC-ND-4.0",
   "scripts": {
-    "deploy": "rsync -avz -e 'ssh' deploy/* webserver:/home/blake01/apps/maxweddingcars/",
-    "deploy:win": "scp -r deploy/. webserver:/home/blake01/apps/maxweddingcars/",
+    "deploy": "rsync -avz -e 'ssh' deploy/ webserver:/home/blake01/apps/maxweddingcars/",
+    "deploy:win": "wsl rsync -avz --delete -e ssh deploy/ webserver:/home/blake01/apps/maxweddingcars/",
     "clean": "rm -rf deploy",
     "start": "gulp watch",
     "prebuild": "npm run clean",
